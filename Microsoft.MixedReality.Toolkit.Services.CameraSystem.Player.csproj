@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DD451444-D350-A525-B087-F09E8A48E820}</ProjectGuid>
+    <ProjectGuid>{7C8426A0-A4D9-764C-F306-17C09B94520E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Services.CameraSystem</AssemblyName>
@@ -894,11 +894,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Player.csproj">
-      <Project>{EC49184B-4961-3980-C2C9-5DE736E1D421}</Project>
+      <Project>{70E6255E-1B21-7D5D-6723-9E26FAF0041B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A6489B33-67C2-B516-53FD-CD69E2737F17}</Project>
+      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

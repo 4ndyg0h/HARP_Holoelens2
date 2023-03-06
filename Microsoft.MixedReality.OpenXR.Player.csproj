@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Microsoft.MixedReality.OpenXR</RootNamespace>
-    <ProjectGuid>{037ED0A2-1A28-388C-5E61-42CB790B30E9}</ProjectGuid>
+    <ProjectGuid>{1C22EDA5-76B8-D84F-F880-FFF226EAF469}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.OpenXR</AssemblyName>
@@ -956,35 +956,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.Player.csproj">
-      <Project>{8B01ACA3-350C-B4E0-5889-C1DD329D2989}</Project>
+      <Project>{F96A54DD-A200-91F2-E104-903B9A249611}</Project>
       <Name>Unity.XR.OpenXR.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{182DCCB6-5CBA-191F-12F2-BA7B0439C325}</Project>
+      <Project>{3A323A38-2824-612C-7405-7B268BDF494E}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.Player.csproj">
-      <Project>{87D47050-EDB0-F051-429D-D671A0B63598}</Project>
+      <Project>{E93100B7-1154-1A5B-00DF-45842859A353}</Project>
       <Name>Unity.XR.ARSubsystems.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Subsystem.Registration.Player.csproj">
-      <Project>{E7AC5461-E35E-EE94-2702-B71EC968F9C5}</Project>
+      <Project>{C2CFCFB6-9C19-C2C0-988D-B185FF045FDA}</Project>
       <Name>Unity.Subsystem.Registration.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{7E5B588F-306C-34F7-15EC-4014A39FA175}</Project>
+      <Project>{706F61A2-3E40-E43C-0A63-BDDF6CC5B32C}</Project>
       <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{46D62830-08C7-392E-DA58-CAAEB3AF3C75}</Project>
+      <Project>{676060DB-E6E8-4BF1-ED27-3A22DEBF82D7}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.Player.csproj">
-      <Project>{8D662518-2CB0-6B70-FC4D-C5213C2E611A}</Project>
+      <Project>{1B3E7AF5-D36A-1A6A-3D54-63A560FA4DA2}</Project>
       <Name>Unity.XR.ARFoundation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A6489B33-67C2-B516-53FD-CD69E2737F17}</Project>
+      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

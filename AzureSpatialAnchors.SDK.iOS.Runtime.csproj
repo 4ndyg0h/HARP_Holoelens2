@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3824D4A4-30A0-4D46-B0A1-18AF90F9DE91}</ProjectGuid>
+    <ProjectGuid>{B2B119A6-5F78-12F8-D453-3C456944E031}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AzureSpatialAnchors.SDK.iOS.Runtime</AssemblyName>
@@ -690,19 +690,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{7FEB8BF2-229F-1C31-C82B-C351F57316A1}</Project>
+      <Project>{36524DF3-C65A-212D-8B51-D699CD4B27AF}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{5DE35374-62B7-7AEA-0584-1EAB177441E4}</Project>
+      <Project>{4DB44671-18DF-AD7C-7E2B-0B0FD315B48F}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{698B7C6C-F053-CBCA-2E20-1C4BE228DAA8}</Project>
+      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{68ABBC08-6C8F-EC99-46FA-DC3AE0F88ED8}</Project>
+      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

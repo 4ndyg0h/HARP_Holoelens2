@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1DDE3865-DF0B-F801-458D-8258A17807A6}</ProjectGuid>
+    <ProjectGuid>{9653BBD1-225A-64A3-5527-B36DC203A0D8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver</AssemblyName>
@@ -703,31 +703,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E510A2B7-3E01-E503-F0EA-D72D11D431D6}</Project>
+      <Project>{BD821D56-D0FF-4D85-190D-44D09A43909E}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj">
-      <Project>{69F3C8E2-93F9-DFA2-2830-263408F78FF1}</Project>
+      <Project>{DA4DFE37-FDD4-D524-376F-4F4D3F9755D2}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
-      <Project>{12F4396E-05FA-C30B-C1A2-275136F5082B}</Project>
+      <Project>{D05CFF55-CEBA-FD73-5B34-B26FBB67C02E}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{698B7C6C-F053-CBCA-2E20-1C4BE228DAA8}</Project>
+      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{68ABBC08-6C8F-EC99-46FA-DC3AE0F88ED8}</Project>
+      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{1363967C-D1B8-0834-F7D7-BF5097A4040B}</Project>
+      <Project>{4F4F55A0-A9EC-68E1-D3A9-1DCC779EF04B}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{915D802F-8B49-97AD-6F66-199104115BE2}</Project>
+      <Project>{3EC90C0A-82EE-42F6-8BB0-832C10021A9B}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

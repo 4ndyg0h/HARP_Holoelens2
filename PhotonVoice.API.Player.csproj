@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1A18AB8D-9B98-66B5-64AB-1DD143DCB485}</ProjectGuid>
+    <ProjectGuid>{45B9E20F-6961-6BA9-1B73-9BDCA2C37EF5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonVoice.API</AssemblyName>
@@ -958,11 +958,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.Player.csproj">
-      <Project>{1E6C93AE-2FCF-5328-BA7B-179AE0106006}</Project>
+      <Project>{355663DB-3BDA-3CB5-B408-109E0A7354D4}</Project>
       <Name>PhotonRealtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A6489B33-67C2-B516-53FD-CD69E2737F17}</Project>
+      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

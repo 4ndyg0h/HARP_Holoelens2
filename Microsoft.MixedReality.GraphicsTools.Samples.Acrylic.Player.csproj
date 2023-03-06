@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Microsoft.MixedReality.GraphicsTools.Samples.Acrylic</RootNamespace>
-    <ProjectGuid>{4B6CDB6C-0AB6-093E-4CE2-4405195A20A7}</ProjectGuid>
+    <ProjectGuid>{92FF4E7E-1A1C-ED1E-4348-991647F4F33C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.GraphicsTools.Samples.Acrylic</AssemblyName>
@@ -893,7 +893,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A6489B33-67C2-B516-53FD-CD69E2737F17}</Project>
+      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

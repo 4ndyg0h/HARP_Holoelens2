@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AD073D2D-66FD-503D-2DC0-F12B3851AB8C}</ProjectGuid>
+    <ProjectGuid>{1A5ACEC9-FE16-C1AE-E9AB-8C1DC51AFF31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.XRSDK</AssemblyName>
@@ -902,23 +902,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.Player.csproj">
-      <Project>{03F77059-3787-865F-6C36-433192E22131}</Project>
+      <Project>{E6BF2F95-8C07-E967-BC3A-28A36B80F6BF}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Player.csproj">
-      <Project>{EC49184B-4961-3980-C2C9-5DE736E1D421}</Project>
+      <Project>{70E6255E-1B21-7D5D-6723-9E26FAF0041B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{182DCCB6-5CBA-191F-12F2-BA7B0439C325}</Project>
+      <Project>{3A323A38-2824-612C-7405-7B268BDF494E}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{7E5B588F-306C-34F7-15EC-4014A39FA175}</Project>
+      <Project>{706F61A2-3E40-E43C-0A63-BDDF6CC5B32C}</Project>
       <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A6489B33-67C2-B516-53FD-CD69E2737F17}</Project>
+      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C140EA28-85EF-BCAC-9E55-66341F18C6CE}</ProjectGuid>
+    <ProjectGuid>{A249EB21-2DCE-D9D0-E80C-E934A10EFDC6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonVoice.PUN.Editor</AssemblyName>
@@ -698,39 +698,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonVoice.PUN.csproj">
-      <Project>{0CC3191F-DB3B-E58F-3765-ED3B264BB5A0}</Project>
+      <Project>{BC74A59D-4F3F-3F40-61B8-DD9FA2873410}</Project>
       <Name>PhotonVoice.PUN</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.Editor.csproj">
-      <Project>{ED47AC46-41BA-6AFE-20AA-3A713AE5D3C0}</Project>
+      <Project>{17805356-5CBA-1AF4-B5A3-F0EBE47AD44A}</Project>
       <Name>PhotonVoice.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.csproj">
-      <Project>{E9E6947C-2DC6-65E9-840F-9C9D2B33D156}</Project>
+      <Project>{4D9D58A8-F8CD-C907-1B84-95FB386D9375}</Project>
       <Name>PhotonVoice</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{2228DB21-F0BB-F497-9E4B-8C376434C58A}</Project>
+      <Project>{EF4376E9-E655-AC14-EC03-30CAC341C0B9}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{A0AF7425-E3E3-A4E3-8C7D-16236D6D55EA}</Project>
+      <Project>{43EAEACF-94FB-8721-812F-81E88A5F9E65}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{698B7C6C-F053-CBCA-2E20-1C4BE228DAA8}</Project>
+      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{68ABBC08-6C8F-EC99-46FA-DC3AE0F88ED8}</Project>
+      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{1363967C-D1B8-0834-F7D7-BF5097A4040B}</Project>
+      <Project>{4F4F55A0-A9EC-68E1-D3A9-1DCC779EF04B}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{915D802F-8B49-97AD-6F66-199104115BE2}</Project>
+      <Project>{3EC90C0A-82EE-42F6-8BB0-832C10021A9B}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

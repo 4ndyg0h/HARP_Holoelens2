@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{54636E68-952E-74E4-357E-3C3891BC6F51}</ProjectGuid>
+    <ProjectGuid>{56D5D09C-9803-C30A-CB42-20E6CEB60BA9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Extensions.Tracking</AssemblyName>
@@ -898,15 +898,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Player.csproj">
-      <Project>{EC49184B-4961-3980-C2C9-5DE736E1D421}</Project>
+      <Project>{70E6255E-1B21-7D5D-6723-9E26FAF0041B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.Player.csproj">
-      <Project>{87D47050-EDB0-F051-429D-D671A0B63598}</Project>
+      <Project>{E93100B7-1154-1A5B-00DF-45842859A353}</Project>
       <Name>Unity.XR.ARSubsystems.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A6489B33-67C2-B516-53FD-CD69E2737F17}</Project>
+      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

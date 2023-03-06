@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{12F4396E-05FA-C30B-C1A2-275136F5082B}</ProjectGuid>
+    <ProjectGuid>{D05CFF55-CEBA-FD73-5B34-B26FBB67C02E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Editor.Utilities</AssemblyName>
@@ -722,39 +722,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{C3335E4B-7592-F97D-8AEF-360950F46F32}</Project>
+      <Project>{22E72961-E583-44E1-B731-29AA42D1F167}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{5C20775E-657A-DDF6-2E43-28175405C06A}</Project>
+      <Project>{9AA88FCC-2C3C-9868-1480-2931366C8638}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj">
-      <Project>{14AB3655-510E-9F8D-163B-0C9EEBDDAEDE}</Project>
+      <Project>{7709BCC3-E058-AEC8-546E-5635D68E179B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ClassExtensions</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{790A0DE8-C759-E337-4336-313631D1AA59}</Project>
+      <Project>{BB96BEED-2573-A257-FE30-1EC2EA624418}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{96C9F387-F749-D893-F9BB-840914E20D6F}</Project>
+      <Project>{0474065A-B05F-47E3-2E14-F17AF8DD09CD}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{698B7C6C-F053-CBCA-2E20-1C4BE228DAA8}</Project>
+      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{68ABBC08-6C8F-EC99-46FA-DC3AE0F88ED8}</Project>
+      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{1363967C-D1B8-0834-F7D7-BF5097A4040B}</Project>
+      <Project>{4F4F55A0-A9EC-68E1-D3A9-1DCC779EF04B}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{915D802F-8B49-97AD-6F66-199104115BE2}</Project>
+      <Project>{3EC90C0A-82EE-42F6-8BB0-832C10021A9B}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

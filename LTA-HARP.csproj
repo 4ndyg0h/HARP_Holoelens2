@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>LTA.Holoapp</RootNamespace>
-    <ProjectGuid>{B73B07B0-E403-627F-709B-04CD00E7C02D}</ProjectGuid>
+    <ProjectGuid>{AA10BB94-4FFA-BD9A-63CF-85C47DB7F73A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>LTA-HARP</AssemblyName>
@@ -953,143 +953,143 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.OpenXR.csproj">
-      <Project>{BEB42605-5719-2A1A-817F-53059E0C318A}</Project>
+      <Project>{4BF39CCD-F2B6-E053-2391-6AF07DC328B6}</Project>
       <Name>Microsoft.MixedReality.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.OpenXR.Sample.csproj">
-      <Project>{926F34FD-5377-CEED-B64D-7043DBD62FCC}</Project>
+      <Project>{23ADB795-7BC1-98EE-5DFA-DED67B801A94}</Project>
       <Name>Microsoft.MixedReality.OpenXR.Sample</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E510A2B7-3E01-E503-F0EA-D72D11D431D6}</Project>
+      <Project>{BD821D56-D0FF-4D85-190D-44D09A43909E}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.csproj">
-      <Project>{4EC16EA7-2FAC-BAA7-5CE2-CBC31F8BD6D6}</Project>
+      <Project>{22A5903C-313A-6890-1530-07189FDC50C9}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{5DE35374-62B7-7AEA-0584-1EAB177441E4}</Project>
+      <Project>{4DB44671-18DF-AD7C-7E2B-0B0FD315B48F}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{7FEB8BF2-229F-1C31-C82B-C351F57316A1}</Project>
+      <Project>{36524DF3-C65A-212D-8B51-D699CD4B27AF}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{790A0DE8-C759-E337-4336-313631D1AA59}</Project>
+      <Project>{BB96BEED-2573-A257-FE30-1EC2EA624418}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{AF8CDCF1-D2E4-E26D-061E-44081827D114}</Project>
+      <Project>{97767DC2-12C7-B937-1DD9-A054F6406F6B}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{5F4BA0AF-08B2-7A22-EF50-6BE9854F2D2F}</Project>
+      <Project>{D69C9C0A-7321-6B1A-E756-236131BD5F9E}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{5C20775E-657A-DDF6-2E43-28175405C06A}</Project>
+      <Project>{9AA88FCC-2C3C-9868-1480-2931366C8638}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.csproj">
-      <Project>{6D9F21ED-CB59-F921-01F0-27B3A61A37CE}</Project>
+      <Project>{39FC93A1-B38B-E935-9647-7FBE3DD70E21}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Tools</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.WindowsMixedReality.csproj">
-      <Project>{62C07742-A034-EF6A-8E18-F91802785E33}</Project>
+      <Project>{EFE74E02-FBCD-8293-E6B4-FC9063D623A9}</Project>
       <Name>Unity.XR.WindowsMixedReality</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.Windows.MixedReality.DotNetWinRT.Editor.csproj">
-      <Project>{7ABE0E76-C7A7-4643-7F8D-E5B9FE3AC532}</Project>
+      <Project>{ABCAA8EF-8219-2B53-FF7F-116F6E26F2E3}</Project>
       <Name>Microsoft.Windows.MixedReality.DotNetWinRT.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
-      <Project>{C0F0E0B0-4BBB-01AB-F99D-ED9C841408C7}</Project>
+      <Project>{271B0DCE-A01B-D23D-E52A-8219FCC2ECAD}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="AzureSpatialAnchors.SDK.Core.Editor.csproj">
-      <Project>{36016251-3FDA-B07D-DDA6-67480963B1E6}</Project>
+      <Project>{200546A4-4C53-90E2-A4B2-5A99029FDD8E}</Project>
       <Name>AzureSpatialAnchors.SDK.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AzureSpatialAnchors.SDK.Windows.Runtime.csproj">
-      <Project>{7559F94D-9728-9E84-C607-EEA575853517}</Project>
+      <Project>{E4D71B53-C474-E2B9-E340-3B8C7AD30F77}</Project>
       <Name>AzureSpatialAnchors.SDK.Windows.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AzureSpatialAnchors.SDK.Core.Runtime.csproj">
-      <Project>{3BB55A60-5D29-B0C3-23A9-D5CCDDB9CDE3}</Project>
+      <Project>{63FFF920-61C1-6250-F3AA-40212CC364A0}</Project>
       <Name>AzureSpatialAnchors.SDK.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{4805C502-DF33-0B79-E8CF-E74B9C929C6D}</Project>
+      <Project>{61710CBC-4B6E-D710-9F88-57327DF00ED6}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{2228DB21-F0BB-F497-9E4B-8C376434C58A}</Project>
+      <Project>{EF4376E9-E655-AC14-EC03-30CAC341C0B9}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{A0AF7425-E3E3-A4E3-8C7D-16236D6D55EA}</Project>
+      <Project>{43EAEACF-94FB-8721-812F-81E88A5F9E65}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{9258AAF4-D594-E3CB-35EB-28D5F6525E3C}</Project>
+      <Project>{095F778B-DEBB-572C-EB57-FBCD11EC0F3D}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{C5E18F90-B174-8D67-F1DD-567DED5D15EE}</Project>
+      <Project>{1E259B68-1A01-5C4C-8F6A-527A2CAE5CD7}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{D70CC757-936B-D0F9-FDBC-A5E2F907D435}</Project>
+      <Project>{D2D9D0BC-5A8B-96E2-8DAB-E15F881FF977}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{132C7D5F-33EE-5CCB-F19A-EC40B6BCB7AF}</Project>
+      <Project>{D28959F3-3ED0-44B7-352F-EF7D3CB777D9}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{CE0BC798-132D-DD39-A244-432F5F17D7DF}</Project>
+      <Project>{8BAB9326-CE87-DF91-F433-3436D3E95D2B}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{DA7438F0-F8EE-A48F-E955-1184695AD5BA}</Project>
+      <Project>{C8995930-AEC8-76F7-A61C-BED6DF2F03B0}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.csproj">
-      <Project>{E9E6947C-2DC6-65E9-840F-9C9D2B33D156}</Project>
+      <Project>{4D9D58A8-F8CD-C907-1B84-95FB386D9375}</Project>
       <Name>PhotonVoice</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.Editor.csproj">
-      <Project>{ED47AC46-41BA-6AFE-20AA-3A713AE5D3C0}</Project>
+      <Project>{17805356-5CBA-1AF4-B5A3-F0EBE47AD44A}</Project>
       <Name>PhotonVoice.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.PUN.csproj">
-      <Project>{0CC3191F-DB3B-E58F-3765-ED3B264BB5A0}</Project>
+      <Project>{BC74A59D-4F3F-3F40-61B8-DD9FA2873410}</Project>
       <Name>PhotonVoice.PUN</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.PUN.Editor.csproj">
-      <Project>{C140EA28-85EF-BCAC-9E55-66341F18C6CE}</Project>
+      <Project>{A249EB21-2DCE-D9D0-E80C-E934A10EFDC6}</Project>
       <Name>PhotonVoice.PUN.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.Utilities.Editor.csproj">
-      <Project>{C05D11AD-C193-CDB0-984F-E60B4150400C}</Project>
+      <Project>{89A29E0C-0FF5-8FCA-9A9A-E6370B86B2AE}</Project>
       <Name>PhotonVoice.Utilities.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.API.csproj">
-      <Project>{DE5A13E0-80D6-EDA6-8545-9DFD772054D1}</Project>
+      <Project>{EE38BB2B-BC2F-15EA-1A73-6B778F59BB60}</Project>
       <Name>PhotonVoice.API</Name>
     </ProjectReference>
     <ProjectReference Include="Siccity.GLTFUtility.csproj">
-      <Project>{3833CFFC-B597-A501-46C5-6174644A0659}</Project>
+      <Project>{024AEA58-83E1-F96C-C658-DF09A68421A0}</Project>
       <Name>Siccity.GLTFUtility</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{698B7C6C-F053-CBCA-2E20-1C4BE228DAA8}</Project>
+      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{68ABBC08-6C8F-EC99-46FA-DC3AE0F88ED8}</Project>
+      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

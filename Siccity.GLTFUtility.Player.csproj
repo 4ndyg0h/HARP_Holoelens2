@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{317C1AC4-E948-9FB1-407A-8BA10193C27B}</ProjectGuid>
+    <ProjectGuid>{DE9A9A9E-7A8D-B596-BD66-00546CBE71B2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Siccity.GLTFUtility</AssemblyName>
@@ -929,11 +929,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Dracodec.Player.csproj">
-      <Project>{A0FCCA47-88CB-DCCA-E035-1BBB50664109}</Project>
+      <Project>{D39A5305-318D-1E92-7DC6-34211972B062}</Project>
       <Name>Dracodec.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A6489B33-67C2-B516-53FD-CD69E2737F17}</Project>
+      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

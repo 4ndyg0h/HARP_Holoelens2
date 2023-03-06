@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{48F36275-E6F9-54CF-BF30-247E65F1C718}</ProjectGuid>
+    <ProjectGuid>{47F0F0E8-09C2-D77D-2A93-7657EFEB2F02}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Tests.Utilities</AssemblyName>
@@ -910,27 +910,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Player.csproj">
-      <Project>{EC49184B-4961-3980-C2C9-5DE736E1D421}</Project>
+      <Project>{70E6255E-1B21-7D5D-6723-9E26FAF0041B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.Player.csproj">
-      <Project>{03F77059-3787-865F-6C36-433192E22131}</Project>
+      <Project>{E6BF2F95-8C07-E967-BC3A-28A36B80F6BF}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Player.csproj">
-      <Project>{B0C27E50-9C8E-4E5E-B1C0-AC45BE131C3E}</Project>
+      <Project>{93E6BB13-E6B9-1C01-8025-F3141BD8278A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Player.csproj">
-      <Project>{9EF2961B-03EF-22F6-FCFB-31BC1F57646E}</Project>
+      <Project>{FC640F71-4DB0-DD30-6C13-23E8D6731473}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.Player.csproj">
-      <Project>{B7E93C43-9907-7D21-7D22-68511566CE66}</Project>
+      <Project>{0F563E21-8235-01B8-1C0E-CABF134D78F1}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A6489B33-67C2-B516-53FD-CD69E2737F17}</Project>
+      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

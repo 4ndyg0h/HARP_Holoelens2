@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{226DD394-C6BA-CA46-CAEA-402A039F279E}</ProjectGuid>
+    <ProjectGuid>{8B9A9EC0-FD2F-AE5B-D23A-6210AE7D3DEB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality</AssemblyName>
@@ -666,35 +666,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
-      <Project>{893CA783-AB45-8815-3C0D-040E081435E7}</Project>
+      <Project>{C53E32F8-0252-EFEC-B930-4062736FF08B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E510A2B7-3E01-E503-F0EA-D72D11D431D6}</Project>
+      <Project>{BD821D56-D0FF-4D85-190D-44D09A43909E}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
-      <Project>{12F4396E-05FA-C30B-C1A2-275136F5082B}</Project>
+      <Project>{D05CFF55-CEBA-FD73-5B34-B26FBB67C02E}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj">
-      <Project>{8E650552-D8D1-46E3-9AF9-AD486ECA2225}</Project>
+      <Project>{2113E10D-9E05-6F02-497F-ACEDF322F279}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.csproj">
-      <Project>{4750210F-BA0A-585C-DF56-9560855F2605}</Project>
+      <Project>{148CA264-6702-25BC-C800-0CE516D77AA8}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.WindowsMixedReality.csproj">
-      <Project>{62C07742-A034-EF6A-8E18-F91802785E33}</Project>
+      <Project>{EFE74E02-FBCD-8293-E6B4-FC9063D623A9}</Project>
       <Name>Unity.XR.WindowsMixedReality</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{698B7C6C-F053-CBCA-2E20-1C4BE228DAA8}</Project>
+      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{68ABBC08-6C8F-EC99-46FA-DC3AE0F88ED8}</Project>
+      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

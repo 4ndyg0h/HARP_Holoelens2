@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E48E65FB-C307-8B33-800D-762438A8C60D}</ProjectGuid>
+    <ProjectGuid>{F8E00163-CBF2-A70D-963D-27B1C0F93A84}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.OpenXR.Sample</AssemblyName>
@@ -895,27 +895,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.OpenXR.Player.csproj">
-      <Project>{037ED0A2-1A28-388C-5E61-42CB790B30E9}</Project>
+      <Project>{1C22EDA5-76B8-D84F-F880-FFF226EAF469}</Project>
       <Name>Microsoft.MixedReality.OpenXR.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Player.csproj">
-      <Project>{8B01ACA3-350C-B4E0-5889-C1DD329D2989}</Project>
+      <Project>{F96A54DD-A200-91F2-E104-903B9A249611}</Project>
       <Name>Unity.XR.OpenXR.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{CD9BE9AD-CC8D-697D-5503-6F6DF19EA0C3}</Project>
+      <Project>{A37964A5-B0DD-23CA-9836-A06C76C6C37B}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.Player.csproj">
-      <Project>{8D662518-2CB0-6B70-FC4D-C5213C2E611A}</Project>
+      <Project>{1B3E7AF5-D36A-1A6A-3D54-63A560FA4DA2}</Project>
       <Name>Unity.XR.ARFoundation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{182DCCB6-5CBA-191F-12F2-BA7B0439C325}</Project>
+      <Project>{3A323A38-2824-612C-7405-7B268BDF494E}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A6489B33-67C2-B516-53FD-CD69E2737F17}</Project>
+      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

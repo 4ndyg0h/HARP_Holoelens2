@@ -74,6 +74,15 @@ namespace Microsoft.MixedReality.OpenXR.BasicSample
             CreateMenu();
         }
 
+        public void DownloadFile()
+        {
+            var client = new System.Net.WebClient();
+            string filePath = Application.persistentDataPath + "/checklists.zip";
+            client.DownloadFile("https://drive.google.com/u/0/uc?id=1E6bOw9s_4Ga2_dYQm1K3wsak-qCvY3Og&export=download", filePath);
+            System.IO.Compression.ZipFile.ExtractToDirectory(filePath, Application.persistentDataPath + "/checklists");
+            Debug.Log("File path extracted");
+        }
+
         /// <summary>
         /// Creates a menu filled with the preconfigured checklists
         /// </summary>

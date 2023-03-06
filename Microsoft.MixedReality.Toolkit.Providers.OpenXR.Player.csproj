@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Microsoft.MixedReality.Toolkit.XRSDK.OpenXR</RootNamespace>
-    <ProjectGuid>{679BA565-73FA-DD7F-FD11-58F5390936AB}</ProjectGuid>
+    <ProjectGuid>{961D5CE3-CBFD-D489-51BC-99EADC2E1216}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.OpenXR</AssemblyName>
@@ -907,35 +907,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.OpenXR.Player.csproj">
-      <Project>{037ED0A2-1A28-388C-5E61-42CB790B30E9}</Project>
+      <Project>{1C22EDA5-76B8-D84F-F880-FFF226EAF469}</Project>
       <Name>Microsoft.MixedReality.OpenXR.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.Player.csproj">
-      <Project>{03F77059-3787-865F-6C36-433192E22131}</Project>
+      <Project>{E6BF2F95-8C07-E967-BC3A-28A36B80F6BF}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Player.csproj">
-      <Project>{EC49184B-4961-3980-C2C9-5DE736E1D421}</Project>
+      <Project>{70E6255E-1B21-7D5D-6723-9E26FAF0041B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.Player.csproj">
-      <Project>{D3031F0F-CE95-5FE8-76FC-F9EFD79A9792}</Project>
+      <Project>{5942CF87-E64C-52D7-7B43-E4821EEB88D7}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Gltf.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Player.csproj">
-      <Project>{AD073D2D-66FD-503D-2DC0-F12B3851AB8C}</Project>
+      <Project>{1A5ACEC9-FE16-C1AE-E9AB-8C1DC51AFF31}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{182DCCB6-5CBA-191F-12F2-BA7B0439C325}</Project>
+      <Project>{3A323A38-2824-612C-7405-7B268BDF494E}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Player.csproj">
-      <Project>{8B01ACA3-350C-B4E0-5889-C1DD329D2989}</Project>
+      <Project>{F96A54DD-A200-91F2-E104-903B9A249611}</Project>
       <Name>Unity.XR.OpenXR.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A6489B33-67C2-B516-53FD-CD69E2737F17}</Project>
+      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

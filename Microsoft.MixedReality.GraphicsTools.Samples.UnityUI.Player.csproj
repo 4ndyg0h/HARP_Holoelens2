@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Microsoft.MixedReality.GraphicsTools.Samples.UnityUI</RootNamespace>
-    <ProjectGuid>{CC38CDCB-3238-6CFD-387A-823153238CC2}</ProjectGuid>
+    <ProjectGuid>{606C5723-D7A7-34F4-E740-D511F615B62A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.GraphicsTools.Samples.UnityUI</AssemblyName>
@@ -894,15 +894,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{46D62830-08C7-392E-DA58-CAAEB3AF3C75}</Project>
+      <Project>{676060DB-E6E8-4BF1-ED27-3A22DEBF82D7}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.GraphicsTools.Player.csproj">
-      <Project>{9BED9EC5-0CD3-CA2A-C35C-A6D4F1D3D7A6}</Project>
+      <Project>{BA74A785-1F3C-F280-A182-90B9ED1DC196}</Project>
       <Name>Microsoft.MixedReality.GraphicsTools.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A6489B33-67C2-B516-53FD-CD69E2737F17}</Project>
+      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

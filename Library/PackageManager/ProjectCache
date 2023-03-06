@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/andyg/Desktop/LTA/NEWLTA-Holoapp/LTA-Holoapp/Packages/manifest.json
+    m_FilePath: C:/Users/andyg/Documents/GitHub/HARP_Holoelens2/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 638131484675472675
     m_Hash: 1954491477
   m_LockFileStatus:
-    m_FilePath: C:/Users/andyg/Desktop/LTA/NEWLTA-Holoapp/LTA-Holoapp/Packages/packages-lock.json
+    m_FilePath: C:/Users/andyg/Documents/GitHub/HARP_Holoelens2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -20,12 +20,12 @@ m_EmbeddedPackageManifests:
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.microsoft.azure.object-anchors.runtime@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.22.0.tgz
+    - packageId: com.microsoft.azure.object-anchors.runtime@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.22.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 0.22.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.azure.object-anchors.runtime@7d9625939475
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.azure.object-anchors.runtime@7d9625939475
       assetPath: Packages/com.microsoft.azure.object-anchors.runtime
       name: com.microsoft.azure.object-anchors.runtime
       displayName: Microsoft Azure Object Anchors
@@ -70,12 +70,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.microsoft.azure.spatial-anchors-sdk.android@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.android-2.13.0.tgz
+    - packageId: com.microsoft.azure.spatial-anchors-sdk.android@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.android-2.13.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.13.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.android@212622f1aa8b
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.android@212622f1aa8b
       assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.android
       name: com.microsoft.azure.spatial-anchors-sdk.android
       displayName: Azure Spatial Anchors SDK for Android
@@ -154,12 +154,12 @@ m_PackageAssets:
         url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
         revision: 
         path: 
-    - packageId: com.microsoft.azure.spatial-anchors-sdk.core@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.13.0.tgz
+    - packageId: com.microsoft.azure.spatial-anchors-sdk.core@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.13.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.13.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.core@bd79930953e8
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.core@bd79930953e8
       assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.core
       name: com.microsoft.azure.spatial-anchors-sdk.core
       displayName: Azure Spatial Anchors SDK Core
@@ -237,12 +237,12 @@ m_PackageAssets:
         url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
         revision: 
         path: 
-    - packageId: com.microsoft.azure.spatial-anchors-sdk.ios@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.ios-2.13.0.tgz
+    - packageId: com.microsoft.azure.spatial-anchors-sdk.ios@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.ios-2.13.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.13.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.ios@4cb380af0fed
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.ios@4cb380af0fed
       assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.ios
       name: com.microsoft.azure.spatial-anchors-sdk.ios
       displayName: Azure Spatial Anchors SDK for iOS
@@ -319,12 +319,12 @@ m_PackageAssets:
         url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
         revision: 
         path: 
-    - packageId: com.microsoft.azure.spatial-anchors-sdk.windows@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.13.0.tgz
+    - packageId: com.microsoft.azure.spatial-anchors-sdk.windows@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.13.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.13.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.windows@62b3e83507a2
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.azure.spatial-anchors-sdk.windows@62b3e83507a2
       assetPath: Packages/com.microsoft.azure.spatial-anchors-sdk.windows
       name: com.microsoft.azure.spatial-anchors-sdk.windows
       displayName: Azure Spatial Anchors SDK for Windows
@@ -398,12 +398,12 @@ m_PackageAssets:
         url: git+https://github.com/Azure/azure-spatial-anchors-samples.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.openxr@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz
+    - packageId: com.microsoft.mixedreality.openxr@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 1.4.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.mixedreality.openxr@a4cc3ecd3f67
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.mixedreality.openxr@a4cc3ecd3f67
       assetPath: Packages/com.microsoft.mixedreality.openxr
       name: com.microsoft.mixedreality.openxr
       displayName: Mixed Reality OpenXR Plugin
@@ -480,12 +480,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.sceneunderstanding@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.sceneunderstanding-0.6.0.tgz
+    - packageId: com.microsoft.mixedreality.sceneunderstanding@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.sceneunderstanding-0.6.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 0.6.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.mixedreality.sceneunderstanding@7bfd3a8ea18c
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.mixedreality.sceneunderstanding@7bfd3a8ea18c
       assetPath: Packages/com.microsoft.mixedreality.sceneunderstanding
       name: com.microsoft.mixedreality.sceneunderstanding
       displayName: Mixed Reality Scene Understanding
@@ -537,12 +537,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.examples@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.8.0.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.examples@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.8.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.8.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@d7fd263e360f
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@d7fd263e360f
       assetPath: Packages/com.microsoft.mixedreality.toolkit.examples
       name: com.microsoft.mixedreality.toolkit.examples
       displayName: Mixed Reality Toolkit Examples
@@ -608,12 +608,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.extensions@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.8.0.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.extensions@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.8.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.8.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.mixedreality.toolkit.extensions@0c9d84925720
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.mixedreality.toolkit.extensions@0c9d84925720
       assetPath: Packages/com.microsoft.mixedreality.toolkit.extensions
       name: com.microsoft.mixedreality.toolkit.extensions
       displayName: Mixed Reality Toolkit Extensions
@@ -678,12 +678,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.foundation@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.8.0.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.foundation@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.8.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.8.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f
       assetPath: Packages/com.microsoft.mixedreality.toolkit.foundation
       name: com.microsoft.mixedreality.toolkit.foundation
       displayName: Mixed Reality Toolkit Foundation
@@ -744,12 +744,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.standardassets@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.8.0.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.standardassets@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.8.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.8.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@fcc2d8083af4
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@fcc2d8083af4
       assetPath: Packages/com.microsoft.mixedreality.toolkit.standardassets
       name: com.microsoft.mixedreality.toolkit.standardassets
       displayName: Mixed Reality Toolkit Standard Assets
@@ -811,12 +811,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.testutilities@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.8.0.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.testutilities@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.8.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.8.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.mixedreality.toolkit.testutilities@a9617008067f
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.mixedreality.toolkit.testutilities@a9617008067f
       assetPath: Packages/com.microsoft.mixedreality.toolkit.testutilities
       name: com.microsoft.mixedreality.toolkit.testutilities
       displayName: Mixed Reality Toolkit Test Utilities
@@ -879,12 +879,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.tools@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.8.0.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.tools@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.8.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.8.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.mixedreality.toolkit.tools@784ac11e28c0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.mixedreality.toolkit.tools@784ac11e28c0
       assetPath: Packages/com.microsoft.mixedreality.toolkit.tools
       name: com.microsoft.mixedreality.toolkit.tools
       displayName: Mixed Reality Toolkit Tools
@@ -947,12 +947,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mrtk.graphicstools.unity@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz
+    - packageId: com.microsoft.mrtk.graphicstools.unity@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 0.4.0
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.mrtk.graphicstools.unity@b8cb5dc7a3c3
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.mrtk.graphicstools.unity@b8cb5dc7a3c3
       assetPath: Packages/com.microsoft.mrtk.graphicstools.unity
       name: com.microsoft.mrtk.graphicstools.unity
       displayName: MRTK Graphics Tools
@@ -1002,12 +1002,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedReality-GraphicsTools-Unity
         revision: 
         path: 
-    - packageId: com.microsoft.spatialaudio.spatializer.unity@file:C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.246.tgz
+    - packageId: com.microsoft.spatialaudio.spatializer.unity@file:C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.246.tgz
       testable: 0
       isDirectDependency: 1
       version: 1.0.246
       source: 6
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.microsoft.spatialaudio.spatializer.unity@15892c90b669
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.microsoft.spatialaudio.spatializer.unity@15892c90b669
       assetPath: Packages/com.microsoft.spatialaudio.spatializer.unity
       name: com.microsoft.spatialaudio.spatializer.unity
       displayName: Microsoft Spatializer
@@ -1061,7 +1061,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -1186,7 +1186,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.15
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.ide.visualstudio@2.0.15
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.ide.visualstudio@2.0.15
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -1283,7 +1283,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.5
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.ide.vscode@1.2.5
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -1356,7 +1356,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1525,7 +1525,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1699,7 +1699,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1762,7 +1762,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.1
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.xr.openxr@1.3.1
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.xr.openxr@1.3.1
       assetPath: Packages/com.unity.xr.openxr
       name: com.unity.xr.openxr
       displayName: OpenXR Plugin
@@ -1877,7 +1877,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.6.3
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.xr.windowsmr@4.6.3
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.xr.windowsmr@4.6.3
       assetPath: Packages/com.unity.xr.windowsmr
       name: com.unity.xr.windowsmr
       displayName: Windows XR Plugin
@@ -2027,7 +2027,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -2075,7 +2075,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -2123,7 +2123,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -2171,7 +2171,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -2219,7 +2219,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -2267,7 +2267,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -2319,7 +2319,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -2375,7 +2375,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -2424,7 +2424,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -2472,7 +2472,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -2520,7 +2520,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -2568,7 +2568,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -2616,7 +2616,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -2664,7 +2664,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -2716,7 +2716,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -2764,7 +2764,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2820,7 +2820,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2872,7 +2872,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2920,7 +2920,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2984,7 +2984,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -3032,7 +3032,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -3088,7 +3088,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -3136,7 +3136,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -3192,7 +3192,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -3248,7 +3248,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -3304,7 +3304,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -3376,7 +3376,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -3428,7 +3428,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -3488,7 +3488,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -3550,7 +3550,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -3598,7 +3598,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -3658,7 +3658,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -3710,7 +3710,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -3769,7 +3769,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.1
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1
       assetPath: Packages/com.unity.xr.interactionsubsystems
       name: com.unity.xr.interactionsubsystems
       displayName: XR Interaction Subsystems
@@ -3833,7 +3833,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.1.9
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.xr.arsubsystems@4.1.9
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.xr.arsubsystems@4.1.9
       assetPath: Packages/com.unity.xr.arsubsystems
       name: com.unity.xr.arsubsystems
       displayName: AR Subsystems
@@ -3988,7 +3988,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.1.9
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
       assetPath: Packages/com.unity.xr.legacyinputhelpers
       name: com.unity.xr.legacyinputhelpers
       displayName: XR Legacy Input Helpers
@@ -4084,7 +4084,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.2
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.inputsystem@1.0.2
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.inputsystem@1.0.2
       assetPath: Packages/com.unity.inputsystem
       name: com.unity.inputsystem
       displayName: Input System
@@ -4212,7 +4212,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.31
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.test-framework@1.1.31
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.test-framework@1.1.31
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -4323,7 +4323,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.1.7
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.xr.arfoundation@4.1.7
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.xr.arfoundation@4.1.7
       assetPath: Packages/com.unity.xr.arfoundation
       name: com.unity.xr.arfoundation
       displayName: AR Foundation
@@ -4436,6 +4436,7 @@ m_PackageAssets:
         - 5.0.0-pre.13
         - 5.0.2
         - 5.0.3
+        - 5.0.4
         - 5.1.0-pre.1
         - 5.1.0-pre.2
         - 5.1.0-pre.3
@@ -4584,7 +4585,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.2.0
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.xr.management@4.2.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.xr.management@4.2.0
       assetPath: Packages/com.unity.xr.management
       name: com.unity.xr.management
       displayName: XR Plugin Management
@@ -4725,7 +4726,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.12
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.xr.arkit@4.0.12
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.xr.arkit@4.0.12
       assetPath: Packages/com.unity.xr.arkit
       name: com.unity.xr.arkit
       displayName: ARKit XR Plugin
@@ -4856,6 +4857,7 @@ m_PackageAssets:
         - 5.0.0-pre.13
         - 5.0.2
         - 5.0.3
+        - 5.0.4
         - 5.1.0-pre.1
         - 5.1.0-pre.2
         - 5.1.0-pre.3
@@ -5002,7 +5004,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.12
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.xr.arcore@4.0.12
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.xr.arcore@4.0.12
       assetPath: Packages/com.unity.xr.arcore
       name: com.unity.xr.arcore
       displayName: ARCore XR Plugin
@@ -5119,6 +5121,7 @@ m_PackageAssets:
         - 5.0.0-pre.13
         - 5.0.2
         - 5.0.3
+        - 5.0.4
         - 5.1.0-pre.1
         - 5.1.0-pre.2
         - 5.1.0-pre.3
@@ -5262,7 +5265,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.subsystemregistration@1.1.0
       assetPath: Packages/com.unity.subsystemregistration
       name: com.unity.subsystemregistration
       displayName: Subsystem Registration
@@ -5328,7 +5331,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -5390,215 +5393,215 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus:
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.22.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.22.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.22.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.object-anchors.runtime-0.22.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484682041601
       m_Hash: 2725426357
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.android-2.13.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.android-2.13.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.android-2.13.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.android-2.13.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484685868593
       m_Hash: 2716354144
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.13.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.13.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.13.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.core-2.13.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484686278440
       m_Hash: 2351196505
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.ios-2.13.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.ios-2.13.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.ios-2.13.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.ios-2.13.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484695289166
       m_Hash: 1564023432
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.13.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.13.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.13.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.azure.spatial-anchors-sdk.windows-2.13.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484701415537
       m_Hash: 1890584875
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484704911577
       m_Hash: 3343198222
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.sceneunderstanding-0.6.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.sceneunderstanding-0.6.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.sceneunderstanding-0.6.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.sceneunderstanding-0.6.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484705704877
       m_Hash: 1930125031
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.8.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.8.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.8.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.8.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484715051303
       m_Hash: 1361938837
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.8.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.8.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.8.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.8.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484715617613
       m_Hash: 1731037489
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.8.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.8.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.8.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.8.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484717808022
       m_Hash: 2687136802
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.8.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.8.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.8.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.8.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484718999201
       m_Hash: 1966013360
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.8.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.8.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.8.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.testutilities-2.8.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484719445223
       m_Hash: 1724113372
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.8.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.8.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.8.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mixedreality.toolkit.tools-2.8.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484720125315
       m_Hash: 2238523491
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484721995854
       m_Hash: 4244666502
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.246.tgz/package.json
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.246.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Users\andyg\Desktop\LTA\NEWLTA-Holoapp\LTA-Holoapp\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.246.tgz
+    - m_FilePath: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-1.0.246.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638131484724468284
       m_Hash: 463620439
-m_ProjectPath: C:/Users/andyg/Desktop/LTA/NEWLTA-Holoapp/LTA-Holoapp/Packages
+m_ProjectPath: C:/Users/andyg/Documents/GitHub/HARP_Holoelens2/Packages
 m_EditorVersion: 2020.3.33f1 (915a7af8b0d5)
