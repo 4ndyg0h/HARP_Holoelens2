@@ -32,11 +32,11 @@ static Il2CppMethodPointer s_methodPointers[5] =
 };
 static const int32_t s_InvokerIndices[5] = 
 {
-	7666,
+	7665,
 	2326,
-	7666,
-	7666,
-	7666,
+	7665,
+	7665,
+	7665,
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_GraphicsTools_Samples_UnityUI_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_GraphicsTools_Samples_UnityUI_CodeGenModule;
