@@ -39934,7 +39934,7 @@ IL_008c:
 				MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C * L_18 = __this->get_U3CmsU3E5__1_3();
 				NullCheck(L_18);
 				ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_19;
-				L_19 = VirtFuncInvoker0< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(37 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_18);
+				L_19 = VirtFuncInvoker0< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(39 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_18);
 				V_3 = L_19;
 				ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_20 = V_3;
 				ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_21 = V_3;
@@ -42089,7 +42089,7 @@ IL_052c:
 IL_052f:
 			{
 				NullCheck(G_B67_0);
-				VirtActionInvoker0::Invoke(17 /* System.Void System.IO.Stream::Close() */, G_B67_0);
+				VirtActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Close() */, G_B67_0);
 			}
 
 IL_0534:
@@ -44280,7 +44280,7 @@ IL_0058:
 			CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  L_27 = __this->get_cancellationToken_4();
 			NullCheck(L_18);
 			Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 * L_28;
-			L_28 = VirtFuncInvoker4< Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 *, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t, CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  >::Invoke(23 /* System.Threading.Tasks.Task`1<System.Int32> System.IO.Stream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken) */, L_18, L_20, L_22, ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_24)->max_length))), (int32_t)L_26)), L_27);
+			L_28 = VirtFuncInvoker4< Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 *, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t, CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  >::Invoke(25 /* System.Threading.Tasks.Task`1<System.Int32> System.IO.Stream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken) */, L_18, L_20, L_22, ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_24)->max_length))), (int32_t)L_26)), L_27);
 			NullCheck(L_28);
 			ConfiguredTaskAwaitable_1_t95CB4612A5B70DDFE0643FA38A73D6B984DD68EC  L_29;
 			L_29 = Task_1_ConfigureAwait_m9637E2990F98EDC90D1A03B57A4954CE2171C4E2(L_28, (bool)0, /*hidden argument*/Task_1_ConfigureAwait_m9637E2990F98EDC90D1A03B57A4954CE2171C4E2_RuntimeMethod_var);

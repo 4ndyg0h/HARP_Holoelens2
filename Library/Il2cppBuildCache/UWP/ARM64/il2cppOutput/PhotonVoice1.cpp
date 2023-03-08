@@ -14758,7 +14758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceLogger_tA6D71C204E3545DA66F54063A4E722EC
 		L_3 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
 		String_t* L_5;
 		L_5 = String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66(_stringLiteral1517117F1C97F9858A0CAB40CD0F7B384BE59539, L_2, L_4, /*hidden argument*/NULL);
 		uint8_t L_6 = __this->get_logLevel_5();
@@ -14989,7 +14989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceComponent_Awake_m532120EDDDE534D65D
 		L_3 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
 		String_t* L_5;
 		L_5 = String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66(_stringLiteral1517117F1C97F9858A0CAB40CD0F7B384BE59539, L_2, L_4, /*hidden argument*/NULL);
 		uint8_t L_6 = __this->get_logLevel_5();
@@ -15224,7 +15224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceLogger_tA6D71C204E3545DA66F54063A4E722EC
 		L_3 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
 		String_t* L_5;
 		L_5 = String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66(_stringLiteral1517117F1C97F9858A0CAB40CD0F7B384BE59539, L_2, L_4, /*hidden argument*/NULL);
 		uint8_t L_6 = __this->get_logLevel_14();
@@ -22088,7 +22088,7 @@ IL_001b:
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_3 = ___stream0;
 		NullCheck(L_3);
 		bool L_4;
-		L_4 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.Stream::get_CanWrite() */, L_3);
+		L_4 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean System.IO.Stream::get_CanWrite() */, L_3);
 		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 		bool L_5 = V_1;
 		if (!L_5)
@@ -22137,7 +22137,7 @@ IL_0055:
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_12 = ___stream0;
 		NullCheck(L_12);
 		int64_t L_13;
-		L_13 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Position() */, L_12);
+		L_13 = VirtFuncInvoker0< int64_t >::Invoke(12 /* System.Int64 System.IO.Stream::get_Position() */, L_12);
 		__this->set__waveStartPosition_1(L_13);
 		// _writer = new BinaryWriter(stream);
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_14 = ___stream0;
@@ -22762,7 +22762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaveWriter_Write_m6921A0C01B62C67E2CC4FA
 		int32_t L_2 = ___offset1;
 		int32_t L_3 = ___count2;
 		NullCheck(L_0);
-		VirtActionInvoker3< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(31 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_0, L_1, L_2, L_3);
+		VirtActionInvoker3< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(33 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_0, L_1, L_2, L_3);
 		// _dataLength += count;
 		int32_t L_4 = __this->get__dataLength_2();
 		int32_t L_5 = ___count2;
@@ -22799,7 +22799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaveWriter_Write_m0C3F4999A31F6012D211E4
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_0 = __this->get__writer_5();
 		int16_t L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int16_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int16) */, L_0, L_1);
+		VirtActionInvoker1< int16_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int16) */, L_0, L_1);
 		// _dataLength += 2;
 		int32_t L_2 = __this->get__dataLength_2();
 		__this->set__dataLength_2(((int32_t)il2cpp_codegen_add((int32_t)L_2, (int32_t)2)));
@@ -22817,7 +22817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaveWriter_Write_mBA12FC21CDCE1670EF461F
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_0 = __this->get__writer_5();
 		int32_t L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_0, L_1);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_0, L_1);
 		// _dataLength += 4;
 		int32_t L_2 = __this->get__dataLength_2();
 		__this->set__dataLength_2(((int32_t)il2cpp_codegen_add((int32_t)L_2, (int32_t)4)));
@@ -22835,7 +22835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaveWriter_Write_mEB1E44B5E7118E85D542AF
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_0 = __this->get__writer_5();
 		float L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_0, L_1);
+		VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_0, L_1);
 		// _dataLength += 4;
 		int32_t L_2 = __this->get__dataLength_2();
 		__this->set__dataLength_2(((int32_t)il2cpp_codegen_add((int32_t)L_2, (int32_t)4)));
@@ -22856,13 +22856,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaveWriter_WriteHeader_m0D77D86D414439F0
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_1 = __this->get__stream_4();
 		NullCheck(L_1);
 		int64_t L_2;
-		L_2 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Position() */, L_1);
+		L_2 = VirtFuncInvoker0< int64_t >::Invoke(12 /* System.Int64 System.IO.Stream::get_Position() */, L_1);
 		V_0 = L_2;
 		// _stream.Position = _waveStartPosition;
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_3 = __this->get__stream_4();
 		int64_t L_4 = __this->get__waveStartPosition_1();
 		NullCheck(L_3);
-		VirtActionInvoker1< int64_t >::Invoke(12 /* System.Void System.IO.Stream::set_Position(System.Int64) */, L_3, L_4);
+		VirtActionInvoker1< int64_t >::Invoke(13 /* System.Void System.IO.Stream::set_Position(System.Int64) */, L_3, L_4);
 		// WriteRiffHeader();
 		WaveWriter_WriteRiffHeader_m2A8F407ABDBA6C595818EF5C1C37FCAFC63A6DB9(__this, /*hidden argument*/NULL);
 		// WriteFmtChunk();
@@ -22877,7 +22877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaveWriter_WriteHeader_m0D77D86D414439F0
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_6 = __this->get__stream_4();
 		int64_t L_7 = V_0;
 		NullCheck(L_6);
-		VirtActionInvoker1< int64_t >::Invoke(12 /* System.Void System.IO.Stream::set_Position(System.Int64) */, L_6, L_7);
+		VirtActionInvoker1< int64_t >::Invoke(13 /* System.Void System.IO.Stream::set_Position(System.Int64) */, L_6, L_7);
 		// }
 		return;
 	}
@@ -22901,15 +22901,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaveWriter_WriteRiffHeader_m2A8F407ABDBA
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_2;
 		L_2 = VirtFuncInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, String_t* >::Invoke(25 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_1, _stringLiteral54E6A56386072FAEC10025F380D0CC554BAC0758);
 		NullCheck(L_0);
-		VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(11 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_0, L_2);
+		VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(12 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_0, L_2);
 		// _writer.Write((int) (_stream.Length - 8));
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_3 = __this->get__writer_5();
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_4 = __this->get__stream_4();
 		NullCheck(L_4);
 		int64_t L_5;
-		L_5 = VirtFuncInvoker0< int64_t >::Invoke(10 /* System.Int64 System.IO.Stream::get_Length() */, L_4);
+		L_5 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Length() */, L_4);
 		NullCheck(L_3);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_3, ((int32_t)((int32_t)((int64_t)il2cpp_codegen_subtract((int64_t)L_5, (int64_t)((int64_t)((int64_t)8)))))));
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_3, ((int32_t)((int32_t)((int64_t)il2cpp_codegen_subtract((int64_t)L_5, (int64_t)((int64_t)((int64_t)8)))))));
 		// _writer.Write(Encoding.UTF8.GetBytes("WAVE"));
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_6 = __this->get__writer_5();
 		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_7;
@@ -22918,7 +22918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaveWriter_WriteRiffHeader_m2A8F407ABDBA
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_8;
 		L_8 = VirtFuncInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, String_t* >::Invoke(25 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_7, _stringLiteralA77FDC67CD3D8A6113B858540BA409191CDF979E);
 		NullCheck(L_6);
-		VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(11 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_6, L_8);
+		VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(12 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_6, L_8);
 		// }
 		return;
 	}
@@ -22993,16 +22993,16 @@ IL_003d:
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_10;
 		L_10 = VirtFuncInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, String_t* >::Invoke(25 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_9, _stringLiteralB6894A493D9B16556A8AF2157FE4DFA1C4747B3F);
 		NullCheck(L_8);
-		VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(11 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_8, L_10);
+		VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(12 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_8, L_10);
 		// _writer.Write((int)16);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_11 = __this->get__writer_5();
 		NullCheck(L_11);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_11, ((int32_t)16));
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_11, ((int32_t)16));
 		// _writer.Write((short) tag);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_12 = __this->get__writer_5();
 		int16_t L_13 = V_0;
 		NullCheck(L_12);
-		VirtActionInvoker1< int16_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int16) */, L_12, L_13);
+		VirtActionInvoker1< int16_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int16) */, L_12, L_13);
 		// _writer.Write((short)_waveFormat.Channels);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_14 = __this->get__writer_5();
 		WaveFormat_t02A17A03A0943544DF757584B63D70F78FF167FE * L_15 = __this->get__waveFormat_0();
@@ -23010,7 +23010,7 @@ IL_003d:
 		int32_t L_16;
 		L_16 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 CSCore.WaveFormat::get_Channels() */, L_15);
 		NullCheck(L_14);
-		VirtActionInvoker1< int16_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int16) */, L_14, ((int16_t)((int16_t)L_16)));
+		VirtActionInvoker1< int16_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int16) */, L_14, ((int16_t)((int16_t)L_16)));
 		// _writer.Write((int)_waveFormat.SampleRate);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_17 = __this->get__writer_5();
 		WaveFormat_t02A17A03A0943544DF757584B63D70F78FF167FE * L_18 = __this->get__waveFormat_0();
@@ -23018,7 +23018,7 @@ IL_003d:
 		int32_t L_19;
 		L_19 = VirtFuncInvoker0< int32_t >::Invoke(8 /* System.Int32 CSCore.WaveFormat::get_SampleRate() */, L_18);
 		NullCheck(L_17);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_17, L_19);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_17, L_19);
 		// _writer.Write((int)_waveFormat.BytesPerSecond);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_20 = __this->get__writer_5();
 		WaveFormat_t02A17A03A0943544DF757584B63D70F78FF167FE * L_21 = __this->get__waveFormat_0();
@@ -23026,7 +23026,7 @@ IL_003d:
 		int32_t L_22;
 		L_22 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 CSCore.WaveFormat::get_BytesPerSecond() */, L_21);
 		NullCheck(L_20);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_20, L_22);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_20, L_22);
 		// _writer.Write((short) _waveFormat.BlockAlign);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_23 = __this->get__writer_5();
 		WaveFormat_t02A17A03A0943544DF757584B63D70F78FF167FE * L_24 = __this->get__waveFormat_0();
@@ -23034,7 +23034,7 @@ IL_003d:
 		int32_t L_25;
 		L_25 = VirtFuncInvoker0< int32_t >::Invoke(12 /* System.Int32 CSCore.WaveFormat::get_BlockAlign() */, L_24);
 		NullCheck(L_23);
-		VirtActionInvoker1< int16_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int16) */, L_23, ((int16_t)((int16_t)L_25)));
+		VirtActionInvoker1< int16_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int16) */, L_23, ((int16_t)((int16_t)L_25)));
 		// _writer.Write((short)_waveFormat.BitsPerSample);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_26 = __this->get__writer_5();
 		WaveFormat_t02A17A03A0943544DF757584B63D70F78FF167FE * L_27 = __this->get__waveFormat_0();
@@ -23042,7 +23042,7 @@ IL_003d:
 		int32_t L_28;
 		L_28 = VirtFuncInvoker0< int32_t >::Invoke(14 /* System.Int32 CSCore.WaveFormat::get_BitsPerSample() */, L_27);
 		NullCheck(L_26);
-		VirtActionInvoker1< int16_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int16) */, L_26, ((int16_t)((int16_t)L_28)));
+		VirtActionInvoker1< int16_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int16) */, L_26, ((int16_t)((int16_t)L_28)));
 		// }
 		return;
 	}
@@ -23065,12 +23065,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaveWriter_WriteDataChunk_m984A0576E71B2
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_2;
 		L_2 = VirtFuncInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, String_t* >::Invoke(25 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_1, _stringLiteralA44A39671D4B7FA8FBE50D795EAB52248D5C5469);
 		NullCheck(L_0);
-		VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(11 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_0, L_2);
+		VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(12 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_0, L_2);
 		// _writer.Write(_dataLength);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_3 = __this->get__writer_5();
 		int32_t L_4 = __this->get__dataLength_2();
 		NullCheck(L_3);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_3, L_4);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_3, L_4);
 		// }
 		return;
 	}

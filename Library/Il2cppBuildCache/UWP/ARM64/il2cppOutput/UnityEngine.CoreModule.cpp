@@ -645,6 +645,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral5896E795CCFA391EB03B7F3D54DE5DFB4D414AC3
 IL2CPP_EXTERN_C String_t* _stringLiteral5DFF648DF22D7DC3373E60FA0AE6F1D56AF98635;
 IL2CPP_EXTERN_C String_t* _stringLiteral6C5C0435D770C34838B418825A7DF4290867564D;
 IL2CPP_EXTERN_C String_t* _stringLiteral6FC8A3409851599FCC995B0B63300CE4AA4839CD;
+IL2CPP_EXTERN_C String_t* _stringLiteral75B9A3D1CB5E5647E1343BB548B64781DB8CC405;
 IL2CPP_EXTERN_C String_t* _stringLiteral760203E13224A5DA5FB5B9D822A5C241EF35C453;
 IL2CPP_EXTERN_C String_t* _stringLiteral782FFCBA2148FFA43AFBD99A02A5B50FA716B527;
 IL2CPP_EXTERN_C String_t* _stringLiteral78F76DF76B8A73793F0A2DF2DF88F3744B64E7AD;
@@ -715,6 +716,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Graphics_DrawMeshInstanced_m295AC421844D2DF
 IL2CPP_EXTERN_C const RuntimeMethod* Graphics_DrawMeshInstanced_m8044A591193F180EACCA4C78023DCCB1CFF12FBC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Graphics_DrawMesh_m660FFD07BB8E3CC95E4FFD5C24B75565A3986652_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeywordRecognizer__ctor_m86A6F9743F04144833FCED18CC2FCDA6644D208B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LayerMask_GetMask_m46D2185735D02C7DEE01E3BAAF4A39F2AB46F67F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* LinearColor_Convert_m7C35C63BFFDD93EBCC6E8050567B79562B82823A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* LinearColor_set_blue_mB65DC7FD20C551501BC181C457D010DCEECDEE7F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* LinearColor_set_green_m6E196AC12B067ED8AEF3B7C7E9DA1B80B9550B89_RuntimeMethod_var;
@@ -8726,6 +8728,64 @@ public:
 };
 
 
+// UnityEngine.Windows.WebCam.CameraParameters
+struct CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 
+{
+public:
+	// System.Single UnityEngine.Windows.WebCam.CameraParameters::m_HologramOpacity
+	float ___m_HologramOpacity_0;
+	// System.Single UnityEngine.Windows.WebCam.CameraParameters::m_FrameRate
+	float ___m_FrameRate_1;
+	// System.Int32 UnityEngine.Windows.WebCam.CameraParameters::m_CameraResolutionWidth
+	int32_t ___m_CameraResolutionWidth_2;
+	// System.Int32 UnityEngine.Windows.WebCam.CameraParameters::m_CameraResolutionHeight
+	int32_t ___m_CameraResolutionHeight_3;
+	// UnityEngine.Windows.WebCam.CapturePixelFormat UnityEngine.Windows.WebCam.CameraParameters::m_PixelFormat
+	int32_t ___m_PixelFormat_4;
+
+public:
+	inline static int32_t get_offset_of_m_HologramOpacity_0() { return static_cast<int32_t>(offsetof(CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965, ___m_HologramOpacity_0)); }
+	inline float get_m_HologramOpacity_0() const { return ___m_HologramOpacity_0; }
+	inline float* get_address_of_m_HologramOpacity_0() { return &___m_HologramOpacity_0; }
+	inline void set_m_HologramOpacity_0(float value)
+	{
+		___m_HologramOpacity_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_FrameRate_1() { return static_cast<int32_t>(offsetof(CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965, ___m_FrameRate_1)); }
+	inline float get_m_FrameRate_1() const { return ___m_FrameRate_1; }
+	inline float* get_address_of_m_FrameRate_1() { return &___m_FrameRate_1; }
+	inline void set_m_FrameRate_1(float value)
+	{
+		___m_FrameRate_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_CameraResolutionWidth_2() { return static_cast<int32_t>(offsetof(CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965, ___m_CameraResolutionWidth_2)); }
+	inline int32_t get_m_CameraResolutionWidth_2() const { return ___m_CameraResolutionWidth_2; }
+	inline int32_t* get_address_of_m_CameraResolutionWidth_2() { return &___m_CameraResolutionWidth_2; }
+	inline void set_m_CameraResolutionWidth_2(int32_t value)
+	{
+		___m_CameraResolutionWidth_2 = value;
+	}
+
+	inline static int32_t get_offset_of_m_CameraResolutionHeight_3() { return static_cast<int32_t>(offsetof(CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965, ___m_CameraResolutionHeight_3)); }
+	inline int32_t get_m_CameraResolutionHeight_3() const { return ___m_CameraResolutionHeight_3; }
+	inline int32_t* get_address_of_m_CameraResolutionHeight_3() { return &___m_CameraResolutionHeight_3; }
+	inline void set_m_CameraResolutionHeight_3(int32_t value)
+	{
+		___m_CameraResolutionHeight_3 = value;
+	}
+
+	inline static int32_t get_offset_of_m_PixelFormat_4() { return static_cast<int32_t>(offsetof(CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965, ___m_PixelFormat_4)); }
+	inline int32_t get_m_PixelFormat_4() const { return ___m_PixelFormat_4; }
+	inline int32_t* get_address_of_m_PixelFormat_4() { return &___m_PixelFormat_4; }
+	inline void set_m_PixelFormat_4(int32_t value)
+	{
+		___m_PixelFormat_4 = value;
+	}
+};
+
+
 // UnityEngine.Experimental.Playables.CameraPlayable
 struct CameraPlayable_t0677497EB93984A6712D7DF07F7620290E1CE1FD 
 {
@@ -12889,6 +12949,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_AddCommandBufferImpl_mE7302320606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_RemoveCommandBufferImpl_mD35499AF3AA5F880EAF57ADB9B3605C30311BD94 (Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C * __this, int32_t ___evt0, CommandBuffer_t25CD231BD3E822660339DB7D0E8F8ED6B7DBEA29 * ___buffer1, const RuntimeMethod* method);
 // System.Void UnityEngine.Camera/CameraCallback::Invoke(UnityEngine.Camera)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraCallback_Invoke_m52ACC6D0C6BA5A247A24DB9C63D4340B2EF97B24 (CameraCallback_tD9E7B69E561CE2EFDEEDB0E7F1406AC52247160D * __this, Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C * ___cam0, const RuntimeMethod* method);
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_hologramOpacity(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_hologramOpacity_mEBA8173F3E9C2B667D1CEC9E02FE27F40840D1C2 (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, float ___value0, const RuntimeMethod* method);
+// System.Int32 UnityEngine.Windows.WebCam.CameraParameters::get_cameraResolutionWidth()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CameraParameters_get_cameraResolutionWidth_m8BD260A532215328046C331323C1D15658B188DC (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_cameraResolutionWidth(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_cameraResolutionWidth_mE94FDBD9FF805D0B214F8754F56100F699B9BBF2 (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, int32_t ___value0, const RuntimeMethod* method);
+// System.Int32 UnityEngine.Windows.WebCam.CameraParameters::get_cameraResolutionHeight()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CameraParameters_get_cameraResolutionHeight_m3979C6A23AD01B25025310D41CB9FF9E8B5F4E2B (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_cameraResolutionHeight(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_cameraResolutionHeight_m6D59543C15169DBB84D1F1749FDC98721E152AFB (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, int32_t ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_pixelFormat(UnityEngine.Windows.WebCam.CapturePixelFormat)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_pixelFormat_m1198D32C2E3FCD471AB171FEED9F288E306AD5AA (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, int32_t ___value0, const RuntimeMethod* method);
 // UnityEngine.Playables.PlayableHandle UnityEngine.Experimental.Playables.CameraPlayable::GetHandle()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayableHandle_t50DCD240B0400DDAD0822C13E5DBC7AD64DC027A  CameraPlayable_GetHandle_m12A0FB549E5257C9AEBCF76B6E2DC49FE5F8B7C5 (CameraPlayable_t0677497EB93984A6712D7DF07F7620290E1CE1FD * __this, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Playables.PlayableHandle::op_Equality(UnityEngine.Playables.PlayableHandle,UnityEngine.Playables.PlayableHandle)
@@ -13361,6 +13433,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Launcher_InternalLaunchUri_mCBB48AF046F5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_get_value_m6380C7449537F99361797225E179A9448A53DDF9 (LayerMask_t5FA647D8C300EA0621360CA4424717C3C73190A8 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.LayerMask::set_value(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayerMask_set_value_mE825B6131A75814FCF2EA32ECBE2A205E6531585 (LayerMask_t5FA647D8C300EA0621360CA4424717C3C73190A8 * __this, int32_t ___value0, const RuntimeMethod* method);
+// System.Int32 UnityEngine.LayerMask::NameToLayer(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_NameToLayer_m6A2BBB60EC90F7EC48A6A91CA98149C547A04C0A (String_t* ___layerName0, const RuntimeMethod* method);
 // System.Void UnityEngine.Light::get_color_Injected(UnityEngine.Color&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_get_color_Injected_mFC80DFA291AB496FAE0BC39E82460F6653B3362D (Light_tA2F349FE839781469A0344CF6039B51512394275 * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 * ___ret0, const RuntimeMethod* method);
 // System.Void UnityEngine.Light::set_color_Injected(UnityEngine.Color&)
@@ -13618,8 +13692,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Pow_mC2C8700DAAD1316AA457A1D271F7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Log_m05D6B4CE873ABBA5D8E39F798BBB67D49ABECE2C (double ___a0, double ___newBase1, const RuntimeMethod* method);
 // System.Single UnityEngine.Mathf::Sign(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_Sign_m01716387C82B9523CFFADED7B2037D75F57FE2FB (float ___f0, const RuntimeMethod* method);
-// System.Single UnityEngine.Mathf::Repeat(System.Single,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_Repeat_mBAB712BA039DF58DBB1B31B669E502C54F3F13CE (float ___t0, float ___length1, const RuntimeMethod* method);
 // System.Single System.Threading.Interlocked::CompareExchange(System.Single&,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Interlocked_CompareExchange_mA528BE971E65DE5E3E624AEFB2370416FC6D7D8E (float* ___location10, float ___value1, float ___comparand2, const RuntimeMethod* method);
 // System.Void UnityEngine.Matrix4x4::GetRotation_Injected(UnityEngine.Matrix4x4&,UnityEngine.Quaternion&)
@@ -13989,7 +14061,7 @@ IL_00fd:
 		L_48 = VirtFuncInvoker0< Assembly_t * >::Invoke(25 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_47);
 		NullCheck(L_48);
 		AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * L_49;
-		L_49 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(23 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_48);
+		L_49 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(21 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_48);
 		NullCheck(L_49);
 		String_t* L_50;
 		L_50 = AssemblyName_get_Name_m8558532350989A6DE33C188FD1A470187DFEA911_inline(L_49, /*hidden argument*/NULL);
@@ -21910,6 +21982,122 @@ IL_0013:
 		bool L_2 = V_0;
 		return L_2;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_hologramOpacity(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_hologramOpacity_mEBA8173F3E9C2B667D1CEC9E02FE27F40840D1C2 (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, float ___value0, const RuntimeMethod* method)
+{
+	{
+		float L_0 = ___value0;
+		__this->set_m_HologramOpacity_0(L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void CameraParameters_set_hologramOpacity_mEBA8173F3E9C2B667D1CEC9E02FE27F40840D1C2_AdjustorThunk (RuntimeObject * __this, float ___value0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * _thisAdjusted = reinterpret_cast<CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 *>(__this + _offset);
+	CameraParameters_set_hologramOpacity_mEBA8173F3E9C2B667D1CEC9E02FE27F40840D1C2(_thisAdjusted, ___value0, method);
+}
+// System.Int32 UnityEngine.Windows.WebCam.CameraParameters::get_cameraResolutionWidth()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CameraParameters_get_cameraResolutionWidth_m8BD260A532215328046C331323C1D15658B188DC (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_m_CameraResolutionWidth_2();
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  int32_t CameraParameters_get_cameraResolutionWidth_m8BD260A532215328046C331323C1D15658B188DC_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * _thisAdjusted = reinterpret_cast<CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 *>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = CameraParameters_get_cameraResolutionWidth_m8BD260A532215328046C331323C1D15658B188DC(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_cameraResolutionWidth(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_cameraResolutionWidth_mE94FDBD9FF805D0B214F8754F56100F699B9BBF2 (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_m_CameraResolutionWidth_2(L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void CameraParameters_set_cameraResolutionWidth_mE94FDBD9FF805D0B214F8754F56100F699B9BBF2_AdjustorThunk (RuntimeObject * __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * _thisAdjusted = reinterpret_cast<CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 *>(__this + _offset);
+	CameraParameters_set_cameraResolutionWidth_mE94FDBD9FF805D0B214F8754F56100F699B9BBF2(_thisAdjusted, ___value0, method);
+}
+// System.Int32 UnityEngine.Windows.WebCam.CameraParameters::get_cameraResolutionHeight()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CameraParameters_get_cameraResolutionHeight_m3979C6A23AD01B25025310D41CB9FF9E8B5F4E2B (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_m_CameraResolutionHeight_3();
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  int32_t CameraParameters_get_cameraResolutionHeight_m3979C6A23AD01B25025310D41CB9FF9E8B5F4E2B_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * _thisAdjusted = reinterpret_cast<CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 *>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = CameraParameters_get_cameraResolutionHeight_m3979C6A23AD01B25025310D41CB9FF9E8B5F4E2B(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_cameraResolutionHeight(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_cameraResolutionHeight_m6D59543C15169DBB84D1F1749FDC98721E152AFB (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_m_CameraResolutionHeight_3(L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void CameraParameters_set_cameraResolutionHeight_m6D59543C15169DBB84D1F1749FDC98721E152AFB_AdjustorThunk (RuntimeObject * __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * _thisAdjusted = reinterpret_cast<CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 *>(__this + _offset);
+	CameraParameters_set_cameraResolutionHeight_m6D59543C15169DBB84D1F1749FDC98721E152AFB(_thisAdjusted, ___value0, method);
+}
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_pixelFormat(UnityEngine.Windows.WebCam.CapturePixelFormat)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_pixelFormat_m1198D32C2E3FCD471AB171FEED9F288E306AD5AA (CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_m_PixelFormat_4(L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void CameraParameters_set_pixelFormat_m1198D32C2E3FCD471AB171FEED9F288E306AD5AA_AdjustorThunk (RuntimeObject * __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 * _thisAdjusted = reinterpret_cast<CameraParameters_tA8CA69CDABC65CC198580835143B3C1BDD95D965 *>(__this + _offset);
+	CameraParameters_set_pixelFormat_m1198D32C2E3FCD471AB171FEED9F288E306AD5AA(_thisAdjusted, ___value0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -32411,6 +32599,95 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_NameToLayer_m6A2BBB60EC90F7
 	int32_t icallRetVal = _il2cpp_icall_func(___layerName0);
 	return icallRetVal;
 }
+// System.Int32 UnityEngine.LayerMask::GetMask(System.String[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_GetMask_m46D2185735D02C7DEE01E3BAAF4A39F2AB46F67F (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___layerNames0, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* V_2 = NULL;
+	int32_t V_3 = 0;
+	String_t* V_4 = NULL;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	int32_t V_7 = 0;
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_0 = ___layerNames0;
+		V_1 = (bool)((((RuntimeObject*)(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB * L_2 = (ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB_il2cpp_TypeInfo_var)));
+		ArgumentNullException__ctor_m81AB157B93BFE2FBFDB08B88F84B444293042F97(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral75B9A3D1CB5E5647E1343BB548B64781DB8CC405)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&LayerMask_GetMask_m46D2185735D02C7DEE01E3BAAF4A39F2AB46F67F_RuntimeMethod_var)));
+	}
+
+IL_0014:
+	{
+		V_0 = 0;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_3 = ___layerNames0;
+		V_2 = L_3;
+		V_3 = 0;
+		goto IL_0049;
+	}
+
+IL_001d:
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_4 = V_2;
+		int32_t L_5 = V_3;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		String_t* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_4 = L_7;
+		String_t* L_8 = V_4;
+		int32_t L_9;
+		L_9 = LayerMask_NameToLayer_m6A2BBB60EC90F7EC48A6A91CA98149C547A04C0A(L_8, /*hidden argument*/NULL);
+		V_5 = L_9;
+		int32_t L_10 = V_5;
+		V_6 = (bool)((((int32_t)((((int32_t)L_10) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_11 = V_6;
+		if (!L_11)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		int32_t L_12 = V_0;
+		int32_t L_13 = V_5;
+		V_0 = ((int32_t)((int32_t)L_12|(int32_t)((int32_t)((int32_t)1<<(int32_t)((int32_t)((int32_t)L_13&(int32_t)((int32_t)31)))))));
+	}
+
+IL_0044:
+	{
+		int32_t L_14 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_14, (int32_t)1));
+	}
+
+IL_0049:
+	{
+		int32_t L_15 = V_3;
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_16 = V_2;
+		NullCheck(L_16);
+		if ((((int32_t)L_15) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_16)->max_length))))))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_17 = V_0;
+		V_7 = L_17;
+		goto IL_0054;
+	}
+
+IL_0054:
+	{
+		int32_t L_18 = V_7;
+		return L_18;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -35453,7 +35730,7 @@ IL_0021:
 		int32_t L_10 = ___count2;
 		NullCheck(L_7);
 		int32_t L_11;
-		L_11 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(29 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_7, L_8, L_9, L_10);
+		L_11 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(31 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_7, L_8, L_9, L_10);
 		*((int32_t*)L_6) = (int32_t)L_11;
 		return;
 	}
@@ -35497,7 +35774,7 @@ IL_0020:
 		uint32_t L_9 = ___origin1;
 		NullCheck(L_7);
 		int64_t L_10;
-		L_10 = VirtFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(27 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_7, L_8, L_9);
+		L_10 = VirtFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(29 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_7, L_8, L_9);
 		*((int64_t*)L_6) = (int64_t)L_10;
 		return;
 	}
@@ -35539,7 +35816,7 @@ IL_0020:
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_7 = ___stream0;
 		NullCheck(L_7);
 		int64_t L_8;
-		L_8 = VirtFuncInvoker0< int64_t >::Invoke(10 /* System.Int64 System.IO.Stream::get_Length() */, L_7);
+		L_8 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Length() */, L_7);
 		*((int64_t*)L_6) = (int64_t)L_8;
 		return;
 	}
@@ -38557,31 +38834,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_Repeat_mBAB712BA039DF58DBB1B31B66
 	}
 
 IL_001b:
-	{
-		float L_7 = V_0;
-		return L_7;
-	}
-}
-// System.Single UnityEngine.Mathf::PingPong(System.Single,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_PingPong_m60A376FCA7185AA90B41A22379058923565193D1 (float ___t0, float ___length1, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___t0;
-		float L_1 = ___length1;
-		float L_2;
-		L_2 = Mathf_Repeat_mBAB712BA039DF58DBB1B31B669E502C54F3F13CE(L_0, ((float)il2cpp_codegen_multiply((float)L_1, (float)(2.0f))), /*hidden argument*/NULL);
-		___t0 = L_2;
-		float L_3 = ___length1;
-		float L_4 = ___t0;
-		float L_5 = ___length1;
-		float L_6;
-		L_6 = fabsf(((float)il2cpp_codegen_subtract((float)L_4, (float)L_5)));
-		V_0 = ((float)il2cpp_codegen_subtract((float)L_3, (float)L_6));
-		goto IL_001d;
-	}
-
-IL_001d:
 	{
 		float L_7 = V_0;
 		return L_7;

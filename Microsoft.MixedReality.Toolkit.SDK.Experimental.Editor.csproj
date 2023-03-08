@@ -324,8 +324,11 @@
     <Reference Include="Google.JarResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.JarResolver.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="System.Reflection.TypeExtensions">
+      <HintPath>Assets\Azure Storage\Plugins\System.Reflection.TypeExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage">
+      <HintPath>Assets\Azure Storage\Plugins\Microsoft.WindowsAzure.Storage.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Tasks">
       <HintPath>Assets\Parse\Plugins\dotNet45\Unity.Tasks.dll</HintPath>
@@ -335,6 +338,9 @@
     </Reference>
     <Reference Include="Unity.Compat">
       <HintPath>Assets\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Azure Storage\Plugins\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -718,13 +724,13 @@
       <Project>{22E72961-E583-44E1-B731-29AA42D1F167}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{4F4F55A0-A9EC-68E1-D3A9-1DCC779EF04B}</Project>

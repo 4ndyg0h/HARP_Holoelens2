@@ -28859,7 +28859,7 @@ IL_01ed:
 					L_47 = VirtFuncInvoker0< Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * >::Invoke(5 /* System.IO.Stream System.IO.BinaryReader::get_BaseStream() */, L_46);
 					NullCheck(L_47);
 					int64_t L_48;
-					L_48 = VirtFuncInvoker0< int64_t >::Invoke(10 /* System.Int64 System.IO.Stream::get_Length() */, L_47);
+					L_48 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Length() */, L_47);
 					NullCheck(L_45);
 					ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_49;
 					L_49 = VirtFuncInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t >::Invoke(25 /* System.Byte[] System.IO.BinaryReader::ReadBytes(System.Int32) */, L_45, ((int32_t)((int32_t)L_48)));
@@ -28998,7 +28998,7 @@ IL_029d:
 					L_66 = VirtFuncInvoker0< Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * >::Invoke(5 /* System.IO.Stream System.IO.BinaryReader::get_BaseStream() */, L_65);
 					NullCheck(L_66);
 					int64_t L_67;
-					L_67 = VirtFuncInvoker0< int64_t >::Invoke(10 /* System.Int64 System.IO.Stream::get_Length() */, L_66);
+					L_67 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Length() */, L_66);
 					NullCheck(L_64);
 					ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_68;
 					L_68 = VirtFuncInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t >::Invoke(25 /* System.Byte[] System.IO.BinaryReader::ReadBytes(System.Int32) */, L_64, ((int32_t)((int32_t)L_67)));
@@ -29169,7 +29169,7 @@ IL_0386:
 					L_96 = VirtFuncInvoker0< Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * >::Invoke(5 /* System.IO.Stream System.IO.BinaryReader::get_BaseStream() */, L_95);
 					NullCheck(L_96);
 					int64_t L_97;
-					L_97 = VirtFuncInvoker0< int64_t >::Invoke(10 /* System.Int64 System.IO.Stream::get_Length() */, L_96);
+					L_97 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Length() */, L_96);
 					NullCheck(L_94);
 					ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_98;
 					L_98 = VirtFuncInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t >::Invoke(25 /* System.Byte[] System.IO.BinaryReader::ReadBytes(System.Int32) */, L_94, ((int32_t)((int32_t)L_97)));

@@ -24858,7 +24858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HPMixedRealityControllerProfile_Unregist
 		L_1 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_1);
+		L_2 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_1);
 		IL2CPP_RUNTIME_CLASS_INIT(InputSystem_t6F1EF32494CBBFE3270F03F3BF728BCADA04940D_il2cpp_TypeInfo_var);
 		InputSystem_RemoveLayout_m8BAD13FC1136FEF656CB5E2B52F7186CEC4920B9(L_2, /*hidden argument*/NULL);
 		// }
@@ -31159,7 +31159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRRuntimeRestartHandler__ctor_m705C6
 		L_3 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_2, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
 		__this->set_m_featureName_0(L_4);
 		// m_skipRestart = skipRestart;
 		Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  L_5 = ___skipRestart1;
@@ -32969,7 +32969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PluginEnvironmentSubsystem_InitializePlu
 		L_6 = VirtFuncInvoker0< Assembly_t * >::Invoke(25 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_5);
 		NullCheck(L_6);
 		AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * L_7;
-		L_7 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(23 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_6);
+		L_7 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(21 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_6);
 		NullCheck(L_7);
 		Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * L_8;
 		L_8 = AssemblyName_get_Version_m1E5978822709B7B59BEB504A8BC567823766497D_inline(L_7, /*hidden argument*/NULL);

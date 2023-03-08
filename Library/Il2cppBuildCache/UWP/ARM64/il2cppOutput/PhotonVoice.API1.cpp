@@ -3486,10 +3486,10 @@ struct VideoEncodingProperties_tB931B28CA106B50350C557C248D5E64197C105B3_StaticF
 public:
 	// Cached pointer to IActivationFactory
 	Il2CppIActivationFactory* activationFactory;
-	// Cached pointer to Windows.Media.MediaProperties.IVideoEncodingPropertiesStatics2
-	IVideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415* ____ivideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415;
 	// Cached pointer to Windows.Media.MediaProperties.IVideoEncodingPropertiesStatics
 	IVideoEncodingPropertiesStatics_tF225AC3CF5A0030B4489166978F6FC23C93F8603* ____ivideoEncodingPropertiesStatics_tF225AC3CF5A0030B4489166978F6FC23C93F8603;
+	// Cached pointer to Windows.Media.MediaProperties.IVideoEncodingPropertiesStatics2
+	IVideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415* ____ivideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415;
 
 public:
 	inline Il2CppIActivationFactory* get_activationFactory()
@@ -3509,23 +3509,6 @@ public:
 		return returnValue;
 	}
 
-	inline IVideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415* get_____ivideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415()
-	{
-		IVideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415* returnValue = ____ivideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415;
-		if (returnValue == NULL)
-		{
-			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IVideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415::IID, reinterpret_cast<void**>(&returnValue));
-			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&____ivideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415), returnValue, NULL) != NULL)
-			{
-				returnValue->Release();
-				returnValue = ____ivideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415;
-			}
-		}
-		return returnValue;
-	}
-
 	inline IVideoEncodingPropertiesStatics_tF225AC3CF5A0030B4489166978F6FC23C93F8603* get_____ivideoEncodingPropertiesStatics_tF225AC3CF5A0030B4489166978F6FC23C93F8603()
 	{
 		IVideoEncodingPropertiesStatics_tF225AC3CF5A0030B4489166978F6FC23C93F8603* returnValue = ____ivideoEncodingPropertiesStatics_tF225AC3CF5A0030B4489166978F6FC23C93F8603;
@@ -3538,6 +3521,23 @@ public:
 			{
 				returnValue->Release();
 				returnValue = ____ivideoEncodingPropertiesStatics_tF225AC3CF5A0030B4489166978F6FC23C93F8603;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IVideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415* get_____ivideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415()
+	{
+		IVideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415* returnValue = ____ivideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IVideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&____ivideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ivideoEncodingPropertiesStatics2_tE900AF567301FF3A174580A7A9E368CDD16DD415;
 			}
 		}
 		return returnValue;

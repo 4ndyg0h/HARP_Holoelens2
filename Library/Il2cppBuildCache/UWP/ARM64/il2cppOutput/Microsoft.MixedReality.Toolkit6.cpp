@@ -12117,7 +12117,7 @@ IL_012f:
 					String_t* L_38 = __this->get_U3CgetObjDataU3E5__1_5();
 					NullCheck(L_37);
 					Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_39;
-					L_39 = VirtFuncInvoker1< Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 *, String_t* >::Invoke(23 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_37, L_38);
+					L_39 = VirtFuncInvoker1< Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 *, String_t* >::Invoke(25 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_37, L_38);
 					NullCheck(L_39);
 					TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_40;
 					L_40 = Task_GetAwaiter_m1FF7528A8FE13F79207DFE970F642078EF6B1260(L_39, /*hidden argument*/NULL);
@@ -17645,7 +17645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0_U3CGetAllSubCla
 		Type_t * L_7 = __this->get_rootType_0();
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtFuncInvoker1< bool, Type_t * >::Invoke(118 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_6, L_7);
+		L_8 = VirtFuncInvoker1< bool, Type_t * >::Invoke(123 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_6, L_7);
 		G_B5_0 = ((int32_t)(L_8));
 		goto IL_0029;
 	}

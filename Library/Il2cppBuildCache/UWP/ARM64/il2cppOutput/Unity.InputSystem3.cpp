@@ -17727,7 +17727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputControl_t3CDD1115017147EEC9D825834637D77
 		L_10 = InputControlLayout_get_type_mBFEE2B4C48F87048B4FCF66220E06AD96B4607CD_inline(L_9, /*hidden argument*/NULL);
 		NullCheck(L_10);
 		String_t* L_11;
-		L_11 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_10);
+		L_11 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_10);
 		InputControlLayout_t012E8BC3C93CE8A2A35BFC6A70C52530FFB55917 * L_12 = ___layout0;
 		NullCheck(L_12);
 		InternedString_tD1138602E8B7EA0F5B4851812B13C7E0551E25C8  L_13;
@@ -29925,33 +29925,33 @@ IL_0055:
 		int32_t L_15;
 		L_15 = FourCC_op_Implicit_m2683C67F7A0FD488EDD80223C85270E6A46D7705(L_14, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_13, L_15);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_13, L_15);
 		// writer.Write(kFileVersion);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_16 = V_0;
 		int32_t L_17 = ((InputEventTrace_t905233FE94AEA5F3A748CF627D1766D827D593A9_StaticFields*)il2cpp_codegen_static_fields_for(InputEventTrace_t905233FE94AEA5F3A748CF627D1766D827D593A9_il2cpp_TypeInfo_var))->get_kFileVersion_17();
 		NullCheck(L_16);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_16, L_17);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_16, L_17);
 		// writer.Write((int)flags);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_18 = V_0;
 		int32_t L_19 = V_1;
 		NullCheck(L_18);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_18, L_19);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_18, L_19);
 		// writer.Write((int)Application.platform);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_20 = V_0;
 		int32_t L_21;
 		L_21 = Application_get_platform_mB22F7F39CDD46667C3EF64507E55BB7DA18F66C4(/*hidden argument*/NULL);
 		NullCheck(L_20);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_20, L_21);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_20, L_21);
 		// writer.Write((ulong)m_EventCount);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_22 = V_0;
 		int64_t L_23 = __this->get_m_EventCount_9();
 		NullCheck(L_22);
-		VirtActionInvoker1< uint64_t >::Invoke(21 /* System.Void System.IO.BinaryWriter::Write(System.UInt64) */, L_22, L_23);
+		VirtActionInvoker1< uint64_t >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.UInt64) */, L_22, L_23);
 		// writer.Write((ulong)m_EventSizeInBytes);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_24 = V_0;
 		int64_t L_25 = __this->get_m_EventSizeInBytes_10();
 		NullCheck(L_24);
-		VirtActionInvoker1< uint64_t >::Invoke(21 /* System.Void System.IO.BinaryWriter::Write(System.UInt64) */, L_24, L_25);
+		VirtActionInvoker1< uint64_t >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.UInt64) */, L_24, L_25);
 		// foreach (var eventPtr in this)
 		RuntimeObject* L_26;
 		L_26 = InputEventTrace_GetEnumerator_m5CAEC4674F38ADBCE1A2262187B486DE902441D0(__this, /*hidden argument*/NULL);
@@ -30032,7 +30032,7 @@ IL_00e5:
 				BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_39 = V_0;
 				ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_40 = V_11;
 				NullCheck(L_39);
-				VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(11 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_39, L_40);
+				VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(12 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_39, L_40);
 				IL2CPP_LEAVE(0x108, FINALLY_0104);
 			}
 		} // end try (depth: 2)
@@ -30119,7 +30119,7 @@ IL_0121:
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_46 = ___stream0;
 		NullCheck(L_46);
 		int64_t L_47;
-		L_47 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Position() */, L_46);
+		L_47 = VirtFuncInvoker0< int64_t >::Invoke(12 /* System.Int64 System.IO.Stream::get_Position() */, L_46);
 		V_2 = L_47;
 		// var deviceCount = m_DeviceInfos.LengthSafe();
 		DeviceInfoU5BU5D_t2C1887253EA44617BE47A8883AD4A052FBA286EF* L_48 = __this->get_m_DeviceInfos_16();
@@ -30130,7 +30130,7 @@ IL_0121:
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_50 = V_0;
 		int32_t L_51 = V_3;
 		NullCheck(L_50);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_50, L_51);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_50, L_51);
 		// for (var i = 0; i < deviceCount; ++i)
 		V_14 = 0;
 		goto IL_01b3;
@@ -30149,14 +30149,14 @@ IL_0148:
 		int32_t L_56;
 		L_56 = DeviceInfo_get_deviceId_m8243FAC5A47490FB42D01933BC233F0DB9CDCE2E_inline((DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 *)L_55, /*hidden argument*/NULL);
 		NullCheck(L_54);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_54, L_56);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_54, L_56);
 		// writer.Write(device.layout);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_57 = V_0;
 		DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 * L_58 = V_15;
 		String_t* L_59;
 		L_59 = DeviceInfo_get_layout_mCC81E275C79CDF365D9F0E2CD2855EF17E00219B_inline((DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 *)L_58, /*hidden argument*/NULL);
 		NullCheck(L_57);
-		VirtActionInvoker1< String_t* >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.String) */, L_57, L_59);
+		VirtActionInvoker1< String_t* >::Invoke(24 /* System.Void System.IO.BinaryWriter::Write(System.String) */, L_57, L_59);
 		// writer.Write(device.stateFormat);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_60 = V_0;
 		DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 * L_61 = V_15;
@@ -30165,14 +30165,14 @@ IL_0148:
 		int32_t L_63;
 		L_63 = FourCC_op_Implicit_m2683C67F7A0FD488EDD80223C85270E6A46D7705(L_62, /*hidden argument*/NULL);
 		NullCheck(L_60);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_60, L_63);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_60, L_63);
 		// writer.Write(device.stateSizeInBytes);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_64 = V_0;
 		DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 * L_65 = V_15;
 		int32_t L_66;
 		L_66 = DeviceInfo_get_stateSizeInBytes_mB4B10645FE849422070498D5648B8AC1C8CB74BB_inline((DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 *)L_65, /*hidden argument*/NULL);
 		NullCheck(L_64);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_64, L_66);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_64, L_66);
 		// writer.Write(device.m_FullLayoutJson ?? string.Empty);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_67 = V_0;
 		DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 * L_68 = V_15;
@@ -30196,7 +30196,7 @@ IL_0148:
 IL_01a6:
 	{
 		NullCheck(G_B24_1);
-		VirtActionInvoker1< String_t* >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.String) */, G_B24_1, G_B24_0);
+		VirtActionInvoker1< String_t* >::Invoke(24 /* System.Void System.IO.BinaryWriter::Write(System.String) */, G_B24_1, G_B24_0);
 		// for (var i = 0; i < deviceCount; ++i)
 		int32_t L_72 = V_14;
 		V_14 = ((int32_t)il2cpp_codegen_add((int32_t)L_72, (int32_t)1));
@@ -30223,14 +30223,14 @@ IL_01b3:
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_77 = ___stream0;
 		NullCheck(L_77);
 		int64_t L_78;
-		L_78 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Position() */, L_77);
+		L_78 = VirtFuncInvoker0< int64_t >::Invoke(12 /* System.Int64 System.IO.Stream::get_Position() */, L_77);
 		int64_t L_79 = V_2;
 		V_4 = ((int64_t)il2cpp_codegen_subtract((int64_t)L_78, (int64_t)L_79));
 		// writer.Write(offsetOfDeviceList);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_80 = V_0;
 		int64_t L_81 = V_4;
 		NullCheck(L_80);
-		VirtActionInvoker1< int64_t >::Invoke(20 /* System.Void System.IO.BinaryWriter::Write(System.Int64) */, L_80, L_81);
+		VirtActionInvoker1< int64_t >::Invoke(21 /* System.Void System.IO.BinaryWriter::Write(System.Int64) */, L_80, L_81);
 		// }
 		return;
 	}
@@ -33327,7 +33327,7 @@ IL_0017:
 		Type_t * L_8 = ___interactionType0;
 		NullCheck(L_8);
 		String_t* L_9;
-		L_9 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_8);
+		L_9 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_8);
 		NullCheck(L_9);
 		bool L_10;
 		L_10 = String_EndsWith_m9A6011FDF8EBFFD3BCB51FE5BE58BE265116DCBE(L_9, _stringLiteralAF8E649A3EF1AB74A43C9F88015FA68AC719215A, /*hidden argument*/NULL);
@@ -33343,11 +33343,11 @@ IL_0017:
 		Type_t * L_12 = ___interactionType0;
 		NullCheck(L_12);
 		String_t* L_13;
-		L_13 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
+		L_13 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
 		Type_t * L_14 = ___interactionType0;
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_14);
+		L_15 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_14);
 		NullCheck(L_15);
 		int32_t L_16;
 		L_16 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_15, /*hidden argument*/NULL);
@@ -33367,7 +33367,7 @@ IL_0061:
 		Type_t * L_19 = ___interactionType0;
 		NullCheck(L_19);
 		String_t* L_20;
-		L_20 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_19);
+		L_20 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_19);
 		V_4 = L_20;
 		goto IL_0075;
 	}
@@ -35150,7 +35150,7 @@ IL_0030:
 		Type_t * L_10 = ___type1;
 		NullCheck(L_9);
 		bool L_11;
-		L_11 = VirtFuncInvoker1< bool, Type_t * >::Invoke(120 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_9, L_10);
+		L_11 = VirtFuncInvoker1< bool, Type_t * >::Invoke(125 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_9, L_10);
 		V_0 = L_11;
 		// var isControlLayout = typeof(InputControl).IsAssignableFrom(type);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_12 = { reinterpret_cast<intptr_t> (InputControl_t3CDD1115017147EEC9D825834637D7700669C006_0_0_0_var) };
@@ -35159,7 +35159,7 @@ IL_0030:
 		Type_t * L_14 = ___type1;
 		NullCheck(L_13);
 		bool L_15;
-		L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(120 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_13, L_14);
+		L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(125 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_13, L_14);
 		V_1 = L_15;
 		// if (!isDeviceLayout && !isControlLayout)
 		bool L_16 = V_0;
@@ -35200,7 +35200,7 @@ IL_005c:
 		Type_t * L_22 = ___type1;
 		NullCheck(L_22);
 		String_t* L_23;
-		L_23 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_22);
+		L_23 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_22);
 		NullCheck(L_21);
 		ArrayElementTypeCheck (L_21, L_23);
 		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_23);
@@ -35215,7 +35215,7 @@ IL_005c:
 		L_27 = VirtFuncInvoker0< Type_t * >::Invoke(31 /* System.Type System.Type::get_BaseType() */, L_26);
 		NullCheck(L_27);
 		String_t* L_28;
-		L_28 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_27);
+		L_28 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_27);
 		NullCheck(L_25);
 		ArrayElementTypeCheck (L_25, L_28);
 		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_28);
@@ -36572,7 +36572,7 @@ IL_0032:
 		Type_t * L_12 = ___type0;
 		NullCheck(L_12);
 		String_t* L_13;
-		L_13 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
+		L_13 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
 		String_t* L_14;
 		L_14 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3C686C624D22B0C45E4FADFB00FA535DDDC88AD7)), L_13, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral86186031B6A596FFFE4131DF258F8F1FF70E4951)), /*hidden argument*/NULL);
 		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_15 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
@@ -37421,7 +37421,7 @@ IL_0017:
 		Type_t * L_6 = ___type0;
 		NullCheck(L_5);
 		bool L_7;
-		L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(120 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_5, L_6);
+		L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(125 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_5, L_6);
 		V_2 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
 		bool L_8 = V_2;
 		if (!L_8)
@@ -37434,7 +37434,7 @@ IL_0017:
 		Type_t * L_9 = ___type0;
 		NullCheck(L_9);
 		String_t* L_10;
-		L_10 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_9);
+		L_10 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_9);
 		String_t* L_11;
 		L_11 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3C686C624D22B0C45E4FADFB00FA535DDDC88AD7)), L_10, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral92B8E551EF78EA21EABB85995C1DDDF9474CD320)), /*hidden argument*/NULL);
 		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_12 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
@@ -37466,7 +37466,7 @@ IL_004e:
 		Type_t * L_18 = ___type0;
 		NullCheck(L_18);
 		String_t* L_19;
-		L_19 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_18);
+		L_19 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_18);
 		String_t* L_20;
 		L_20 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3C686C624D22B0C45E4FADFB00FA535DDDC88AD7)), L_19, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral86186031B6A596FFFE4131DF258F8F1FF70E4951)), /*hidden argument*/NULL);
 		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_21 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
@@ -37610,7 +37610,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InternedString_tD1138602E8B7EA0F5B4851812B13C
 		Type_t * L_19 = V_4;
 		NullCheck(L_18);
 		bool L_20;
-		L_20 = VirtFuncInvoker1< bool, Type_t * >::Invoke(120 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_19);
+		L_20 = VirtFuncInvoker1< bool, Type_t * >::Invoke(125 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_19);
 		G_B5_0 = ((int32_t)(L_20));
 		goto IL_0076;
 	}
@@ -38475,13 +38475,13 @@ IL_0017:
 		Type_t * L_11 = ___type0;
 		NullCheck(L_11);
 		String_t* L_12;
-		L_12 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_11);
+		L_12 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_11);
 		InternedString__ctor_mB33A98941DDF31E6DBC5B152620D5791E69F0AB2((InternedString_tD1138602E8B7EA0F5B4851812B13C7E0551E25C8 *)(&V_0), L_12, /*hidden argument*/NULL);
 		// RegisterControlLayout(type.Name, type);
 		Type_t * L_13 = ___type0;
 		NullCheck(L_13);
 		String_t* L_14;
-		L_14 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_13);
+		L_14 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_13);
 		Type_t * L_15 = ___type0;
 		InputManager_RegisterControlLayout_m7C2D1CCB6F8C91CEEFB5225CFB4567F73FDDF50C(__this, L_14, L_15, /*hidden argument*/NULL);
 	}
@@ -46245,7 +46245,7 @@ CATCH_0097:
 		L_30 = Exception_GetType_mC5B8B5C944B326B751282AB0E8C25A7F85457D9F(L_29, /*hidden argument*/NULL);
 		NullCheck(L_30);
 		String_t* L_31;
-		L_31 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_30);
+		L_31 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_30);
 		StateChangeMonitorListener_t3EA773A27BF227E8391535974BEEE29025F41FFF  L_32 = V_4;
 		RuntimeObject* L_33 = L_32.get_monitor_1();
 		NullCheck(L_33);
@@ -46253,7 +46253,7 @@ CATCH_0097:
 		L_34 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_33, /*hidden argument*/NULL);
 		NullCheck(L_34);
 		String_t* L_35;
-		L_35 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_34);
+		L_35 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_34);
 		StateChangeMonitorListener_t3EA773A27BF227E8391535974BEEE29025F41FFF  L_36 = V_4;
 		InputControl_t3CDD1115017147EEC9D825834637D7700669C006 * L_37 = L_36.get_control_0();
 		String_t* L_38;

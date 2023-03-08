@@ -2964,6 +2964,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* WebConnectionStream_Write_mF986800AF0DCF76B
 IL2CPP_EXTERN_C const RuntimeMethod* WebConnectionStream_get_Position_m6D7E6A53CF48C45093266ADE7FC889D681705F57_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WebConnectionStream_set_Position_m6F7F1305688B252546E7E0A141F22A30C1BB7F70_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WebConnectionStream_set_ReadTimeout_m3FFA3C522E4D32F6A95DBB25DE8D5A7AF157BF81_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WebConnectionStream_set_WriteTimeout_m7581AF13FFE664C31A11015CB221535A2B463133_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WebExceptionMapping_GetWebStatusString_m30EC249DEE18FC7F31A7AE05399C6D7E8CEF6554_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WebHeaderCollection_Add_m2001A99A04978C4DE11DAC26540C04C5EF5CC776_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WebHeaderCollection_Add_m55E340EE0B48470ECF8E265973CA7597C72AB98B_RuntimeMethod_var;
@@ -22251,6 +22252,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB6B87FD76552BBF6D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B (String_t* __this, int32_t ___startIndex0, int32_t ___length1, const RuntimeMethod* method);
 // System.Void System.UriBuilder::SetFieldsFromUri(System.Uri)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_SetFieldsFromUri_mE14583FF29B5A283EB7E86A2ACB0929363E1169D (UriBuilder_t6FF22E0E019C73564385054BE4AF98E6C5EE0F42 * __this, Uri_t4A915E1CC15B2C650F478099AD448E9466CBF612 * ___uri0, const RuntimeMethod* method);
+// System.Void System.UriBuilder::set_Scheme(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Scheme_m0E10F383F85EC52D7C813EAB32226A8997306D9C (UriBuilder_t6FF22E0E019C73564385054BE4AF98E6C5EE0F42 * __this, String_t* ___value0, const RuntimeMethod* method);
+// System.Void System.UriBuilder::set_Host(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Host_mCDF7CD943974DFF97DCA53EF4CC29C32DC6AD8C8 (UriBuilder_t6FF22E0E019C73564385054BE4AF98E6C5EE0F42 * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Char System.String::get_Chars(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar String_get_Chars_m9B1A5E4C8D70AA33A60F03735AF7B77AB9DBBA70 (String_t* __this, int32_t ___index0, const RuntimeMethod* method);
 // System.Int32 System.String::get_Length()
@@ -23917,6 +23922,44 @@ IL_00a4:
 		return;
 	}
 }
+// System.Void System.UriBuilder::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder__ctor_m6969400286928AFD31E3FB217CE5AB08A1408651 (UriBuilder_t6FF22E0E019C73564385054BE4AF98E6C5EE0F42 * __this, String_t* ___schemeName0, String_t* ___hostName1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t4A915E1CC15B2C650F478099AD448E9466CBF612_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58B716FF5428F7961E1403E6D969E605D0F27EAF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5FC154761871B7293BA5D77E57A16A71359FE4E5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set__changed_0((bool)1);
+		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
+		__this->set__fragment_1(L_0);
+		__this->set__host_2(_stringLiteral5FC154761871B7293BA5D77E57A16A71359FE4E5);
+		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
+		__this->set__password_3(L_1);
+		__this->set__path_4(_stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1);
+		__this->set__port_5((-1));
+		String_t* L_2 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
+		__this->set__query_6(L_2);
+		__this->set__scheme_7(_stringLiteral58B716FF5428F7961E1403E6D969E605D0F27EAF);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t4A915E1CC15B2C650F478099AD448E9466CBF612_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((Uri_t4A915E1CC15B2C650F478099AD448E9466CBF612_StaticFields*)il2cpp_codegen_static_fields_for(Uri_t4A915E1CC15B2C650F478099AD448E9466CBF612_il2cpp_TypeInfo_var))->get_SchemeDelimiter_12();
+		__this->set__schemeDelimiter_8(L_3);
+		String_t* L_4 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
+		__this->set__username_10(L_4);
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		String_t* L_5 = ___schemeName0;
+		UriBuilder_set_Scheme_m0E10F383F85EC52D7C813EAB32226A8997306D9C(__this, L_5, /*hidden argument*/NULL);
+		String_t* L_6 = ___hostName1;
+		UriBuilder_set_Host_mCDF7CD943974DFF97DCA53EF4CC29C32DC6AD8C8(__this, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.String System.UriBuilder::get_Host()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UriBuilder_get_Host_mFB2F9A8785720AA151128D8DEB7F2DB1A4EF628E (UriBuilder_t6FF22E0E019C73564385054BE4AF98E6C5EE0F42 * __this, const RuntimeMethod* method)
 {
@@ -23982,6 +24025,14 @@ IL_004c:
 	{
 		__this->set__changed_0((bool)1);
 		return;
+	}
+}
+// System.String System.UriBuilder::get_Path()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UriBuilder_get_Path_m2A549F74EB4205836F43652F7C0F0AA76D996A6D (UriBuilder_t6FF22E0E019C73564385054BE4AF98E6C5EE0F42 * __this, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = __this->get__path_4();
+		return L_0;
 	}
 }
 // System.Void System.UriBuilder::set_Path(System.String)
@@ -24062,6 +24113,14 @@ IL_0017:
 		__this->set__port_5(L_3);
 		__this->set__changed_0((bool)1);
 		return;
+	}
+}
+// System.String System.UriBuilder::get_Query()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UriBuilder_get_Query_m4D7E59E76335C2E31950E88F53742ED94C1A5BDB (UriBuilder_t6FF22E0E019C73564385054BE4AF98E6C5EE0F42 * __this, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = __this->get__query_6();
+		return L_0;
 	}
 }
 // System.Void System.UriBuilder::set_Query(System.String)
@@ -30225,7 +30284,7 @@ IL_00b3:
 		{
 			FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26 * L_27 = V_1;
 			NullCheck(L_27);
-			VirtActionInvoker0::Invoke(17 /* System.Void System.IO.Stream::Close() */, L_27);
+			VirtActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Close() */, L_27);
 			bool L_28 = V_2;
 			if (L_28)
 			{
@@ -31225,7 +31284,7 @@ IL_0090:
 				NullCheck(L_28);
 				Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_29 = L_28->get_WriteStream_1();
 				NullCheck(L_29);
-				VirtActionInvoker0::Invoke(17 /* System.Void System.IO.Stream::Close() */, L_29);
+				VirtActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Close() */, L_29);
 			}
 
 IL_009b:
@@ -31357,7 +31416,7 @@ IL_0018:
 				RuntimeObject* L_6 = ___result1;
 				NullCheck(L_5);
 				int32_t L_7;
-				L_7 = VirtFuncInvoker1< int32_t, RuntimeObject* >::Invoke(22 /* System.Int32 System.IO.Stream::EndRead(System.IAsyncResult) */, L_5, L_6);
+				L_7 = VirtFuncInvoker1< int32_t, RuntimeObject* >::Invoke(24 /* System.Int32 System.IO.Stream::EndRead(System.IAsyncResult) */, L_5, L_6);
 				V_3 = L_7;
 			}
 
@@ -31479,7 +31538,7 @@ IL_0093:
 				NullCheck(L_25);
 				Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_26 = L_25->get_WriteStream_1();
 				NullCheck(L_26);
-				VirtActionInvoker0::Invoke(17 /* System.Void System.IO.Stream::Close() */, L_26);
+				VirtActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Close() */, L_26);
 			}
 
 IL_009e:
@@ -32135,7 +32194,7 @@ IL_009e:
 		{
 			FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26 * L_25 = V_0;
 			NullCheck(L_25);
-			VirtActionInvoker0::Invoke(17 /* System.Void System.IO.Stream::Close() */, L_25);
+			VirtActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Close() */, L_25);
 		}
 
 IL_00a4:
@@ -34812,6 +34871,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2
 		return L_0;
 	}
 }
+// System.Boolean System.Net.WebConnectionStream::get_CanTimeout()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WebConnectionStream_get_CanTimeout_m49CCDF0CD08229822A5F639597D5B15B9208BE24 (WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
 // System.Int32 System.Net.WebConnectionStream::get_ReadTimeout()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WebConnectionStream_get_ReadTimeout_m2F9FBB43610D9D1CCB3845AAA3D1C8173C585E98 (WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918 * __this, const RuntimeMethod* method)
 {
@@ -34849,6 +34915,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WebConnectionStream_get_WriteTimeout_
 	{
 		int32_t L_0 = __this->get_write_timeout_9();
 		return L_0;
+	}
+}
+// System.Void System.Net.WebConnectionStream::set_WriteTimeout(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebConnectionStream_set_WriteTimeout_m7581AF13FFE664C31A11015CB221535A2B463133 (WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918 * __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		if ((((int32_t)L_0) >= ((int32_t)(-1))))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		ArgumentOutOfRangeException_tFAF23713820951D4A09ABBFE5CC091E445A6F3D8 * L_1 = (ArgumentOutOfRangeException_tFAF23713820951D4A09ABBFE5CC091E445A6F3D8 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tFAF23713820951D4A09ABBFE5CC091E445A6F3D8_il2cpp_TypeInfo_var)));
+		ArgumentOutOfRangeException__ctor_m329C2882A4CB69F185E98D0DD7E853AA9220960A(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&WebConnectionStream_set_WriteTimeout_m7581AF13FFE664C31A11015CB221535A2B463133_RuntimeMethod_var)));
+	}
+
+IL_000f:
+	{
+		int32_t L_2 = ___value0;
+		__this->set_write_timeout_9(L_2);
+		return;
 	}
 }
 // System.Exception System.Net.WebConnectionStream::GetException(System.Exception)
@@ -35034,7 +35123,7 @@ IL_0059:
 		CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  L_18;
 		L_18 = CancellationToken_get_None_m13F4B9DCF5D7BE8E9E3F60026C98E50A946FE9DF(/*hidden argument*/NULL);
 		Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 * L_19;
-		L_19 = VirtFuncInvoker4< Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 *, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t, CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  >::Invoke(23 /* System.Threading.Tasks.Task`1<System.Int32> System.IO.Stream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken) */, __this, L_15, L_16, L_17, L_18);
+		L_19 = VirtFuncInvoker4< Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 *, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t, CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  >::Invoke(25 /* System.Threading.Tasks.Task`1<System.Int32> System.IO.Stream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken) */, __this, L_15, L_16, L_17, L_18);
 		NullCheck(L_19);
 		int32_t L_20;
 		L_20 = Task_1_get_Result_m71D1165F8F30E8EDD34A98DBC72B55B15825D005(L_19, /*hidden argument*/Task_1_get_Result_m71D1165F8F30E8EDD34A98DBC72B55B15825D005_RuntimeMethod_var);
@@ -35169,7 +35258,7 @@ IL_0058:
 		CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  L_18;
 		L_18 = CancellationToken_get_None_m13F4B9DCF5D7BE8E9E3F60026C98E50A946FE9DF(/*hidden argument*/NULL);
 		Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 * L_19;
-		L_19 = VirtFuncInvoker4< Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 *, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t, CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  >::Invoke(23 /* System.Threading.Tasks.Task`1<System.Int32> System.IO.Stream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken) */, __this, L_15, L_16, L_17, L_18);
+		L_19 = VirtFuncInvoker4< Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 *, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t, CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  >::Invoke(25 /* System.Threading.Tasks.Task`1<System.Int32> System.IO.Stream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken) */, __this, L_15, L_16, L_17, L_18);
 		AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * L_20 = ___cb3;
 		RuntimeObject * L_21 = ___state4;
 		RuntimeObject* L_22;
@@ -35253,7 +35342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WebConnectionStream_BeginWrite
 	int32_t V_0 = 0;
 	{
 		bool L_0;
-		L_0 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.Stream::get_CanWrite() */, __this);
+		L_0 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean System.IO.Stream::get_CanWrite() */, __this);
 		if (L_0)
 		{
 			goto IL_0013;
@@ -35344,7 +35433,7 @@ IL_0058:
 		CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  L_18;
 		L_18 = CancellationToken_get_None_m13F4B9DCF5D7BE8E9E3F60026C98E50A946FE9DF(/*hidden argument*/NULL);
 		Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_19;
-		L_19 = VirtFuncInvoker4< Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 *, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t, CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  >::Invoke(26 /* System.Threading.Tasks.Task System.IO.Stream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken) */, __this, L_15, L_16, L_17, L_18);
+		L_19 = VirtFuncInvoker4< Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 *, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t, CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  >::Invoke(28 /* System.Threading.Tasks.Task System.IO.Stream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken) */, __this, L_15, L_16, L_17, L_18);
 		AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * L_20 = ___cb3;
 		RuntimeObject * L_21 = ___state4;
 		RuntimeObject* L_22;
@@ -35415,7 +35504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebConnectionStream_Write_mF986800AF0DCF
 	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		bool L_0;
-		L_0 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.Stream::get_CanWrite() */, __this);
+		L_0 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean System.IO.Stream::get_CanWrite() */, __this);
 		if (L_0)
 		{
 			goto IL_0013;
@@ -35557,7 +35646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebConnectionStream_Close_m0E9E2A45F334F
 {
 	{
 		bool* L_0 = __this->get_address_of_disposed_6();
-		VirtActionInvoker1< bool* >::Invoke(33 /* System.Void System.Net.WebConnectionStream::Close_internal(System.Boolean&) */, __this, (bool*)L_0);
+		VirtActionInvoker1< bool* >::Invoke(35 /* System.Void System.Net.WebConnectionStream::Close_internal(System.Boolean&) */, __this, (bool*)L_0);
 		return;
 	}
 }
@@ -35865,7 +35954,7 @@ IL_0002:
 		int32_t L_4 = ___contentLength1;
 		NullCheck(L_2);
 		int32_t L_5;
-		L_5 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(29 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_2, L_3, 0, L_4);
+		L_5 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(31 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_2, L_3, 0, L_4);
 		V_1 = L_5;
 		int32_t L_6 = V_1;
 		if ((((int32_t)L_6) <= ((int32_t)0)))
@@ -38840,7 +38929,7 @@ IL_0024:
 	{ // begin try (depth: 1)
 		WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887 * L_6 = V_0;
 		NullCheck(L_6);
-		VirtActionInvoker0::Invoke(17 /* System.Void System.IO.Stream::Close() */, L_6);
+		VirtActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Close() */, L_6);
 		goto IL_002f;
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -43104,7 +43193,7 @@ IL_001e:
 		MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C * L_6 = __this->get_writeBuffer_16();
 		NullCheck(L_6);
 		int64_t L_7;
-		L_7 = VirtFuncInvoker0< int64_t >::Invoke(10 /* System.Int64 System.IO.Stream::get_Length() */, L_6);
+		L_7 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Length() */, L_6);
 		return ((int32_t)((int32_t)L_7));
 	}
 
@@ -43154,7 +43243,7 @@ IL_0019:
 		MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C * L_5 = __this->get_writeBuffer_16();
 		NullCheck(L_5);
 		int64_t L_6;
-		L_6 = VirtFuncInvoker0< int64_t >::Invoke(10 /* System.Int64 System.IO.Stream::get_Length() */, L_5);
+		L_6 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Length() */, L_5);
 		if (L_6)
 		{
 			goto IL_0030;
@@ -43171,11 +43260,11 @@ IL_0030:
 		MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C * L_7 = __this->get_writeBuffer_16();
 		NullCheck(L_7);
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_8;
-		L_8 = VirtFuncInvoker0< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(33 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_7);
+		L_8 = VirtFuncInvoker0< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(35 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_7);
 		MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C * L_9 = __this->get_writeBuffer_16();
 		NullCheck(L_9);
 		int64_t L_10;
-		L_10 = VirtFuncInvoker0< int64_t >::Invoke(10 /* System.Int64 System.IO.Stream::get_Length() */, L_9);
+		L_10 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Length() */, L_9);
 		BufferOffsetSize_tF2771CD84FA1EB3961DB41CF866EDE296987572F * L_11 = (BufferOffsetSize_tF2771CD84FA1EB3961DB41CF866EDE296987572F *)il2cpp_codegen_object_new(BufferOffsetSize_tF2771CD84FA1EB3961DB41CF866EDE296987572F_il2cpp_TypeInfo_var);
 		BufferOffsetSize__ctor_m34DF650AB658A85943BBEDBB22887D2C3209D9E3(L_11, L_8, 0, ((int32_t)((int32_t)L_10)), (bool)0, /*hidden argument*/NULL);
 		return L_11;
@@ -43969,9 +44058,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebResponseStream__ctor_m0BAC3E13A246CBB
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_9;
 		L_9 = WebConnectionStream_get_InnerStream_mBDB28CD345C11AF699A2FC0BB23A8BE5344C2392_inline(L_8, /*hidden argument*/NULL);
 		int32_t L_10;
-		L_10 = VirtFuncInvoker0< int32_t >::Invoke(13 /* System.Int32 System.IO.Stream::get_ReadTimeout() */, __this);
+		L_10 = VirtFuncInvoker0< int32_t >::Invoke(14 /* System.Int32 System.IO.Stream::get_ReadTimeout() */, __this);
 		NullCheck(L_9);
-		VirtActionInvoker1< int32_t >::Invoke(14 /* System.Void System.IO.Stream::set_ReadTimeout(System.Int32) */, L_9, L_10);
+		VirtActionInvoker1< int32_t >::Invoke(15 /* System.Void System.IO.Stream::set_ReadTimeout(System.Int32) */, L_9, L_10);
 		return;
 	}
 }
@@ -45281,7 +45370,7 @@ IL_000e:
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_4 = ___innerStream0;
 		NullCheck(L_4);
 		bool L_5;
-		L_5 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.Stream::get_CanWrite() */, L_4);
+		L_5 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean System.IO.Stream::get_CanWrite() */, L_4);
 		if (L_5)
 		{
 			goto IL_003d;

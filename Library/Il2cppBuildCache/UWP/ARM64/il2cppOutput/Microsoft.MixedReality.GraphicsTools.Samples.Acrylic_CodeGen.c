@@ -32,11 +32,11 @@ static Il2CppMethodPointer s_methodPointers[5] =
 };
 static const int32_t s_InvokerIndices[5] = 
 {
-	6996,
-	6996,
-	6996,
-	19,
-	5739,
+	7666,
+	7666,
+	7666,
+	38,
+	6327,
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_GraphicsTools_Samples_Acrylic_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_GraphicsTools_Samples_Acrylic_CodeGenModule;

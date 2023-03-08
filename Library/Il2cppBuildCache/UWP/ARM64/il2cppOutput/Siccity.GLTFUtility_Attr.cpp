@@ -37,11 +37,11 @@ struct FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210;
 // System.Runtime.CompilerServices.IteratorStateMachineAttribute
 struct IteratorStateMachineAttribute_t6C72F3EC15FB34D08D47727AA7A86AB7FEA27830;
 // Newtonsoft.Json.JsonConverterAttribute
-struct JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4;
+struct JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731;
 // Newtonsoft.Json.JsonIgnoreAttribute
-struct JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7;
+struct JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9;
 // Newtonsoft.Json.JsonPropertyAttribute
-struct JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701;
+struct JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9;
 // System.Reflection.MemberFilter
 struct MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81;
 // System.ParamArrayAttribute
@@ -412,7 +412,7 @@ public:
 
 
 // Newtonsoft.Json.JsonConverterAttribute
-struct JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+struct JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
 {
 public:
 	// System.Type Newtonsoft.Json.JsonConverterAttribute::_converterType
@@ -421,7 +421,7 @@ public:
 	ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___U3CConverterParametersU3Ek__BackingField_1;
 
 public:
-	inline static int32_t get_offset_of__converterType_0() { return static_cast<int32_t>(offsetof(JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4, ____converterType_0)); }
+	inline static int32_t get_offset_of__converterType_0() { return static_cast<int32_t>(offsetof(JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731, ____converterType_0)); }
 	inline Type_t * get__converterType_0() const { return ____converterType_0; }
 	inline Type_t ** get_address_of__converterType_0() { return &____converterType_0; }
 	inline void set__converterType_0(Type_t * value)
@@ -430,7 +430,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&____converterType_0), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CConverterParametersU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4, ___U3CConverterParametersU3Ek__BackingField_1)); }
+	inline static int32_t get_offset_of_U3CConverterParametersU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731, ___U3CConverterParametersU3Ek__BackingField_1)); }
 	inline ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* get_U3CConverterParametersU3Ek__BackingField_1() const { return ___U3CConverterParametersU3Ek__BackingField_1; }
 	inline ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE** get_address_of_U3CConverterParametersU3Ek__BackingField_1() { return &___U3CConverterParametersU3Ek__BackingField_1; }
 	inline void set_U3CConverterParametersU3Ek__BackingField_1(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* value)
@@ -442,7 +442,7 @@ public:
 
 
 // Newtonsoft.Json.JsonIgnoreAttribute
-struct JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+struct JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
 {
 public:
 
@@ -576,14 +576,14 @@ public:
 
 
 // Newtonsoft.Json.DefaultValueHandling
-struct DefaultValueHandling_tA6F1C904BA2806F3EE2BE2F9072EB3064D503EE2 
+struct DefaultValueHandling_tBFDC9176E98C92D7892488BEDA81384B28CF6CB2 
 {
 public:
 	// System.Int32 Newtonsoft.Json.DefaultValueHandling::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(DefaultValueHandling_tA6F1C904BA2806F3EE2BE2F9072EB3064D503EE2, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(DefaultValueHandling_tBFDC9176E98C92D7892488BEDA81384B28CF6CB2, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -603,14 +603,14 @@ public:
 
 
 // Newtonsoft.Json.NullValueHandling
-struct NullValueHandling_tF1C5D33CF1843DFF543CD0D5A54DB81A6803ED3B 
+struct NullValueHandling_t390D50C83BA381D9E7BA7B9F75C71B26C3DDA081 
 {
 public:
 	// System.Int32 Newtonsoft.Json.NullValueHandling::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(NullValueHandling_tF1C5D33CF1843DFF543CD0D5A54DB81A6803ED3B, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(NullValueHandling_t390D50C83BA381D9E7BA7B9F75C71B26C3DDA081, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -621,14 +621,14 @@ public:
 
 
 // Newtonsoft.Json.ObjectCreationHandling
-struct ObjectCreationHandling_tB7C55BEBFC5F41BA0BD91209BBC715CDCE42AB63 
+struct ObjectCreationHandling_tF19AC37752E8ACEF1A3925711BDC428AAA9824EC 
 {
 public:
 	// System.Int32 Newtonsoft.Json.ObjectCreationHandling::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ObjectCreationHandling_tB7C55BEBFC5F41BA0BD91209BBC715CDCE42AB63, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ObjectCreationHandling_tF19AC37752E8ACEF1A3925711BDC428AAA9824EC, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -667,14 +667,14 @@ public:
 
 
 // Newtonsoft.Json.ReferenceLoopHandling
-struct ReferenceLoopHandling_t32974E9E23C132789EC534CB2EE8271AC3A5AFA7 
+struct ReferenceLoopHandling_t45D52C880D1C913C6DCF3575707B195999D7D62D 
 {
 public:
 	// System.Int32 Newtonsoft.Json.ReferenceLoopHandling::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ReferenceLoopHandling_t32974E9E23C132789EC534CB2EE8271AC3A5AFA7, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ReferenceLoopHandling_t45D52C880D1C913C6DCF3575707B195999D7D62D, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -685,14 +685,14 @@ public:
 
 
 // Newtonsoft.Json.Required
-struct Required_t3227BFC685E17D3189D1E0F99C5442494A0D27FB 
+struct Required_tB4720598C75723FA4CC0AF94EA876D218741F7D8 
 {
 public:
 	// System.Int32 Newtonsoft.Json.Required::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Required_t3227BFC685E17D3189D1E0F99C5442494A0D27FB, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Required_tB4720598C75723FA4CC0AF94EA876D218741F7D8, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -740,14 +740,14 @@ public:
 
 
 // Newtonsoft.Json.TypeNameHandling
-struct TypeNameHandling_t9AB625D7AFD6168171C6FC1A0E03F6089BB56C8D 
+struct TypeNameHandling_t5387B290B0B754ECA9FFA0303A19B7C301D6996C 
 {
 public:
 	// System.Int32 Newtonsoft.Json.TypeNameHandling::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(TypeNameHandling_t9AB625D7AFD6168171C6FC1A0E03F6089BB56C8D, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(TypeNameHandling_t5387B290B0B754ECA9FFA0303A19B7C301D6996C, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -776,7 +776,7 @@ public:
 
 
 // System.Nullable`1<Newtonsoft.Json.DefaultValueHandling>
-struct Nullable_1_t14C84D3B03BEB298B3006B88BB5C9449E252128E 
+struct Nullable_1_t0B6C2396A33FEF5ABB76CE512EE9E494EEC05224 
 {
 public:
 	// T System.Nullable`1::value
@@ -785,7 +785,7 @@ public:
 	bool ___has_value_1;
 
 public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t14C84D3B03BEB298B3006B88BB5C9449E252128E, ___value_0)); }
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t0B6C2396A33FEF5ABB76CE512EE9E494EEC05224, ___value_0)); }
 	inline int32_t get_value_0() const { return ___value_0; }
 	inline int32_t* get_address_of_value_0() { return &___value_0; }
 	inline void set_value_0(int32_t value)
@@ -793,7 +793,7 @@ public:
 		___value_0 = value;
 	}
 
-	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t14C84D3B03BEB298B3006B88BB5C9449E252128E, ___has_value_1)); }
+	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t0B6C2396A33FEF5ABB76CE512EE9E494EEC05224, ___has_value_1)); }
 	inline bool get_has_value_1() const { return ___has_value_1; }
 	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
 	inline void set_has_value_1(bool value)
@@ -804,7 +804,7 @@ public:
 
 
 // System.Nullable`1<Newtonsoft.Json.NullValueHandling>
-struct Nullable_1_tA7CD3CD4938120FE164106D286D8DAFE253C3ADF 
+struct Nullable_1_t79E8F58C1A2C46D782694793D557CCCA7414D3F2 
 {
 public:
 	// T System.Nullable`1::value
@@ -813,7 +813,7 @@ public:
 	bool ___has_value_1;
 
 public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_tA7CD3CD4938120FE164106D286D8DAFE253C3ADF, ___value_0)); }
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t79E8F58C1A2C46D782694793D557CCCA7414D3F2, ___value_0)); }
 	inline int32_t get_value_0() const { return ___value_0; }
 	inline int32_t* get_address_of_value_0() { return &___value_0; }
 	inline void set_value_0(int32_t value)
@@ -821,7 +821,7 @@ public:
 		___value_0 = value;
 	}
 
-	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_tA7CD3CD4938120FE164106D286D8DAFE253C3ADF, ___has_value_1)); }
+	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t79E8F58C1A2C46D782694793D557CCCA7414D3F2, ___has_value_1)); }
 	inline bool get_has_value_1() const { return ___has_value_1; }
 	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
 	inline void set_has_value_1(bool value)
@@ -832,7 +832,7 @@ public:
 
 
 // System.Nullable`1<Newtonsoft.Json.ObjectCreationHandling>
-struct Nullable_1_tE7F578DDE9FEA9EABF3601C7DC2D583AFEA71454 
+struct Nullable_1_t68A09CC8C82C3556E416688348F779467F8E7465 
 {
 public:
 	// T System.Nullable`1::value
@@ -841,7 +841,7 @@ public:
 	bool ___has_value_1;
 
 public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_tE7F578DDE9FEA9EABF3601C7DC2D583AFEA71454, ___value_0)); }
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t68A09CC8C82C3556E416688348F779467F8E7465, ___value_0)); }
 	inline int32_t get_value_0() const { return ___value_0; }
 	inline int32_t* get_address_of_value_0() { return &___value_0; }
 	inline void set_value_0(int32_t value)
@@ -849,7 +849,7 @@ public:
 		___value_0 = value;
 	}
 
-	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_tE7F578DDE9FEA9EABF3601C7DC2D583AFEA71454, ___has_value_1)); }
+	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t68A09CC8C82C3556E416688348F779467F8E7465, ___has_value_1)); }
 	inline bool get_has_value_1() const { return ___has_value_1; }
 	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
 	inline void set_has_value_1(bool value)
@@ -860,7 +860,7 @@ public:
 
 
 // System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling>
-struct Nullable_1_t2CB95692E6A26EDE54D7ADD36B8950CB7B641543 
+struct Nullable_1_t290EBE8A52E0067C249EE7433226A4B1022B2FF8 
 {
 public:
 	// T System.Nullable`1::value
@@ -869,7 +869,7 @@ public:
 	bool ___has_value_1;
 
 public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t2CB95692E6A26EDE54D7ADD36B8950CB7B641543, ___value_0)); }
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t290EBE8A52E0067C249EE7433226A4B1022B2FF8, ___value_0)); }
 	inline int32_t get_value_0() const { return ___value_0; }
 	inline int32_t* get_address_of_value_0() { return &___value_0; }
 	inline void set_value_0(int32_t value)
@@ -877,7 +877,7 @@ public:
 		___value_0 = value;
 	}
 
-	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t2CB95692E6A26EDE54D7ADD36B8950CB7B641543, ___has_value_1)); }
+	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t290EBE8A52E0067C249EE7433226A4B1022B2FF8, ___has_value_1)); }
 	inline bool get_has_value_1() const { return ___has_value_1; }
 	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
 	inline void set_has_value_1(bool value)
@@ -888,7 +888,7 @@ public:
 
 
 // System.Nullable`1<Newtonsoft.Json.Required>
-struct Nullable_1_tA79E84D3522E28BAB25B1C6A47C29CEBDC4B828A 
+struct Nullable_1_t152F9B09D041B8B9E7DFC1EBF2F94A6068862002 
 {
 public:
 	// T System.Nullable`1::value
@@ -897,7 +897,7 @@ public:
 	bool ___has_value_1;
 
 public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_tA79E84D3522E28BAB25B1C6A47C29CEBDC4B828A, ___value_0)); }
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t152F9B09D041B8B9E7DFC1EBF2F94A6068862002, ___value_0)); }
 	inline int32_t get_value_0() const { return ___value_0; }
 	inline int32_t* get_address_of_value_0() { return &___value_0; }
 	inline void set_value_0(int32_t value)
@@ -905,7 +905,7 @@ public:
 		___value_0 = value;
 	}
 
-	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_tA79E84D3522E28BAB25B1C6A47C29CEBDC4B828A, ___has_value_1)); }
+	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t152F9B09D041B8B9E7DFC1EBF2F94A6068862002, ___has_value_1)); }
 	inline bool get_has_value_1() const { return ___has_value_1; }
 	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
 	inline void set_has_value_1(bool value)
@@ -916,7 +916,7 @@ public:
 
 
 // System.Nullable`1<Newtonsoft.Json.TypeNameHandling>
-struct Nullable_1_t3A9D3139058E086D0A3D8B52106E05024D82BEB4 
+struct Nullable_1_t0A8B2D8CB990C7C546B876E573D6F12DEDB3A7C9 
 {
 public:
 	// T System.Nullable`1::value
@@ -925,7 +925,7 @@ public:
 	bool ___has_value_1;
 
 public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t3A9D3139058E086D0A3D8B52106E05024D82BEB4, ___value_0)); }
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t0A8B2D8CB990C7C546B876E573D6F12DEDB3A7C9, ___value_0)); }
 	inline int32_t get_value_0() const { return ___value_0; }
 	inline int32_t* get_address_of_value_0() { return &___value_0; }
 	inline void set_value_0(int32_t value)
@@ -933,7 +933,7 @@ public:
 		___value_0 = value;
 	}
 
-	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t3A9D3139058E086D0A3D8B52106E05024D82BEB4, ___has_value_1)); }
+	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t0A8B2D8CB990C7C546B876E573D6F12DEDB3A7C9, ___has_value_1)); }
 	inline bool get_has_value_1() const { return ___has_value_1; }
 	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
 	inline void set_has_value_1(bool value)
@@ -1080,80 +1080,84 @@ public:
 
 
 // Newtonsoft.Json.JsonPropertyAttribute
-struct JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+struct JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
 {
 public:
 	// System.Nullable`1<Newtonsoft.Json.NullValueHandling> Newtonsoft.Json.JsonPropertyAttribute::_nullValueHandling
-	Nullable_1_tA7CD3CD4938120FE164106D286D8DAFE253C3ADF  ____nullValueHandling_0;
+	Nullable_1_t79E8F58C1A2C46D782694793D557CCCA7414D3F2  ____nullValueHandling_0;
 	// System.Nullable`1<Newtonsoft.Json.DefaultValueHandling> Newtonsoft.Json.JsonPropertyAttribute::_defaultValueHandling
-	Nullable_1_t14C84D3B03BEB298B3006B88BB5C9449E252128E  ____defaultValueHandling_1;
+	Nullable_1_t0B6C2396A33FEF5ABB76CE512EE9E494EEC05224  ____defaultValueHandling_1;
 	// System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> Newtonsoft.Json.JsonPropertyAttribute::_referenceLoopHandling
-	Nullable_1_t2CB95692E6A26EDE54D7ADD36B8950CB7B641543  ____referenceLoopHandling_2;
+	Nullable_1_t290EBE8A52E0067C249EE7433226A4B1022B2FF8  ____referenceLoopHandling_2;
 	// System.Nullable`1<Newtonsoft.Json.ObjectCreationHandling> Newtonsoft.Json.JsonPropertyAttribute::_objectCreationHandling
-	Nullable_1_tE7F578DDE9FEA9EABF3601C7DC2D583AFEA71454  ____objectCreationHandling_3;
+	Nullable_1_t68A09CC8C82C3556E416688348F779467F8E7465  ____objectCreationHandling_3;
 	// System.Nullable`1<Newtonsoft.Json.TypeNameHandling> Newtonsoft.Json.JsonPropertyAttribute::_typeNameHandling
-	Nullable_1_t3A9D3139058E086D0A3D8B52106E05024D82BEB4  ____typeNameHandling_4;
+	Nullable_1_t0A8B2D8CB990C7C546B876E573D6F12DEDB3A7C9  ____typeNameHandling_4;
 	// System.Nullable`1<System.Boolean> Newtonsoft.Json.JsonPropertyAttribute::_isReference
 	Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  ____isReference_5;
 	// System.Nullable`1<System.Int32> Newtonsoft.Json.JsonPropertyAttribute::_order
 	Nullable_1_t864FD0051A05D37F91C857AB496BFCB3FE756103  ____order_6;
 	// System.Nullable`1<Newtonsoft.Json.Required> Newtonsoft.Json.JsonPropertyAttribute::_required
-	Nullable_1_tA79E84D3522E28BAB25B1C6A47C29CEBDC4B828A  ____required_7;
+	Nullable_1_t152F9B09D041B8B9E7DFC1EBF2F94A6068862002  ____required_7;
 	// System.Nullable`1<System.Boolean> Newtonsoft.Json.JsonPropertyAttribute::_itemIsReference
 	Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  ____itemIsReference_8;
 	// System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> Newtonsoft.Json.JsonPropertyAttribute::_itemReferenceLoopHandling
-	Nullable_1_t2CB95692E6A26EDE54D7ADD36B8950CB7B641543  ____itemReferenceLoopHandling_9;
+	Nullable_1_t290EBE8A52E0067C249EE7433226A4B1022B2FF8  ____itemReferenceLoopHandling_9;
 	// System.Nullable`1<Newtonsoft.Json.TypeNameHandling> Newtonsoft.Json.JsonPropertyAttribute::_itemTypeNameHandling
-	Nullable_1_t3A9D3139058E086D0A3D8B52106E05024D82BEB4  ____itemTypeNameHandling_10;
+	Nullable_1_t0A8B2D8CB990C7C546B876E573D6F12DEDB3A7C9  ____itemTypeNameHandling_10;
 	// System.Type Newtonsoft.Json.JsonPropertyAttribute::<ItemConverterType>k__BackingField
 	Type_t * ___U3CItemConverterTypeU3Ek__BackingField_11;
 	// System.Object[] Newtonsoft.Json.JsonPropertyAttribute::<ItemConverterParameters>k__BackingField
 	ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___U3CItemConverterParametersU3Ek__BackingField_12;
+	// System.Type Newtonsoft.Json.JsonPropertyAttribute::<NamingStrategyType>k__BackingField
+	Type_t * ___U3CNamingStrategyTypeU3Ek__BackingField_13;
+	// System.Object[] Newtonsoft.Json.JsonPropertyAttribute::<NamingStrategyParameters>k__BackingField
+	ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___U3CNamingStrategyParametersU3Ek__BackingField_14;
 	// System.String Newtonsoft.Json.JsonPropertyAttribute::<PropertyName>k__BackingField
-	String_t* ___U3CPropertyNameU3Ek__BackingField_13;
+	String_t* ___U3CPropertyNameU3Ek__BackingField_15;
 
 public:
-	inline static int32_t get_offset_of__nullValueHandling_0() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ____nullValueHandling_0)); }
-	inline Nullable_1_tA7CD3CD4938120FE164106D286D8DAFE253C3ADF  get__nullValueHandling_0() const { return ____nullValueHandling_0; }
-	inline Nullable_1_tA7CD3CD4938120FE164106D286D8DAFE253C3ADF * get_address_of__nullValueHandling_0() { return &____nullValueHandling_0; }
-	inline void set__nullValueHandling_0(Nullable_1_tA7CD3CD4938120FE164106D286D8DAFE253C3ADF  value)
+	inline static int32_t get_offset_of__nullValueHandling_0() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ____nullValueHandling_0)); }
+	inline Nullable_1_t79E8F58C1A2C46D782694793D557CCCA7414D3F2  get__nullValueHandling_0() const { return ____nullValueHandling_0; }
+	inline Nullable_1_t79E8F58C1A2C46D782694793D557CCCA7414D3F2 * get_address_of__nullValueHandling_0() { return &____nullValueHandling_0; }
+	inline void set__nullValueHandling_0(Nullable_1_t79E8F58C1A2C46D782694793D557CCCA7414D3F2  value)
 	{
 		____nullValueHandling_0 = value;
 	}
 
-	inline static int32_t get_offset_of__defaultValueHandling_1() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ____defaultValueHandling_1)); }
-	inline Nullable_1_t14C84D3B03BEB298B3006B88BB5C9449E252128E  get__defaultValueHandling_1() const { return ____defaultValueHandling_1; }
-	inline Nullable_1_t14C84D3B03BEB298B3006B88BB5C9449E252128E * get_address_of__defaultValueHandling_1() { return &____defaultValueHandling_1; }
-	inline void set__defaultValueHandling_1(Nullable_1_t14C84D3B03BEB298B3006B88BB5C9449E252128E  value)
+	inline static int32_t get_offset_of__defaultValueHandling_1() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ____defaultValueHandling_1)); }
+	inline Nullable_1_t0B6C2396A33FEF5ABB76CE512EE9E494EEC05224  get__defaultValueHandling_1() const { return ____defaultValueHandling_1; }
+	inline Nullable_1_t0B6C2396A33FEF5ABB76CE512EE9E494EEC05224 * get_address_of__defaultValueHandling_1() { return &____defaultValueHandling_1; }
+	inline void set__defaultValueHandling_1(Nullable_1_t0B6C2396A33FEF5ABB76CE512EE9E494EEC05224  value)
 	{
 		____defaultValueHandling_1 = value;
 	}
 
-	inline static int32_t get_offset_of__referenceLoopHandling_2() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ____referenceLoopHandling_2)); }
-	inline Nullable_1_t2CB95692E6A26EDE54D7ADD36B8950CB7B641543  get__referenceLoopHandling_2() const { return ____referenceLoopHandling_2; }
-	inline Nullable_1_t2CB95692E6A26EDE54D7ADD36B8950CB7B641543 * get_address_of__referenceLoopHandling_2() { return &____referenceLoopHandling_2; }
-	inline void set__referenceLoopHandling_2(Nullable_1_t2CB95692E6A26EDE54D7ADD36B8950CB7B641543  value)
+	inline static int32_t get_offset_of__referenceLoopHandling_2() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ____referenceLoopHandling_2)); }
+	inline Nullable_1_t290EBE8A52E0067C249EE7433226A4B1022B2FF8  get__referenceLoopHandling_2() const { return ____referenceLoopHandling_2; }
+	inline Nullable_1_t290EBE8A52E0067C249EE7433226A4B1022B2FF8 * get_address_of__referenceLoopHandling_2() { return &____referenceLoopHandling_2; }
+	inline void set__referenceLoopHandling_2(Nullable_1_t290EBE8A52E0067C249EE7433226A4B1022B2FF8  value)
 	{
 		____referenceLoopHandling_2 = value;
 	}
 
-	inline static int32_t get_offset_of__objectCreationHandling_3() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ____objectCreationHandling_3)); }
-	inline Nullable_1_tE7F578DDE9FEA9EABF3601C7DC2D583AFEA71454  get__objectCreationHandling_3() const { return ____objectCreationHandling_3; }
-	inline Nullable_1_tE7F578DDE9FEA9EABF3601C7DC2D583AFEA71454 * get_address_of__objectCreationHandling_3() { return &____objectCreationHandling_3; }
-	inline void set__objectCreationHandling_3(Nullable_1_tE7F578DDE9FEA9EABF3601C7DC2D583AFEA71454  value)
+	inline static int32_t get_offset_of__objectCreationHandling_3() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ____objectCreationHandling_3)); }
+	inline Nullable_1_t68A09CC8C82C3556E416688348F779467F8E7465  get__objectCreationHandling_3() const { return ____objectCreationHandling_3; }
+	inline Nullable_1_t68A09CC8C82C3556E416688348F779467F8E7465 * get_address_of__objectCreationHandling_3() { return &____objectCreationHandling_3; }
+	inline void set__objectCreationHandling_3(Nullable_1_t68A09CC8C82C3556E416688348F779467F8E7465  value)
 	{
 		____objectCreationHandling_3 = value;
 	}
 
-	inline static int32_t get_offset_of__typeNameHandling_4() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ____typeNameHandling_4)); }
-	inline Nullable_1_t3A9D3139058E086D0A3D8B52106E05024D82BEB4  get__typeNameHandling_4() const { return ____typeNameHandling_4; }
-	inline Nullable_1_t3A9D3139058E086D0A3D8B52106E05024D82BEB4 * get_address_of__typeNameHandling_4() { return &____typeNameHandling_4; }
-	inline void set__typeNameHandling_4(Nullable_1_t3A9D3139058E086D0A3D8B52106E05024D82BEB4  value)
+	inline static int32_t get_offset_of__typeNameHandling_4() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ____typeNameHandling_4)); }
+	inline Nullable_1_t0A8B2D8CB990C7C546B876E573D6F12DEDB3A7C9  get__typeNameHandling_4() const { return ____typeNameHandling_4; }
+	inline Nullable_1_t0A8B2D8CB990C7C546B876E573D6F12DEDB3A7C9 * get_address_of__typeNameHandling_4() { return &____typeNameHandling_4; }
+	inline void set__typeNameHandling_4(Nullable_1_t0A8B2D8CB990C7C546B876E573D6F12DEDB3A7C9  value)
 	{
 		____typeNameHandling_4 = value;
 	}
 
-	inline static int32_t get_offset_of__isReference_5() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ____isReference_5)); }
+	inline static int32_t get_offset_of__isReference_5() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ____isReference_5)); }
 	inline Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  get__isReference_5() const { return ____isReference_5; }
 	inline Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3 * get_address_of__isReference_5() { return &____isReference_5; }
 	inline void set__isReference_5(Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  value)
@@ -1161,7 +1165,7 @@ public:
 		____isReference_5 = value;
 	}
 
-	inline static int32_t get_offset_of__order_6() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ____order_6)); }
+	inline static int32_t get_offset_of__order_6() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ____order_6)); }
 	inline Nullable_1_t864FD0051A05D37F91C857AB496BFCB3FE756103  get__order_6() const { return ____order_6; }
 	inline Nullable_1_t864FD0051A05D37F91C857AB496BFCB3FE756103 * get_address_of__order_6() { return &____order_6; }
 	inline void set__order_6(Nullable_1_t864FD0051A05D37F91C857AB496BFCB3FE756103  value)
@@ -1169,15 +1173,15 @@ public:
 		____order_6 = value;
 	}
 
-	inline static int32_t get_offset_of__required_7() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ____required_7)); }
-	inline Nullable_1_tA79E84D3522E28BAB25B1C6A47C29CEBDC4B828A  get__required_7() const { return ____required_7; }
-	inline Nullable_1_tA79E84D3522E28BAB25B1C6A47C29CEBDC4B828A * get_address_of__required_7() { return &____required_7; }
-	inline void set__required_7(Nullable_1_tA79E84D3522E28BAB25B1C6A47C29CEBDC4B828A  value)
+	inline static int32_t get_offset_of__required_7() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ____required_7)); }
+	inline Nullable_1_t152F9B09D041B8B9E7DFC1EBF2F94A6068862002  get__required_7() const { return ____required_7; }
+	inline Nullable_1_t152F9B09D041B8B9E7DFC1EBF2F94A6068862002 * get_address_of__required_7() { return &____required_7; }
+	inline void set__required_7(Nullable_1_t152F9B09D041B8B9E7DFC1EBF2F94A6068862002  value)
 	{
 		____required_7 = value;
 	}
 
-	inline static int32_t get_offset_of__itemIsReference_8() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ____itemIsReference_8)); }
+	inline static int32_t get_offset_of__itemIsReference_8() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ____itemIsReference_8)); }
 	inline Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  get__itemIsReference_8() const { return ____itemIsReference_8; }
 	inline Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3 * get_address_of__itemIsReference_8() { return &____itemIsReference_8; }
 	inline void set__itemIsReference_8(Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  value)
@@ -1185,23 +1189,23 @@ public:
 		____itemIsReference_8 = value;
 	}
 
-	inline static int32_t get_offset_of__itemReferenceLoopHandling_9() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ____itemReferenceLoopHandling_9)); }
-	inline Nullable_1_t2CB95692E6A26EDE54D7ADD36B8950CB7B641543  get__itemReferenceLoopHandling_9() const { return ____itemReferenceLoopHandling_9; }
-	inline Nullable_1_t2CB95692E6A26EDE54D7ADD36B8950CB7B641543 * get_address_of__itemReferenceLoopHandling_9() { return &____itemReferenceLoopHandling_9; }
-	inline void set__itemReferenceLoopHandling_9(Nullable_1_t2CB95692E6A26EDE54D7ADD36B8950CB7B641543  value)
+	inline static int32_t get_offset_of__itemReferenceLoopHandling_9() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ____itemReferenceLoopHandling_9)); }
+	inline Nullable_1_t290EBE8A52E0067C249EE7433226A4B1022B2FF8  get__itemReferenceLoopHandling_9() const { return ____itemReferenceLoopHandling_9; }
+	inline Nullable_1_t290EBE8A52E0067C249EE7433226A4B1022B2FF8 * get_address_of__itemReferenceLoopHandling_9() { return &____itemReferenceLoopHandling_9; }
+	inline void set__itemReferenceLoopHandling_9(Nullable_1_t290EBE8A52E0067C249EE7433226A4B1022B2FF8  value)
 	{
 		____itemReferenceLoopHandling_9 = value;
 	}
 
-	inline static int32_t get_offset_of__itemTypeNameHandling_10() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ____itemTypeNameHandling_10)); }
-	inline Nullable_1_t3A9D3139058E086D0A3D8B52106E05024D82BEB4  get__itemTypeNameHandling_10() const { return ____itemTypeNameHandling_10; }
-	inline Nullable_1_t3A9D3139058E086D0A3D8B52106E05024D82BEB4 * get_address_of__itemTypeNameHandling_10() { return &____itemTypeNameHandling_10; }
-	inline void set__itemTypeNameHandling_10(Nullable_1_t3A9D3139058E086D0A3D8B52106E05024D82BEB4  value)
+	inline static int32_t get_offset_of__itemTypeNameHandling_10() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ____itemTypeNameHandling_10)); }
+	inline Nullable_1_t0A8B2D8CB990C7C546B876E573D6F12DEDB3A7C9  get__itemTypeNameHandling_10() const { return ____itemTypeNameHandling_10; }
+	inline Nullable_1_t0A8B2D8CB990C7C546B876E573D6F12DEDB3A7C9 * get_address_of__itemTypeNameHandling_10() { return &____itemTypeNameHandling_10; }
+	inline void set__itemTypeNameHandling_10(Nullable_1_t0A8B2D8CB990C7C546B876E573D6F12DEDB3A7C9  value)
 	{
 		____itemTypeNameHandling_10 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CItemConverterTypeU3Ek__BackingField_11() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ___U3CItemConverterTypeU3Ek__BackingField_11)); }
+	inline static int32_t get_offset_of_U3CItemConverterTypeU3Ek__BackingField_11() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ___U3CItemConverterTypeU3Ek__BackingField_11)); }
 	inline Type_t * get_U3CItemConverterTypeU3Ek__BackingField_11() const { return ___U3CItemConverterTypeU3Ek__BackingField_11; }
 	inline Type_t ** get_address_of_U3CItemConverterTypeU3Ek__BackingField_11() { return &___U3CItemConverterTypeU3Ek__BackingField_11; }
 	inline void set_U3CItemConverterTypeU3Ek__BackingField_11(Type_t * value)
@@ -1210,7 +1214,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CItemConverterTypeU3Ek__BackingField_11), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CItemConverterParametersU3Ek__BackingField_12() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ___U3CItemConverterParametersU3Ek__BackingField_12)); }
+	inline static int32_t get_offset_of_U3CItemConverterParametersU3Ek__BackingField_12() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ___U3CItemConverterParametersU3Ek__BackingField_12)); }
 	inline ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* get_U3CItemConverterParametersU3Ek__BackingField_12() const { return ___U3CItemConverterParametersU3Ek__BackingField_12; }
 	inline ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE** get_address_of_U3CItemConverterParametersU3Ek__BackingField_12() { return &___U3CItemConverterParametersU3Ek__BackingField_12; }
 	inline void set_U3CItemConverterParametersU3Ek__BackingField_12(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* value)
@@ -1219,13 +1223,31 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CItemConverterParametersU3Ek__BackingField_12), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CPropertyNameU3Ek__BackingField_13() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701, ___U3CPropertyNameU3Ek__BackingField_13)); }
-	inline String_t* get_U3CPropertyNameU3Ek__BackingField_13() const { return ___U3CPropertyNameU3Ek__BackingField_13; }
-	inline String_t** get_address_of_U3CPropertyNameU3Ek__BackingField_13() { return &___U3CPropertyNameU3Ek__BackingField_13; }
-	inline void set_U3CPropertyNameU3Ek__BackingField_13(String_t* value)
+	inline static int32_t get_offset_of_U3CNamingStrategyTypeU3Ek__BackingField_13() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ___U3CNamingStrategyTypeU3Ek__BackingField_13)); }
+	inline Type_t * get_U3CNamingStrategyTypeU3Ek__BackingField_13() const { return ___U3CNamingStrategyTypeU3Ek__BackingField_13; }
+	inline Type_t ** get_address_of_U3CNamingStrategyTypeU3Ek__BackingField_13() { return &___U3CNamingStrategyTypeU3Ek__BackingField_13; }
+	inline void set_U3CNamingStrategyTypeU3Ek__BackingField_13(Type_t * value)
 	{
-		___U3CPropertyNameU3Ek__BackingField_13 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CPropertyNameU3Ek__BackingField_13), (void*)value);
+		___U3CNamingStrategyTypeU3Ek__BackingField_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CNamingStrategyTypeU3Ek__BackingField_13), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CNamingStrategyParametersU3Ek__BackingField_14() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ___U3CNamingStrategyParametersU3Ek__BackingField_14)); }
+	inline ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* get_U3CNamingStrategyParametersU3Ek__BackingField_14() const { return ___U3CNamingStrategyParametersU3Ek__BackingField_14; }
+	inline ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE** get_address_of_U3CNamingStrategyParametersU3Ek__BackingField_14() { return &___U3CNamingStrategyParametersU3Ek__BackingField_14; }
+	inline void set_U3CNamingStrategyParametersU3Ek__BackingField_14(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* value)
+	{
+		___U3CNamingStrategyParametersU3Ek__BackingField_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CNamingStrategyParametersU3Ek__BackingField_14), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CPropertyNameU3Ek__BackingField_15() { return static_cast<int32_t>(offsetof(JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9, ___U3CPropertyNameU3Ek__BackingField_15)); }
+	inline String_t* get_U3CPropertyNameU3Ek__BackingField_15() const { return ___U3CPropertyNameU3Ek__BackingField_15; }
+	inline String_t** get_address_of_U3CPropertyNameU3Ek__BackingField_15() { return &___U3CPropertyNameU3Ek__BackingField_15; }
+	inline void set_U3CPropertyNameU3Ek__BackingField_15(String_t* value)
+	{
+		___U3CPropertyNameU3Ek__BackingField_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CPropertyNameU3Ek__BackingField_15), (void*)value);
 	}
 };
 
@@ -1248,7 +1270,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RuntimeCompatibilityAttribut
 // System.Void UnityEngine.Scripting.PreserveAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2 (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * __this, const RuntimeMethod* method);
 // System.Void Newtonsoft.Json.JsonConverterAttribute::.ctor(System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772 (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * __this, Type_t * ___converterType0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4 (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * __this, Type_t * ___converterType0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.IteratorStateMachineAttribute::.ctor(System.Type)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IteratorStateMachineAttribute__ctor_m019CD62C4E5301F55EDF4723107B608AE8F12481 (IteratorStateMachineAttribute_t6C72F3EC15FB34D08D47727AA7A86AB7FEA27830 * __this, Type_t * ___stateMachineType0, const RuntimeMethod* method);
 // System.Void System.ParamArrayAttribute::.ctor()
@@ -1268,11 +1290,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RangeAttribute__ctor_mC74D39A9F20DD2A0D4
 // System.Void UnityEngine.SerializeField::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3 (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * __this, const RuntimeMethod* method);
 // System.Void Newtonsoft.Json.JsonPropertyAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242 (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80 (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * __this, const RuntimeMethod* method);
 // System.Void Newtonsoft.Json.JsonPropertyAttribute::set_Required(Newtonsoft.Json.Required)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923 (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * __this, int32_t ___value0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2 (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * __this, int32_t ___value0, const RuntimeMethod* method);
 // System.Void Newtonsoft.Json.JsonIgnoreAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonIgnoreAttribute__ctor_m087D7BF8CFF19ADDFF923EE01EFCDD1140E102F7 (JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonIgnoreAttribute__ctor_mB7355E69F8F8B6E2969940652453E19191F36424 (JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 * __this, const RuntimeMethod* method);
 static void Siccity_GLTFUtility_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -1358,8 +1380,8 @@ static void KHR_texture_transform_t0614514E1019FF85615B9E83CAB1E6A5DE1B2352_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(Vector2Converter_tB4CAA5D9E73BD0912A837DC94F3807807F74725B_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(Vector2Converter_tB4CAA5D9E73BD0912A837DC94F3807807F74725B_0_0_0_var), NULL);
 	}
 }
 static void KHR_texture_transform_t0614514E1019FF85615B9E83CAB1E6A5DE1B2352_CustomAttributesCacheGenerator_scale(CustomAttributesCache* cache)
@@ -1371,8 +1393,8 @@ static void KHR_texture_transform_t0614514E1019FF85615B9E83CAB1E6A5DE1B2352_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(Vector2Converter_tB4CAA5D9E73BD0912A837DC94F3807807F74725B_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(Vector2Converter_tB4CAA5D9E73BD0912A837DC94F3807807F74725B_0_0_0_var), NULL);
 	}
 }
 static void Importer_tD8169E690462B76FB393CD94B3C2CE4B8653C025_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -1728,29 +1750,29 @@ static void GLTFAccessor_t1149FB8A034C742C02FDDC0D9F580246D07A3CA3_CustomAttribu
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[1];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(EnumConverter_tCFFB3295B853CCB72B3FED7CC0FC6DF31CE310B0_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[1];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(EnumConverter_tCFFB3295B853CCB72B3FED7CC0FC6DF31CE310B0_0_0_0_var), NULL);
 	}
 }
 static void GLTFAccessor_t1149FB8A034C742C02FDDC0D9F580246D07A3CA3_CustomAttributesCacheGenerator_componentType(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void GLTFAccessor_t1149FB8A034C742C02FDDC0D9F580246D07A3CA3_CustomAttributesCacheGenerator_count(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Sparse_tAF18DAA848E3465BF2245163CDB41C75AD595CCA_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -1763,25 +1785,25 @@ static void Sparse_tAF18DAA848E3465BF2245163CDB41C75AD595CCA_CustomAttributesCac
 static void Sparse_tAF18DAA848E3465BF2245163CDB41C75AD595CCA_CustomAttributesCacheGenerator_count(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Sparse_tAF18DAA848E3465BF2245163CDB41C75AD595CCA_CustomAttributesCacheGenerator_indices(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Sparse_tAF18DAA848E3465BF2245163CDB41C75AD595CCA_CustomAttributesCacheGenerator_values(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Values_t9201BD646CE18806361CC4E88D6D65C12E3D3121_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -1794,9 +1816,9 @@ static void Values_t9201BD646CE18806361CC4E88D6D65C12E3D3121_CustomAttributesCac
 static void Values_t9201BD646CE18806361CC4E88D6D65C12E3D3121_CustomAttributesCacheGenerator_bufferView(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Indices_t5CC82E6F5C3AC21AFB315AE9503E64DA8EA5A1D8_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -1809,17 +1831,17 @@ static void Indices_t5CC82E6F5C3AC21AFB315AE9503E64DA8EA5A1D8_CustomAttributesCa
 static void Indices_t5CC82E6F5C3AC21AFB315AE9503E64DA8EA5A1D8_CustomAttributesCacheGenerator_bufferView(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Indices_t5CC82E6F5C3AC21AFB315AE9503E64DA8EA5A1D8_CustomAttributesCacheGenerator_componentType(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void ImportResult_tCFC7F1741B6426A1CBC86640CB3F402B733C97E7_CustomAttributesCacheGenerator_ImportResult_ValidateAccessorTypeAny_mA8C42506F31805F9CFC79E37A0838A6A17645622____expected1(CustomAttributesCache* cache)
@@ -1853,17 +1875,17 @@ static void GLTFAnimation_tC0DFE92AB09D3F737B63D53C1B9C4C4C4798F1C5_CustomAttrib
 static void GLTFAnimation_tC0DFE92AB09D3F737B63D53C1B9C4C4C4798F1C5_CustomAttributesCacheGenerator_channels(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void GLTFAnimation_tC0DFE92AB09D3F737B63D53C1B9C4C4C4798F1C5_CustomAttributesCacheGenerator_samplers(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Sampler_t86DF25924F795A70E119683ABFF55E33661636F4_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -1876,17 +1898,17 @@ static void Sampler_t86DF25924F795A70E119683ABFF55E33661636F4_CustomAttributesCa
 static void Sampler_t86DF25924F795A70E119683ABFF55E33661636F4_CustomAttributesCacheGenerator_input(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Sampler_t86DF25924F795A70E119683ABFF55E33661636F4_CustomAttributesCacheGenerator_output(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Sampler_t86DF25924F795A70E119683ABFF55E33661636F4_CustomAttributesCacheGenerator_interpolation(CustomAttributesCache* cache)
@@ -1898,8 +1920,8 @@ static void Sampler_t86DF25924F795A70E119683ABFF55E33661636F4_CustomAttributesCa
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(EnumConverter_tCFFB3295B853CCB72B3FED7CC0FC6DF31CE310B0_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(EnumConverter_tCFFB3295B853CCB72B3FED7CC0FC6DF31CE310B0_0_0_0_var), NULL);
 	}
 }
 static void Channel_tEE1CAFE2D9CEC9C82FA50997371C529DE05B5F8C_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -1912,17 +1934,17 @@ static void Channel_tEE1CAFE2D9CEC9C82FA50997371C529DE05B5F8C_CustomAttributesCa
 static void Channel_tEE1CAFE2D9CEC9C82FA50997371C529DE05B5F8C_CustomAttributesCacheGenerator_sampler(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Channel_tEE1CAFE2D9CEC9C82FA50997371C529DE05B5F8C_CustomAttributesCacheGenerator_target(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Target_t74F1DCFB5B94A3B683EBB3FF2A53D6D7EDC0A5F2_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -1935,9 +1957,9 @@ static void Target_t74F1DCFB5B94A3B683EBB3FF2A53D6D7EDC0A5F2_CustomAttributesCac
 static void Target_t74F1DCFB5B94A3B683EBB3FF2A53D6D7EDC0A5F2_CustomAttributesCacheGenerator_path(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void ImportResult_tD71900D954C8E53677F5FAF76D8E44BA355D52A8_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -1978,9 +2000,9 @@ static void GLTFAsset_t1AF1A13DEDE10BB0438DD2D75C4645020C2ADC2F_CustomAttributes
 static void GLTFAsset_t1AF1A13DEDE10BB0438DD2D75C4645020C2ADC2F_CustomAttributesCacheGenerator_version(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void GLTFBuffer_tA74539DE48A9A26F5A1878F25FCDDC9B356B8D67_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -1993,23 +2015,23 @@ static void GLTFBuffer_tA74539DE48A9A26F5A1878F25FCDDC9B356B8D67_CustomAttribute
 static void GLTFBuffer_tA74539DE48A9A26F5A1878F25FCDDC9B356B8D67_CustomAttributesCacheGenerator_byteLength(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void GLTFBuffer_tA74539DE48A9A26F5A1878F25FCDDC9B356B8D67_CustomAttributesCacheGenerator_embeddedPrefix(CustomAttributesCache* cache)
 {
 	{
-		JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 * tmp = (JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 *)cache->attributes[0];
-		JsonIgnoreAttribute__ctor_m087D7BF8CFF19ADDFF923EE01EFCDD1140E102F7(tmp, NULL);
+		JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 * tmp = (JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 *)cache->attributes[0];
+		JsonIgnoreAttribute__ctor_mB7355E69F8F8B6E2969940652453E19191F36424(tmp, NULL);
 	}
 }
 static void GLTFBuffer_tA74539DE48A9A26F5A1878F25FCDDC9B356B8D67_CustomAttributesCacheGenerator_embeddedPrefix2(CustomAttributesCache* cache)
 {
 	{
-		JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 * tmp = (JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 *)cache->attributes[0];
-		JsonIgnoreAttribute__ctor_m087D7BF8CFF19ADDFF923EE01EFCDD1140E102F7(tmp, NULL);
+		JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 * tmp = (JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 *)cache->attributes[0];
+		JsonIgnoreAttribute__ctor_mB7355E69F8F8B6E2969940652453E19191F36424(tmp, NULL);
 	}
 }
 static void U3CU3Ec__DisplayClass0_0_tE401F888228865FDE7394AFAF5941885735063F8_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -2029,17 +2051,17 @@ static void GLTFBufferView_t7ABFF94BE8C37E6BAF794AD4DD98CD124574DF3D_CustomAttri
 static void GLTFBufferView_t7ABFF94BE8C37E6BAF794AD4DD98CD124574DF3D_CustomAttributesCacheGenerator_buffer(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void GLTFBufferView_t7ABFF94BE8C37E6BAF794AD4DD98CD124574DF3D_CustomAttributesCacheGenerator_byteLength(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void U3CU3Ec__DisplayClass0_0_t5BDDAB727A890DD54CEF7A88F1A71FC4C8DC400E_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -2065,13 +2087,13 @@ static void GLTFCamera_t1E2CE8FCB0AFF6728B5AA7B7E390DD19C7E0A392_CustomAttribute
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[1];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(EnumConverter_tCFFB3295B853CCB72B3FED7CC0FC6DF31CE310B0_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[1];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(EnumConverter_tCFFB3295B853CCB72B3FED7CC0FC6DF31CE310B0_0_0_0_var), NULL);
 	}
 }
 static void Orthographic_t8D4743BC9CCD2926E3B193F13667B555530CC650_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -2084,33 +2106,33 @@ static void Orthographic_t8D4743BC9CCD2926E3B193F13667B555530CC650_CustomAttribu
 static void Orthographic_t8D4743BC9CCD2926E3B193F13667B555530CC650_CustomAttributesCacheGenerator_xmag(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Orthographic_t8D4743BC9CCD2926E3B193F13667B555530CC650_CustomAttributesCacheGenerator_ymag(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Orthographic_t8D4743BC9CCD2926E3B193F13667B555530CC650_CustomAttributesCacheGenerator_zfar(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Orthographic_t8D4743BC9CCD2926E3B193F13667B555530CC650_CustomAttributesCacheGenerator_znear(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Perspective_tBA18210448321E79EFFD8DAB956BB9C96D784850_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -2123,17 +2145,17 @@ static void Perspective_tBA18210448321E79EFFD8DAB956BB9C96D784850_CustomAttribut
 static void Perspective_tBA18210448321E79EFFD8DAB956BB9C96D784850_CustomAttributesCacheGenerator_yfov(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Perspective_tBA18210448321E79EFFD8DAB956BB9C96D784850_CustomAttributesCacheGenerator_znear(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void GLTFImage_tFFFF2D816BE15D6F7CCFCCC3B98C992DC8489462_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -2221,8 +2243,8 @@ static void GLTFMaterial_t272530967F6172C6055C0DF414D7EB4EABEB16AD_CustomAttribu
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(ColorRGBConverter_t9D3C8D96F54621DA8606355F2B249CF2203FFA8F_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(ColorRGBConverter_t9D3C8D96F54621DA8606355F2B249CF2203FFA8F_0_0_0_var), NULL);
 	}
 }
 static void GLTFMaterial_t272530967F6172C6055C0DF414D7EB4EABEB16AD_CustomAttributesCacheGenerator_alphaMode(CustomAttributesCache* cache)
@@ -2234,8 +2256,8 @@ static void GLTFMaterial_t272530967F6172C6055C0DF414D7EB4EABEB16AD_CustomAttribu
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(EnumConverter_tCFFB3295B853CCB72B3FED7CC0FC6DF31CE310B0_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(EnumConverter_tCFFB3295B853CCB72B3FED7CC0FC6DF31CE310B0_0_0_0_var), NULL);
 	}
 }
 static void GLTFMaterial_t272530967F6172C6055C0DF414D7EB4EABEB16AD_CustomAttributesCacheGenerator_GLTFMaterial_CreateMaterial_mF7BC93E4A24702BDC6DDFAF1CB07D4CBB6696DFE(CustomAttributesCache* cache)
@@ -2287,8 +2309,8 @@ static void PbrMetalRoughness_t97CF7F12ED8644101FD621BECBE6E85C6190F6FE_CustomAt
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(ColorRGBAConverter_t8A43725762E872EF1C3E1069B62E45758BE54F91_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(ColorRGBAConverter_t8A43725762E872EF1C3E1069B62E45758BE54F91_0_0_0_var), NULL);
 	}
 }
 static void PbrMetalRoughness_t97CF7F12ED8644101FD621BECBE6E85C6190F6FE_CustomAttributesCacheGenerator_PbrMetalRoughness_CreateMaterial_m2FF176D5422A71A7579A9236E7D9A75978FB4B60(CustomAttributesCache* cache)
@@ -2369,8 +2391,8 @@ static void PbrSpecularGlossiness_tA178B9C608014D8E13D6B1E7CFA20053399A287F_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(ColorRGBAConverter_t8A43725762E872EF1C3E1069B62E45758BE54F91_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(ColorRGBAConverter_t8A43725762E872EF1C3E1069B62E45758BE54F91_0_0_0_var), NULL);
 	}
 }
 static void PbrSpecularGlossiness_tA178B9C608014D8E13D6B1E7CFA20053399A287F_CustomAttributesCacheGenerator_specularFactor(CustomAttributesCache* cache)
@@ -2382,8 +2404,8 @@ static void PbrSpecularGlossiness_tA178B9C608014D8E13D6B1E7CFA20053399A287F_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(ColorRGBConverter_t9D3C8D96F54621DA8606355F2B249CF2203FFA8F_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(ColorRGBConverter_t9D3C8D96F54621DA8606355F2B249CF2203FFA8F_0_0_0_var), NULL);
 	}
 }
 static void PbrSpecularGlossiness_tA178B9C608014D8E13D6B1E7CFA20053399A287F_CustomAttributesCacheGenerator_PbrSpecularGlossiness_CreateMaterial_mC7C6235252621E362B929937940C92BCEF4CFDDC(CustomAttributesCache* cache)
@@ -2458,9 +2480,9 @@ static void TextureInfo_t2D1A34A835694FDC50F0670D9440385F82311C8F_CustomAttribut
 static void TextureInfo_t2D1A34A835694FDC50F0670D9440385F82311C8F_CustomAttributesCacheGenerator_index(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void Extensions_t5957E3788D775EC53297CAC9FCE68FED0C04E275_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -2640,9 +2662,9 @@ static void GLTFMesh_t33A21D8FED8C7FB14160FCCCFA0FB44939DB02B8_CustomAttributesC
 static void GLTFMesh_t33A21D8FED8C7FB14160FCCCFA0FB44939DB02B8_CustomAttributesCacheGenerator_primitives(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void ImportTask_tC0C1456EA62EA08E5275E9BFF51138B4C6107EBD_CustomAttributesCacheGenerator_ImportTask_OnCoroutine_m0C53391E0168111F7D12D059D9563012CA9CA1D7(CustomAttributesCache* cache)
@@ -2738,8 +2760,8 @@ static void U3COnCoroutineU3Ed__5_t955853A4B0221560C69547E5366F0EFAEC9CFFBD_Cust
 static void ExportResult_t7598DDE64FD198A2336EDD353095B7E51B082CE9_CustomAttributesCacheGenerator_mesh(CustomAttributesCache* cache)
 {
 	{
-		JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 * tmp = (JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 *)cache->attributes[0];
-		JsonIgnoreAttribute__ctor_m087D7BF8CFF19ADDFF923EE01EFCDD1140E102F7(tmp, NULL);
+		JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 * tmp = (JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 *)cache->attributes[0];
+		JsonIgnoreAttribute__ctor_mB7355E69F8F8B6E2969940652453E19191F36424(tmp, NULL);
 	}
 }
 static void GLTFNode_tCFE349736278B44CCE01611DBC09F9B27AD55845_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -2758,8 +2780,8 @@ static void GLTFNode_tCFE349736278B44CCE01611DBC09F9B27AD55845_CustomAttributesC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(Matrix4x4Converter_t002F361BBAE6CD8F19BD9DAE15F1864B84CB1574_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(Matrix4x4Converter_t002F361BBAE6CD8F19BD9DAE15F1864B84CB1574_0_0_0_var), NULL);
 	}
 }
 static void GLTFNode_tCFE349736278B44CCE01611DBC09F9B27AD55845_CustomAttributesCacheGenerator_translation(CustomAttributesCache* cache)
@@ -2771,8 +2793,8 @@ static void GLTFNode_tCFE349736278B44CCE01611DBC09F9B27AD55845_CustomAttributesC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(TranslationConverter_t317A959E583C30E18CE88B78FFF2CBC4DF1DF534_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(TranslationConverter_t317A959E583C30E18CE88B78FFF2CBC4DF1DF534_0_0_0_var), NULL);
 	}
 }
 static void GLTFNode_tCFE349736278B44CCE01611DBC09F9B27AD55845_CustomAttributesCacheGenerator_rotation(CustomAttributesCache* cache)
@@ -2784,8 +2806,8 @@ static void GLTFNode_tCFE349736278B44CCE01611DBC09F9B27AD55845_CustomAttributesC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(QuaternionConverter_t487D1CE3AF48309AA13B2A360A65FD5A8C2C5A83_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(QuaternionConverter_t487D1CE3AF48309AA13B2A360A65FD5A8C2C5A83_0_0_0_var), NULL);
 	}
 }
 static void GLTFNode_tCFE349736278B44CCE01611DBC09F9B27AD55845_CustomAttributesCacheGenerator_scale(CustomAttributesCache* cache)
@@ -2797,8 +2819,8 @@ static void GLTFNode_tCFE349736278B44CCE01611DBC09F9B27AD55845_CustomAttributesC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 * tmp = (JsonConverterAttribute_tCD2E66DAB6B78A9EF64AB28D5C47CA0831AE03C4 *)cache->attributes[0];
-		JsonConverterAttribute__ctor_m1CE80272E681D303A15718AB931DFA69AD159772(tmp, il2cpp_codegen_type_get_object(Vector3Converter_tAA055BC68EF92D54BFF8A14C1F61EB3A26415727_0_0_0_var), NULL);
+		JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 * tmp = (JsonConverterAttribute_tFED94D9F0B216C764EA72AE872D22EB922486731 *)cache->attributes[0];
+		JsonConverterAttribute__ctor_m3650E14ABFE1365F432044B6DE9F4EE82E3E2DE4(tmp, il2cpp_codegen_type_get_object(Vector3Converter_tAA055BC68EF92D54BFF8A14C1F61EB3A26415727_0_0_0_var), NULL);
 	}
 }
 static void ImportTask_t33F3F7FAAAF8F022E61273C9B402FFC4D14628C4_CustomAttributesCacheGenerator_ImportTask_OnCoroutine_m3C728F2E453A70E704460CC0B8335D9796561BF8(CustomAttributesCache* cache)
@@ -2859,22 +2881,22 @@ static void U3COnCoroutineU3Ed__5_tA9B0454E3AC609C81D64E60A175BB70A36A921B5_Cust
 static void ExportResult_t0F038EDFAAD71E6113BA2F5FCFDF723881E59EFA_CustomAttributesCacheGenerator_renderer(CustomAttributesCache* cache)
 {
 	{
-		JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 * tmp = (JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 *)cache->attributes[0];
-		JsonIgnoreAttribute__ctor_m087D7BF8CFF19ADDFF923EE01EFCDD1140E102F7(tmp, NULL);
+		JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 * tmp = (JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 *)cache->attributes[0];
+		JsonIgnoreAttribute__ctor_mB7355E69F8F8B6E2969940652453E19191F36424(tmp, NULL);
 	}
 }
 static void ExportResult_t0F038EDFAAD71E6113BA2F5FCFDF723881E59EFA_CustomAttributesCacheGenerator_filter(CustomAttributesCache* cache)
 {
 	{
-		JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 * tmp = (JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 *)cache->attributes[0];
-		JsonIgnoreAttribute__ctor_m087D7BF8CFF19ADDFF923EE01EFCDD1140E102F7(tmp, NULL);
+		JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 * tmp = (JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 *)cache->attributes[0];
+		JsonIgnoreAttribute__ctor_mB7355E69F8F8B6E2969940652453E19191F36424(tmp, NULL);
 	}
 }
 static void ExportResult_t0F038EDFAAD71E6113BA2F5FCFDF723881E59EFA_CustomAttributesCacheGenerator_skinnedRenderer(CustomAttributesCache* cache)
 {
 	{
-		JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 * tmp = (JsonIgnoreAttribute_tD1DFBF399A237A618998A41533FEE267AD3A3CA7 *)cache->attributes[0];
-		JsonIgnoreAttribute__ctor_m087D7BF8CFF19ADDFF923EE01EFCDD1140E102F7(tmp, NULL);
+		JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 * tmp = (JsonIgnoreAttribute_t9A317BE04940277A7942540233AFA2E1E0E911F9 *)cache->attributes[0];
+		JsonIgnoreAttribute__ctor_mB7355E69F8F8B6E2969940652453E19191F36424(tmp, NULL);
 	}
 }
 static void GLTFNodeExtensions_tD8BA8241766A1147F24DEB47C6B27C7B86A6267A_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -2908,9 +2930,9 @@ static void GLTFObject_tDF69C9FF186A849A17A38A837393A975306449B0_CustomAttribute
 static void GLTFObject_tDF69C9FF186A849A17A38A837393A975306449B0_CustomAttributesCacheGenerator_asset(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void GLTFPrimitive_tDEBFB0EFBEAC2A57474E444A2AB3E137B524C172_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -2923,9 +2945,9 @@ static void GLTFPrimitive_tDEBFB0EFBEAC2A57474E444A2AB3E137B524C172_CustomAttrib
 static void GLTFPrimitive_tDEBFB0EFBEAC2A57474E444A2AB3E137B524C172_CustomAttributesCacheGenerator_attributes(CustomAttributesCache* cache)
 {
 	{
-		JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 * tmp = (JsonPropertyAttribute_t35E179E9DED0A59D404DD69DD5157D6A7D321701 *)cache->attributes[0];
-		JsonPropertyAttribute__ctor_m370AFADE62BF3CFAB5E8E26112EC34EE95C3A242(tmp, NULL);
-		JsonPropertyAttribute_set_Required_mA601CE7CCDECB03B89A997AB55EE14E956C4F923(tmp, 2LL, NULL);
+		JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 * tmp = (JsonPropertyAttribute_t3E5C53458627ACAD9D739B98D139B20A35D22EB9 *)cache->attributes[0];
+		JsonPropertyAttribute__ctor_mBD76233B739CA4AC9C864FF0C2FCF55B36FE9D80(tmp, NULL);
+		JsonPropertyAttribute_set_Required_m4107523A212297AFBEB724309EBB04975AE822F2(tmp, 2LL, NULL);
 	}
 }
 static void GLTFAttributes_tF0C5B0813E8200A9EF1953EF87F9F7B5BDD72EEF_CustomAttributesCacheGenerator(CustomAttributesCache* cache)

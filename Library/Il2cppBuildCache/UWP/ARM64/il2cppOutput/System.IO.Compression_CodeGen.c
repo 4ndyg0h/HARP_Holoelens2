@@ -345,384 +345,388 @@ extern void PositionPreservingWriteOnlyStreamWrapper_EndWrite_mBAD19D16B50AB9ED6
 extern void PositionPreservingWriteOnlyStreamWrapper_WriteByte_mF8FCC9223648935B953A0B84AD6DD3A214E26292 (void);
 // 0x000000AA System.Threading.Tasks.Task System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 extern void PositionPreservingWriteOnlyStreamWrapper_WriteAsync_mB7B0274C46A47F3000080E567640197F672717C6 (void);
-// 0x000000AB System.Int32 System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::get_ReadTimeout()
+// 0x000000AB System.Boolean System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::get_CanTimeout()
+extern void PositionPreservingWriteOnlyStreamWrapper_get_CanTimeout_m625664A931BF398C18B1D1F53D05A759972E1232 (void);
+// 0x000000AC System.Int32 System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::get_ReadTimeout()
 extern void PositionPreservingWriteOnlyStreamWrapper_get_ReadTimeout_m15B7C71F9F868F918B9B4382BF6A8E4F700F4675 (void);
-// 0x000000AC System.Void System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::set_ReadTimeout(System.Int32)
+// 0x000000AD System.Void System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::set_ReadTimeout(System.Int32)
 extern void PositionPreservingWriteOnlyStreamWrapper_set_ReadTimeout_mE86EE340A7E546485B0FA539B88F2F204C7600D0 (void);
-// 0x000000AD System.Int32 System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::get_WriteTimeout()
+// 0x000000AE System.Int32 System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::get_WriteTimeout()
 extern void PositionPreservingWriteOnlyStreamWrapper_get_WriteTimeout_m8F1E10F7895DC9B7C96D3A6D41C0A96D13FB4FA5 (void);
-// 0x000000AE System.Void System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::Flush()
+// 0x000000AF System.Void System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::set_WriteTimeout(System.Int32)
+extern void PositionPreservingWriteOnlyStreamWrapper_set_WriteTimeout_m2F313E07E36B85B21F4E659F8D4D6E17726DC1DD (void);
+// 0x000000B0 System.Void System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::Flush()
 extern void PositionPreservingWriteOnlyStreamWrapper_Flush_m54622E8CA03AA6175CB9503DB8E741CA7AB8D0C6 (void);
-// 0x000000AF System.Threading.Tasks.Task System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::FlushAsync(System.Threading.CancellationToken)
+// 0x000000B1 System.Threading.Tasks.Task System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::FlushAsync(System.Threading.CancellationToken)
 extern void PositionPreservingWriteOnlyStreamWrapper_FlushAsync_mD8C88422890680C66DB7932D5B3FDB8FB3AD3A07 (void);
-// 0x000000B0 System.Void System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::Close()
+// 0x000000B2 System.Void System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::Close()
 extern void PositionPreservingWriteOnlyStreamWrapper_Close_m3C35AF518BC6F6653D6EF2A4C9B6370037B4CBC1 (void);
-// 0x000000B1 System.Void System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::Dispose(System.Boolean)
+// 0x000000B3 System.Void System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::Dispose(System.Boolean)
 extern void PositionPreservingWriteOnlyStreamWrapper_Dispose_m0B5A41189222CE74DCD52CBAE9936481E19B5FD0 (void);
-// 0x000000B2 System.Int64 System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::get_Length()
+// 0x000000B4 System.Int64 System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::get_Length()
 extern void PositionPreservingWriteOnlyStreamWrapper_get_Length_mEF049DF086072E663B531A8E7108E0619CF1A44B (void);
-// 0x000000B3 System.Int64 System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::Seek(System.Int64,System.IO.SeekOrigin)
+// 0x000000B5 System.Int64 System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::Seek(System.Int64,System.IO.SeekOrigin)
 extern void PositionPreservingWriteOnlyStreamWrapper_Seek_mEE5CBE9CD807A642F2ED624BC2CC6A9EB36C573B (void);
-// 0x000000B4 System.Void System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::SetLength(System.Int64)
+// 0x000000B6 System.Void System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::SetLength(System.Int64)
 extern void PositionPreservingWriteOnlyStreamWrapper_SetLength_m2FC68C160D61DAD700B40DEC2B291761541020C7 (void);
-// 0x000000B5 System.Int32 System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::Read(System.Byte[],System.Int32,System.Int32)
+// 0x000000B7 System.Int32 System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper::Read(System.Byte[],System.Int32,System.Int32)
 extern void PositionPreservingWriteOnlyStreamWrapper_Read_mF9841BB0F97BB8BD280A208CA74CD4FF87B0FC89 (void);
-// 0x000000B6 System.Void System.IO.Compression.ZipArchive::.ctor(System.IO.Stream,System.IO.Compression.ZipArchiveMode,System.Boolean,System.Text.Encoding)
+// 0x000000B8 System.Void System.IO.Compression.ZipArchive::.ctor(System.IO.Stream,System.IO.Compression.ZipArchiveMode,System.Boolean,System.Text.Encoding)
 extern void ZipArchive__ctor_m6CDC7760E095929DC56243D9402EDFEDD707D473 (void);
-// 0x000000B7 System.Collections.ObjectModel.ReadOnlyCollection`1<System.IO.Compression.ZipArchiveEntry> System.IO.Compression.ZipArchive::get_Entries()
+// 0x000000B9 System.Collections.ObjectModel.ReadOnlyCollection`1<System.IO.Compression.ZipArchiveEntry> System.IO.Compression.ZipArchive::get_Entries()
 extern void ZipArchive_get_Entries_m1277048C38D4BFFAF02E3A97CB1DA4C124DA3A10 (void);
-// 0x000000B8 System.IO.Compression.ZipArchiveMode System.IO.Compression.ZipArchive::get_Mode()
+// 0x000000BA System.IO.Compression.ZipArchiveMode System.IO.Compression.ZipArchive::get_Mode()
 extern void ZipArchive_get_Mode_mDBC25A15FAD753E3655943DB98DBAFF408C89955 (void);
-// 0x000000B9 System.Void System.IO.Compression.ZipArchive::Dispose(System.Boolean)
+// 0x000000BB System.Void System.IO.Compression.ZipArchive::Dispose(System.Boolean)
 extern void ZipArchive_Dispose_m1CB913B7287CD65AE0FB7871F1CAB34AAC0B14D2 (void);
-// 0x000000BA System.Void System.IO.Compression.ZipArchive::Dispose()
+// 0x000000BC System.Void System.IO.Compression.ZipArchive::Dispose()
 extern void ZipArchive_Dispose_m9005B757AF9AAEF27BA5A2041CC2FCA171A89426 (void);
-// 0x000000BB System.IO.BinaryReader System.IO.Compression.ZipArchive::get_ArchiveReader()
+// 0x000000BD System.IO.BinaryReader System.IO.Compression.ZipArchive::get_ArchiveReader()
 extern void ZipArchive_get_ArchiveReader_m1F413A6B44811E2BA9521B17A87903BDCD970D5B (void);
-// 0x000000BC System.IO.Stream System.IO.Compression.ZipArchive::get_ArchiveStream()
+// 0x000000BE System.IO.Stream System.IO.Compression.ZipArchive::get_ArchiveStream()
 extern void ZipArchive_get_ArchiveStream_mEE89DEA9775B19B1FAEB26E5DBD0824DD7B20A97 (void);
-// 0x000000BD System.UInt32 System.IO.Compression.ZipArchive::get_NumberOfThisDisk()
+// 0x000000BF System.UInt32 System.IO.Compression.ZipArchive::get_NumberOfThisDisk()
 extern void ZipArchive_get_NumberOfThisDisk_m8A55E201BDA76C1CD2E18DDF7B8AA202786BD729 (void);
-// 0x000000BE System.Text.Encoding System.IO.Compression.ZipArchive::get_EntryNameEncoding()
+// 0x000000C0 System.Text.Encoding System.IO.Compression.ZipArchive::get_EntryNameEncoding()
 extern void ZipArchive_get_EntryNameEncoding_m9E171B59FD0D20474FF1CA25A1F3826D93818854 (void);
-// 0x000000BF System.Void System.IO.Compression.ZipArchive::set_EntryNameEncoding(System.Text.Encoding)
+// 0x000000C1 System.Void System.IO.Compression.ZipArchive::set_EntryNameEncoding(System.Text.Encoding)
 extern void ZipArchive_set_EntryNameEncoding_m91CCB2F1E3BD345368F26DE09C1976509E13A378 (void);
-// 0x000000C0 System.Void System.IO.Compression.ZipArchive::AddEntry(System.IO.Compression.ZipArchiveEntry)
+// 0x000000C2 System.Void System.IO.Compression.ZipArchive::AddEntry(System.IO.Compression.ZipArchiveEntry)
 extern void ZipArchive_AddEntry_mE8D4B908372019EF33115C7F8A79D24436118F11 (void);
-// 0x000000C1 System.Void System.IO.Compression.ZipArchive::ReleaseArchiveStream(System.IO.Compression.ZipArchiveEntry)
+// 0x000000C3 System.Void System.IO.Compression.ZipArchive::ReleaseArchiveStream(System.IO.Compression.ZipArchiveEntry)
 extern void ZipArchive_ReleaseArchiveStream_m39774471ABEC022F20DE6104B709856137A5B1D3 (void);
-// 0x000000C2 System.Void System.IO.Compression.ZipArchive::RemoveEntry(System.IO.Compression.ZipArchiveEntry)
+// 0x000000C4 System.Void System.IO.Compression.ZipArchive::RemoveEntry(System.IO.Compression.ZipArchiveEntry)
 extern void ZipArchive_RemoveEntry_m0B8CCD77BA8BFA7272B7FB032759AEF1873542EF (void);
-// 0x000000C3 System.Void System.IO.Compression.ZipArchive::ThrowIfDisposed()
+// 0x000000C5 System.Void System.IO.Compression.ZipArchive::ThrowIfDisposed()
 extern void ZipArchive_ThrowIfDisposed_mC37F17F11EEB8FB4E658829B95986121944A6199 (void);
-// 0x000000C4 System.Void System.IO.Compression.ZipArchive::CloseStreams()
+// 0x000000C6 System.Void System.IO.Compression.ZipArchive::CloseStreams()
 extern void ZipArchive_CloseStreams_mB0C57ED500E7FFE89635167F2DF5D0177EA210E3 (void);
-// 0x000000C5 System.Void System.IO.Compression.ZipArchive::EnsureCentralDirectoryRead()
+// 0x000000C7 System.Void System.IO.Compression.ZipArchive::EnsureCentralDirectoryRead()
 extern void ZipArchive_EnsureCentralDirectoryRead_m63D4C06233E2D6A864527CE2F65A0E075F29B232 (void);
-// 0x000000C6 System.Void System.IO.Compression.ZipArchive::Init(System.IO.Stream,System.IO.Compression.ZipArchiveMode,System.Boolean)
+// 0x000000C8 System.Void System.IO.Compression.ZipArchive::Init(System.IO.Stream,System.IO.Compression.ZipArchiveMode,System.Boolean)
 extern void ZipArchive_Init_m6EEB2997A9AD511F91385149C0F91E3AA1440221 (void);
-// 0x000000C7 System.Void System.IO.Compression.ZipArchive::ReadCentralDirectory()
+// 0x000000C9 System.Void System.IO.Compression.ZipArchive::ReadCentralDirectory()
 extern void ZipArchive_ReadCentralDirectory_m9739A103BD0150797D8DBBBFDA7ABBEDF8D453AF (void);
-// 0x000000C8 System.Void System.IO.Compression.ZipArchive::ReadEndOfCentralDirectory()
+// 0x000000CA System.Void System.IO.Compression.ZipArchive::ReadEndOfCentralDirectory()
 extern void ZipArchive_ReadEndOfCentralDirectory_mCD0861BE02968F3088610A49EFB7AA3F4257DB03 (void);
-// 0x000000C9 System.Void System.IO.Compression.ZipArchive::WriteFile()
+// 0x000000CB System.Void System.IO.Compression.ZipArchive::WriteFile()
 extern void ZipArchive_WriteFile_mF36A11A6F75A07CA62F3E33EAEA83A0BB218DA36 (void);
-// 0x000000CA System.Void System.IO.Compression.ZipArchive::WriteArchiveEpilogue(System.Int64,System.Int64)
+// 0x000000CC System.Void System.IO.Compression.ZipArchive::WriteArchiveEpilogue(System.Int64,System.Int64)
 extern void ZipArchive_WriteArchiveEpilogue_mDB9FF086842DB700B4F8C28C764A3F31E39078C9 (void);
-// 0x000000CB System.Void System.IO.Compression.ZipArchiveEntry::.ctor(System.IO.Compression.ZipArchive,System.IO.Compression.ZipCentralDirectoryFileHeader)
+// 0x000000CD System.Void System.IO.Compression.ZipArchiveEntry::.ctor(System.IO.Compression.ZipArchive,System.IO.Compression.ZipCentralDirectoryFileHeader)
 extern void ZipArchiveEntry__ctor_m07BE0939B8C50DE936C7591D02337A9BFA11840B (void);
-// 0x000000CC System.String System.IO.Compression.ZipArchiveEntry::get_FullName()
+// 0x000000CE System.String System.IO.Compression.ZipArchiveEntry::get_FullName()
 extern void ZipArchiveEntry_get_FullName_m11AAEE0686371277F1E458DE9BE5FB3447C74238 (void);
-// 0x000000CD System.Void System.IO.Compression.ZipArchiveEntry::set_FullName(System.String)
+// 0x000000CF System.Void System.IO.Compression.ZipArchiveEntry::set_FullName(System.String)
 extern void ZipArchiveEntry_set_FullName_m30CA8F2DA4DB2DDC97B64762C74F24E492AE5577 (void);
-// 0x000000CE System.DateTimeOffset System.IO.Compression.ZipArchiveEntry::get_LastWriteTime()
+// 0x000000D0 System.DateTimeOffset System.IO.Compression.ZipArchiveEntry::get_LastWriteTime()
 extern void ZipArchiveEntry_get_LastWriteTime_mCAD8E33C3851C534A2AA0C3DB731005E444C40D7 (void);
-// 0x000000CF System.Int64 System.IO.Compression.ZipArchiveEntry::get_Length()
+// 0x000000D1 System.Int64 System.IO.Compression.ZipArchiveEntry::get_Length()
 extern void ZipArchiveEntry_get_Length_mE3151992663806E7E438D54DF9A709523E80BE47 (void);
-// 0x000000D0 System.Void System.IO.Compression.ZipArchiveEntry::Delete()
+// 0x000000D2 System.Void System.IO.Compression.ZipArchiveEntry::Delete()
 extern void ZipArchiveEntry_Delete_m5918ED0B3FFF89556A6F2BFCEF5A8EFFFD42401A (void);
-// 0x000000D1 System.IO.Stream System.IO.Compression.ZipArchiveEntry::Open()
+// 0x000000D3 System.IO.Stream System.IO.Compression.ZipArchiveEntry::Open()
 extern void ZipArchiveEntry_Open_m9893B7B85795F12ECFAD160AECBE48D679D0D087 (void);
-// 0x000000D2 System.String System.IO.Compression.ZipArchiveEntry::ToString()
+// 0x000000D4 System.String System.IO.Compression.ZipArchiveEntry::ToString()
 extern void ZipArchiveEntry_ToString_m16906608930ABF4ACE4A8BA28A2564C69CB8351E (void);
-// 0x000000D3 System.Int64 System.IO.Compression.ZipArchiveEntry::get_OffsetOfCompressedData()
+// 0x000000D5 System.Int64 System.IO.Compression.ZipArchiveEntry::get_OffsetOfCompressedData()
 extern void ZipArchiveEntry_get_OffsetOfCompressedData_m707D75BEBAFDA8B65D549CAAB89E3996AAEFCB17 (void);
-// 0x000000D4 System.IO.MemoryStream System.IO.Compression.ZipArchiveEntry::get_UncompressedData()
+// 0x000000D6 System.IO.MemoryStream System.IO.Compression.ZipArchiveEntry::get_UncompressedData()
 extern void ZipArchiveEntry_get_UncompressedData_m6371C844FD36AADEE278076E9440801BE65A307D (void);
-// 0x000000D5 System.IO.Compression.ZipArchiveEntry/CompressionMethodValues System.IO.Compression.ZipArchiveEntry::get_CompressionMethod()
+// 0x000000D7 System.IO.Compression.ZipArchiveEntry/CompressionMethodValues System.IO.Compression.ZipArchiveEntry::get_CompressionMethod()
 extern void ZipArchiveEntry_get_CompressionMethod_m160AB0EDC03473559F6921B61049E02F004926CE (void);
-// 0x000000D6 System.Void System.IO.Compression.ZipArchiveEntry::set_CompressionMethod(System.IO.Compression.ZipArchiveEntry/CompressionMethodValues)
+// 0x000000D8 System.Void System.IO.Compression.ZipArchiveEntry::set_CompressionMethod(System.IO.Compression.ZipArchiveEntry/CompressionMethodValues)
 extern void ZipArchiveEntry_set_CompressionMethod_mFF5EAB90C4AC6B585B7F4C1EA5292ABDCB2D0AD1 (void);
-// 0x000000D7 System.String System.IO.Compression.ZipArchiveEntry::DecodeEntryName(System.Byte[])
+// 0x000000D9 System.String System.IO.Compression.ZipArchiveEntry::DecodeEntryName(System.Byte[])
 extern void ZipArchiveEntry_DecodeEntryName_mAA77328082DF59A599495E7A321F3895A5C1F2F9 (void);
-// 0x000000D8 System.Byte[] System.IO.Compression.ZipArchiveEntry::EncodeEntryName(System.String,System.Boolean&)
+// 0x000000DA System.Byte[] System.IO.Compression.ZipArchiveEntry::EncodeEntryName(System.String,System.Boolean&)
 extern void ZipArchiveEntry_EncodeEntryName_m600867BA7D4FC36DEEA343C2657EF14CF3D8E7BE (void);
-// 0x000000D9 System.Void System.IO.Compression.ZipArchiveEntry::WriteAndFinishLocalEntry()
+// 0x000000DB System.Void System.IO.Compression.ZipArchiveEntry::WriteAndFinishLocalEntry()
 extern void ZipArchiveEntry_WriteAndFinishLocalEntry_m0813C2D0AFE1A4D148258C1325D73E5595CB730C (void);
-// 0x000000DA System.Void System.IO.Compression.ZipArchiveEntry::WriteCentralDirectoryFileHeader()
+// 0x000000DC System.Void System.IO.Compression.ZipArchiveEntry::WriteCentralDirectoryFileHeader()
 extern void ZipArchiveEntry_WriteCentralDirectoryFileHeader_mB55A4D8689513A227DDF3D847826153668754D83 (void);
-// 0x000000DB System.Boolean System.IO.Compression.ZipArchiveEntry::LoadLocalHeaderExtraFieldAndCompressedBytesIfNeeded()
+// 0x000000DD System.Boolean System.IO.Compression.ZipArchiveEntry::LoadLocalHeaderExtraFieldAndCompressedBytesIfNeeded()
 extern void ZipArchiveEntry_LoadLocalHeaderExtraFieldAndCompressedBytesIfNeeded_m95398B506B2D31E135DF6045EBDE841C58E46F7D (void);
-// 0x000000DC System.Void System.IO.Compression.ZipArchiveEntry::ThrowIfNotOpenable(System.Boolean,System.Boolean)
+// 0x000000DE System.Void System.IO.Compression.ZipArchiveEntry::ThrowIfNotOpenable(System.Boolean,System.Boolean)
 extern void ZipArchiveEntry_ThrowIfNotOpenable_mE7FD2447604A4E4C49EA25CA719124518F92DF1B (void);
-// 0x000000DD System.IO.Compression.CheckSumAndSizeWriteStream System.IO.Compression.ZipArchiveEntry::GetDataCompressor(System.IO.Stream,System.Boolean,System.EventHandler)
+// 0x000000DF System.IO.Compression.CheckSumAndSizeWriteStream System.IO.Compression.ZipArchiveEntry::GetDataCompressor(System.IO.Stream,System.Boolean,System.EventHandler)
 extern void ZipArchiveEntry_GetDataCompressor_mFDD1D232FF1F5E4C99B1A498B064EE2C292D544B (void);
-// 0x000000DE System.IO.Stream System.IO.Compression.ZipArchiveEntry::GetDataDecompressor(System.IO.Stream)
+// 0x000000E0 System.IO.Stream System.IO.Compression.ZipArchiveEntry::GetDataDecompressor(System.IO.Stream)
 extern void ZipArchiveEntry_GetDataDecompressor_mDB7163D97392BEE2BA7D6A8718E27717926ABD4D (void);
-// 0x000000DF System.IO.Stream System.IO.Compression.ZipArchiveEntry::OpenInReadMode(System.Boolean)
+// 0x000000E1 System.IO.Stream System.IO.Compression.ZipArchiveEntry::OpenInReadMode(System.Boolean)
 extern void ZipArchiveEntry_OpenInReadMode_m20B1B7613F1EA6E98BB771FB8F1BBAE9CC831B16 (void);
-// 0x000000E0 System.IO.Stream System.IO.Compression.ZipArchiveEntry::OpenInWriteMode()
+// 0x000000E2 System.IO.Stream System.IO.Compression.ZipArchiveEntry::OpenInWriteMode()
 extern void ZipArchiveEntry_OpenInWriteMode_m6F49440381F3A5314B63A598A680684291D8B350 (void);
-// 0x000000E1 System.IO.Stream System.IO.Compression.ZipArchiveEntry::OpenInUpdateMode()
+// 0x000000E3 System.IO.Stream System.IO.Compression.ZipArchiveEntry::OpenInUpdateMode()
 extern void ZipArchiveEntry_OpenInUpdateMode_m61D3DE0AB34D601D78FBB42BF9F91FB12DDB0AAF (void);
-// 0x000000E2 System.Boolean System.IO.Compression.ZipArchiveEntry::IsOpenable(System.Boolean,System.Boolean,System.String&)
+// 0x000000E4 System.Boolean System.IO.Compression.ZipArchiveEntry::IsOpenable(System.Boolean,System.Boolean,System.String&)
 extern void ZipArchiveEntry_IsOpenable_mA1E274D700A5EB788BEA29CB138AC7DBDD9901CC (void);
-// 0x000000E3 System.Boolean System.IO.Compression.ZipArchiveEntry::SizesTooLarge()
+// 0x000000E5 System.Boolean System.IO.Compression.ZipArchiveEntry::SizesTooLarge()
 extern void ZipArchiveEntry_SizesTooLarge_m2503C4333FC23A116B0FECFCD882798429CD5334 (void);
-// 0x000000E4 System.Boolean System.IO.Compression.ZipArchiveEntry::WriteLocalFileHeader(System.Boolean)
+// 0x000000E6 System.Boolean System.IO.Compression.ZipArchiveEntry::WriteLocalFileHeader(System.Boolean)
 extern void ZipArchiveEntry_WriteLocalFileHeader_mFEB6519EE638467FEE225F4F1F9936317330A9DB (void);
-// 0x000000E5 System.Void System.IO.Compression.ZipArchiveEntry::WriteLocalFileHeaderAndDataIfNeeded()
+// 0x000000E7 System.Void System.IO.Compression.ZipArchiveEntry::WriteLocalFileHeaderAndDataIfNeeded()
 extern void ZipArchiveEntry_WriteLocalFileHeaderAndDataIfNeeded_mA211B06CEC593A38D0195DD00B95C243119E6708 (void);
-// 0x000000E6 System.Void System.IO.Compression.ZipArchiveEntry::WriteCrcAndSizesInLocalHeader(System.Boolean)
+// 0x000000E8 System.Void System.IO.Compression.ZipArchiveEntry::WriteCrcAndSizesInLocalHeader(System.Boolean)
 extern void ZipArchiveEntry_WriteCrcAndSizesInLocalHeader_m6B8191F388E5198EF139363FA6DA1DEDE6E8D23E (void);
-// 0x000000E7 System.Void System.IO.Compression.ZipArchiveEntry::WriteDataDescriptor()
+// 0x000000E9 System.Void System.IO.Compression.ZipArchiveEntry::WriteDataDescriptor()
 extern void ZipArchiveEntry_WriteDataDescriptor_m553D00D75C15C356187FD02D926B80DCDDB04C57 (void);
-// 0x000000E8 System.Void System.IO.Compression.ZipArchiveEntry::UnloadStreams()
+// 0x000000EA System.Void System.IO.Compression.ZipArchiveEntry::UnloadStreams()
 extern void ZipArchiveEntry_UnloadStreams_mAC7668E4693B18ABDD17717BB2F78045CBDE6FE8 (void);
-// 0x000000E9 System.Void System.IO.Compression.ZipArchiveEntry::CloseStreams()
+// 0x000000EB System.Void System.IO.Compression.ZipArchiveEntry::CloseStreams()
 extern void ZipArchiveEntry_CloseStreams_mD71E692555533BD34619891FF0003FB969ED0C91 (void);
-// 0x000000EA System.Void System.IO.Compression.ZipArchiveEntry::VersionToExtractAtLeast(System.IO.Compression.ZipVersionNeededValues)
+// 0x000000EC System.Void System.IO.Compression.ZipArchiveEntry::VersionToExtractAtLeast(System.IO.Compression.ZipVersionNeededValues)
 extern void ZipArchiveEntry_VersionToExtractAtLeast_m5F138EF963143B7F5DDACA0991A146C83B957CA0 (void);
-// 0x000000EB System.Void System.IO.Compression.ZipArchiveEntry::ThrowIfInvalidArchive()
+// 0x000000ED System.Void System.IO.Compression.ZipArchiveEntry::ThrowIfInvalidArchive()
 extern void ZipArchiveEntry_ThrowIfInvalidArchive_mD178985ECAA5F294F029FC6E0FEE5924DE83E753 (void);
-// 0x000000EC System.String System.IO.Compression.ZipArchiveEntry::GetFileName_Windows(System.String)
+// 0x000000EE System.String System.IO.Compression.ZipArchiveEntry::GetFileName_Windows(System.String)
 extern void ZipArchiveEntry_GetFileName_Windows_m1DB3709A9230B17D8AC916F91892813739303C7A (void);
-// 0x000000ED System.String System.IO.Compression.ZipArchiveEntry::GetFileName_Unix(System.String)
+// 0x000000EF System.String System.IO.Compression.ZipArchiveEntry::GetFileName_Unix(System.String)
 extern void ZipArchiveEntry_GetFileName_Unix_m352EAAB0C0287DB772D71E7D9A07BDB0D2FED8BA (void);
-// 0x000000EE System.String System.IO.Compression.ZipArchiveEntry::ParseFileName(System.String,System.IO.Compression.ZipVersionMadeByPlatform)
+// 0x000000F0 System.String System.IO.Compression.ZipArchiveEntry::ParseFileName(System.String,System.IO.Compression.ZipVersionMadeByPlatform)
 extern void ZipArchiveEntry_ParseFileName_m0552EF9DC32ECBCED455493CDC80DE5009F6205F (void);
-// 0x000000EF System.Void System.IO.Compression.ZipArchiveEntry::.cctor()
+// 0x000000F1 System.Void System.IO.Compression.ZipArchiveEntry::.cctor()
 extern void ZipArchiveEntry__cctor_m891AFB520E628E5931EF06CCC2360135E0B881BB (void);
-// 0x000000F0 System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::.ctor(System.IO.Compression.CheckSumAndSizeWriteStream,System.IO.Compression.ZipArchiveEntry)
+// 0x000000F2 System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::.ctor(System.IO.Compression.CheckSumAndSizeWriteStream,System.IO.Compression.ZipArchiveEntry)
 extern void DirectToArchiveWriterStream__ctor_m0DDB9CC21FADDDA36303F187F4F2A6671AFE2889 (void);
-// 0x000000F1 System.Int64 System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::get_Length()
+// 0x000000F3 System.Int64 System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::get_Length()
 extern void DirectToArchiveWriterStream_get_Length_m47DB6EA23EE90F4FFB754A2EF270EBD7D89BED2E (void);
-// 0x000000F2 System.Int64 System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::get_Position()
+// 0x000000F4 System.Int64 System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::get_Position()
 extern void DirectToArchiveWriterStream_get_Position_m1B5948CC17661664DF6C605109C47ECF8D99EA39 (void);
-// 0x000000F3 System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::set_Position(System.Int64)
+// 0x000000F5 System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::set_Position(System.Int64)
 extern void DirectToArchiveWriterStream_set_Position_m917488FFE61C8E0AF363C2D371E654434E3DD905 (void);
-// 0x000000F4 System.Boolean System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::get_CanRead()
+// 0x000000F6 System.Boolean System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::get_CanRead()
 extern void DirectToArchiveWriterStream_get_CanRead_mC1E56E6F4EEAE5CA55EFF96E7C2B60704D6CA816 (void);
-// 0x000000F5 System.Boolean System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::get_CanSeek()
+// 0x000000F7 System.Boolean System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::get_CanSeek()
 extern void DirectToArchiveWriterStream_get_CanSeek_m3503487DF22AA6074DA01EEB3BA6CA446BB5EA5F (void);
-// 0x000000F6 System.Boolean System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::get_CanWrite()
+// 0x000000F8 System.Boolean System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::get_CanWrite()
 extern void DirectToArchiveWriterStream_get_CanWrite_mF9187360B17455BA3D8802796C087908F01A373D (void);
-// 0x000000F7 System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::ThrowIfDisposed()
+// 0x000000F9 System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::ThrowIfDisposed()
 extern void DirectToArchiveWriterStream_ThrowIfDisposed_m20FA8C3958DD073B5826BADC1F8CFDCDBAE6346F (void);
-// 0x000000F8 System.Int32 System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::Read(System.Byte[],System.Int32,System.Int32)
+// 0x000000FA System.Int32 System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::Read(System.Byte[],System.Int32,System.Int32)
 extern void DirectToArchiveWriterStream_Read_m446321EDD91F1B81CA17E13C7C41B2FC657330CC (void);
-// 0x000000F9 System.Int64 System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::Seek(System.Int64,System.IO.SeekOrigin)
+// 0x000000FB System.Int64 System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::Seek(System.Int64,System.IO.SeekOrigin)
 extern void DirectToArchiveWriterStream_Seek_m778621B3F16288129D3807C88068081CF83161EE (void);
-// 0x000000FA System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::SetLength(System.Int64)
+// 0x000000FC System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::SetLength(System.Int64)
 extern void DirectToArchiveWriterStream_SetLength_m7DBDE4D0D59D190A9D08B7B537584D4079DB1AA9 (void);
-// 0x000000FB System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::Write(System.Byte[],System.Int32,System.Int32)
+// 0x000000FD System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::Write(System.Byte[],System.Int32,System.Int32)
 extern void DirectToArchiveWriterStream_Write_m7370310F0664FD15D5CFC0C720390FF485702077 (void);
-// 0x000000FC System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::Flush()
+// 0x000000FE System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::Flush()
 extern void DirectToArchiveWriterStream_Flush_m14870B7B0BF2B82F0787F13C7603FDF0C0AD0B79 (void);
-// 0x000000FD System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::Dispose(System.Boolean)
+// 0x000000FF System.Void System.IO.Compression.ZipArchiveEntry/DirectToArchiveWriterStream::Dispose(System.Boolean)
 extern void DirectToArchiveWriterStream_Dispose_mB94A3AFD965EC9E4C592AF61AD9BAB37A25B33AC (void);
-// 0x000000FE System.Void System.IO.Compression.ZipArchiveEntry/<>c::.cctor()
+// 0x00000100 System.Void System.IO.Compression.ZipArchiveEntry/<>c::.cctor()
 extern void U3CU3Ec__cctor_m1C77DA0425002EE3773501517E0DE412CAD6E127 (void);
-// 0x000000FF System.Void System.IO.Compression.ZipArchiveEntry/<>c::.ctor()
+// 0x00000101 System.Void System.IO.Compression.ZipArchiveEntry/<>c::.ctor()
 extern void U3CU3Ec__ctor_m7565B28DE684527FAB5F56BE5B93D7B882B2C9A4 (void);
-// 0x00000100 System.Void System.IO.Compression.ZipArchiveEntry/<>c::<GetDataCompressor>b__67_0(System.Int64,System.Int64,System.UInt32,System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.EventHandler)
+// 0x00000102 System.Void System.IO.Compression.ZipArchiveEntry/<>c::<GetDataCompressor>b__67_0(System.Int64,System.Int64,System.UInt32,System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.EventHandler)
 extern void U3CU3Ec_U3CGetDataCompressorU3Eb__67_0_m8AD6B78982B785D21126F7D9B9C04EDBDF1DD755 (void);
-// 0x00000101 System.Void System.IO.Compression.ZipArchiveEntry/<>c::<OpenInWriteMode>b__70_0(System.Object,System.EventArgs)
+// 0x00000103 System.Void System.IO.Compression.ZipArchiveEntry/<>c::<OpenInWriteMode>b__70_0(System.Object,System.EventArgs)
 extern void U3CU3Ec_U3COpenInWriteModeU3Eb__70_0_m92B870115F2C38A52ECAB2562FC5DD204CCE7CD1 (void);
-// 0x00000102 System.Void System.IO.Compression.ZipArchiveEntry/<>c::<OpenInUpdateMode>b__71_0(System.IO.Compression.ZipArchiveEntry)
+// 0x00000104 System.Void System.IO.Compression.ZipArchiveEntry/<>c::<OpenInUpdateMode>b__71_0(System.IO.Compression.ZipArchiveEntry)
 extern void U3CU3Ec_U3COpenInUpdateModeU3Eb__71_0_m7A08490A74E02532FDCEE28823E022E9FA0DED22 (void);
-// 0x00000103 System.UInt16 System.IO.Compression.ZipGenericExtraField::get_Tag()
+// 0x00000105 System.UInt16 System.IO.Compression.ZipGenericExtraField::get_Tag()
 extern void ZipGenericExtraField_get_Tag_m33B77419AEC3D385ED47B3D9095AEB030BF63C9B (void);
-// 0x00000104 System.UInt16 System.IO.Compression.ZipGenericExtraField::get_Size()
+// 0x00000106 System.UInt16 System.IO.Compression.ZipGenericExtraField::get_Size()
 extern void ZipGenericExtraField_get_Size_mDAE1439A0DA80546998F82FF27EBAE8911265408 (void);
-// 0x00000105 System.Byte[] System.IO.Compression.ZipGenericExtraField::get_Data()
+// 0x00000107 System.Byte[] System.IO.Compression.ZipGenericExtraField::get_Data()
 extern void ZipGenericExtraField_get_Data_m70A9CF97AC082F29B2C8571E886CF8EAD584FAE9 (void);
-// 0x00000106 System.Void System.IO.Compression.ZipGenericExtraField::WriteBlock(System.IO.Stream)
+// 0x00000108 System.Void System.IO.Compression.ZipGenericExtraField::WriteBlock(System.IO.Stream)
 extern void ZipGenericExtraField_WriteBlock_m4DEC72E8C271770EEB6F687EAE8EC914F7B67068 (void);
-// 0x00000107 System.Boolean System.IO.Compression.ZipGenericExtraField::TryReadBlock(System.IO.BinaryReader,System.Int64,System.IO.Compression.ZipGenericExtraField&)
+// 0x00000109 System.Boolean System.IO.Compression.ZipGenericExtraField::TryReadBlock(System.IO.BinaryReader,System.Int64,System.IO.Compression.ZipGenericExtraField&)
 extern void ZipGenericExtraField_TryReadBlock_m33CED7DF422541E64449BAE0BDA42E6777AB93F3 (void);
-// 0x00000108 System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField> System.IO.Compression.ZipGenericExtraField::ParseExtraField(System.IO.Stream)
+// 0x0000010A System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField> System.IO.Compression.ZipGenericExtraField::ParseExtraField(System.IO.Stream)
 extern void ZipGenericExtraField_ParseExtraField_mD274A6F6FA7986A8E2C8F57815F419A8A02BAF58 (void);
-// 0x00000109 System.Int32 System.IO.Compression.ZipGenericExtraField::TotalSize(System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField>)
+// 0x0000010B System.Int32 System.IO.Compression.ZipGenericExtraField::TotalSize(System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField>)
 extern void ZipGenericExtraField_TotalSize_m69F6D3713B56584A9049F8F733F065E7521CCE70 (void);
-// 0x0000010A System.Void System.IO.Compression.ZipGenericExtraField::WriteAllBlocks(System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField>,System.IO.Stream)
+// 0x0000010C System.Void System.IO.Compression.ZipGenericExtraField::WriteAllBlocks(System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField>,System.IO.Stream)
 extern void ZipGenericExtraField_WriteAllBlocks_mE22378EE9E4EA16C044CAD087FCC682C04718491 (void);
-// 0x0000010B System.UInt16 System.IO.Compression.Zip64ExtraField::get_TotalSize()
+// 0x0000010D System.UInt16 System.IO.Compression.Zip64ExtraField::get_TotalSize()
 extern void Zip64ExtraField_get_TotalSize_m7E34B3707004B59F1A3BE4E4999390D16DFD601D (void);
-// 0x0000010C System.Nullable`1<System.Int64> System.IO.Compression.Zip64ExtraField::get_UncompressedSize()
+// 0x0000010E System.Nullable`1<System.Int64> System.IO.Compression.Zip64ExtraField::get_UncompressedSize()
 extern void Zip64ExtraField_get_UncompressedSize_m9EC16826ABACAD9F62F30A0C2E2DD8C0E2C3EC1E (void);
-// 0x0000010D System.Void System.IO.Compression.Zip64ExtraField::set_UncompressedSize(System.Nullable`1<System.Int64>)
+// 0x0000010F System.Void System.IO.Compression.Zip64ExtraField::set_UncompressedSize(System.Nullable`1<System.Int64>)
 extern void Zip64ExtraField_set_UncompressedSize_mE33ECED55094F13D155861CA7B419F3AC7B91463 (void);
-// 0x0000010E System.Nullable`1<System.Int64> System.IO.Compression.Zip64ExtraField::get_CompressedSize()
+// 0x00000110 System.Nullable`1<System.Int64> System.IO.Compression.Zip64ExtraField::get_CompressedSize()
 extern void Zip64ExtraField_get_CompressedSize_m15B657852DB4BD1B229D88C18ACA5712516F452E (void);
-// 0x0000010F System.Void System.IO.Compression.Zip64ExtraField::set_CompressedSize(System.Nullable`1<System.Int64>)
+// 0x00000111 System.Void System.IO.Compression.Zip64ExtraField::set_CompressedSize(System.Nullable`1<System.Int64>)
 extern void Zip64ExtraField_set_CompressedSize_mDA3330A9680C3E74B2DD3E8F3146049590CA4D58 (void);
-// 0x00000110 System.Nullable`1<System.Int64> System.IO.Compression.Zip64ExtraField::get_LocalHeaderOffset()
+// 0x00000112 System.Nullable`1<System.Int64> System.IO.Compression.Zip64ExtraField::get_LocalHeaderOffset()
 extern void Zip64ExtraField_get_LocalHeaderOffset_mAAC027C70AFA3364BA55EC64D20B41D241D8174A (void);
-// 0x00000111 System.Void System.IO.Compression.Zip64ExtraField::set_LocalHeaderOffset(System.Nullable`1<System.Int64>)
+// 0x00000113 System.Void System.IO.Compression.Zip64ExtraField::set_LocalHeaderOffset(System.Nullable`1<System.Int64>)
 extern void Zip64ExtraField_set_LocalHeaderOffset_m300FA20AC7100C9D9FA4B0473C8C3533A22AA899 (void);
-// 0x00000112 System.Nullable`1<System.Int32> System.IO.Compression.Zip64ExtraField::get_StartDiskNumber()
+// 0x00000114 System.Nullable`1<System.Int32> System.IO.Compression.Zip64ExtraField::get_StartDiskNumber()
 extern void Zip64ExtraField_get_StartDiskNumber_m051AFDD1FCE029A55EEE18FD0FF8DDE94892C3C9 (void);
-// 0x00000113 System.Void System.IO.Compression.Zip64ExtraField::UpdateSize()
+// 0x00000115 System.Void System.IO.Compression.Zip64ExtraField::UpdateSize()
 extern void Zip64ExtraField_UpdateSize_m7138EB68C1952596428CC0FA07353C9C52E053A1 (void);
-// 0x00000114 System.IO.Compression.Zip64ExtraField System.IO.Compression.Zip64ExtraField::GetJustZip64Block(System.IO.Stream,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+// 0x00000116 System.IO.Compression.Zip64ExtraField System.IO.Compression.Zip64ExtraField::GetJustZip64Block(System.IO.Stream,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
 extern void Zip64ExtraField_GetJustZip64Block_m9ED3AB4A944487F5862F7AFC4A78C547DC2CDED8 (void);
-// 0x00000115 System.Boolean System.IO.Compression.Zip64ExtraField::TryGetZip64BlockFromGenericExtraField(System.IO.Compression.ZipGenericExtraField,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.IO.Compression.Zip64ExtraField&)
+// 0x00000117 System.Boolean System.IO.Compression.Zip64ExtraField::TryGetZip64BlockFromGenericExtraField(System.IO.Compression.ZipGenericExtraField,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.IO.Compression.Zip64ExtraField&)
 extern void Zip64ExtraField_TryGetZip64BlockFromGenericExtraField_m2F52C58C8AA01AF6B9988B7B0A16F375EF8077EF (void);
-// 0x00000116 System.IO.Compression.Zip64ExtraField System.IO.Compression.Zip64ExtraField::GetAndRemoveZip64Block(System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField>,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+// 0x00000118 System.IO.Compression.Zip64ExtraField System.IO.Compression.Zip64ExtraField::GetAndRemoveZip64Block(System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField>,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
 extern void Zip64ExtraField_GetAndRemoveZip64Block_m2C08150CF2267C58F17EBB244A3BF01889F19447 (void);
-// 0x00000117 System.Void System.IO.Compression.Zip64ExtraField::RemoveZip64Blocks(System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField>)
+// 0x00000119 System.Void System.IO.Compression.Zip64ExtraField::RemoveZip64Blocks(System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField>)
 extern void Zip64ExtraField_RemoveZip64Blocks_m9D637BEC3EC147071CA7C739CF703919C6620E12 (void);
-// 0x00000118 System.Void System.IO.Compression.Zip64ExtraField::WriteBlock(System.IO.Stream)
+// 0x0000011A System.Void System.IO.Compression.Zip64ExtraField::WriteBlock(System.IO.Stream)
 extern void Zip64ExtraField_WriteBlock_m8D70E9CCCA10906D3CA89A7146FF8B396DF47B2C (void);
-// 0x00000119 System.Boolean System.IO.Compression.Zip64EndOfCentralDirectoryLocator::TryReadBlock(System.IO.BinaryReader,System.IO.Compression.Zip64EndOfCentralDirectoryLocator&)
+// 0x0000011B System.Boolean System.IO.Compression.Zip64EndOfCentralDirectoryLocator::TryReadBlock(System.IO.BinaryReader,System.IO.Compression.Zip64EndOfCentralDirectoryLocator&)
 extern void Zip64EndOfCentralDirectoryLocator_TryReadBlock_mCB6E426763DD7B269CE1EDB106339A93E685C3D1 (void);
-// 0x0000011A System.Void System.IO.Compression.Zip64EndOfCentralDirectoryLocator::WriteBlock(System.IO.Stream,System.Int64)
+// 0x0000011C System.Void System.IO.Compression.Zip64EndOfCentralDirectoryLocator::WriteBlock(System.IO.Stream,System.Int64)
 extern void Zip64EndOfCentralDirectoryLocator_WriteBlock_m943CC49ACB81246CE8EE91BC74697B7C502C3BB7 (void);
-// 0x0000011B System.Boolean System.IO.Compression.Zip64EndOfCentralDirectoryRecord::TryReadBlock(System.IO.BinaryReader,System.IO.Compression.Zip64EndOfCentralDirectoryRecord&)
+// 0x0000011D System.Boolean System.IO.Compression.Zip64EndOfCentralDirectoryRecord::TryReadBlock(System.IO.BinaryReader,System.IO.Compression.Zip64EndOfCentralDirectoryRecord&)
 extern void Zip64EndOfCentralDirectoryRecord_TryReadBlock_mA5C28D36E1E38A7FCB19922ED4BD2951162000CD (void);
-// 0x0000011C System.Void System.IO.Compression.Zip64EndOfCentralDirectoryRecord::WriteBlock(System.IO.Stream,System.Int64,System.Int64,System.Int64)
+// 0x0000011E System.Void System.IO.Compression.Zip64EndOfCentralDirectoryRecord::WriteBlock(System.IO.Stream,System.Int64,System.Int64,System.Int64)
 extern void Zip64EndOfCentralDirectoryRecord_WriteBlock_m2296A588328B9167244EF75B8197AEC0D1215025 (void);
-// 0x0000011D System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField> System.IO.Compression.ZipLocalFileHeader::GetExtraFields(System.IO.BinaryReader)
+// 0x0000011F System.Collections.Generic.List`1<System.IO.Compression.ZipGenericExtraField> System.IO.Compression.ZipLocalFileHeader::GetExtraFields(System.IO.BinaryReader)
 extern void ZipLocalFileHeader_GetExtraFields_m9E58DC6995D233DD865CBFFCEAB30E0CA5F9E0F0 (void);
-// 0x0000011E System.Boolean System.IO.Compression.ZipLocalFileHeader::TrySkipBlock(System.IO.BinaryReader)
+// 0x00000120 System.Boolean System.IO.Compression.ZipLocalFileHeader::TrySkipBlock(System.IO.BinaryReader)
 extern void ZipLocalFileHeader_TrySkipBlock_m1B7B7F883CBBD25389F57A18E633D25323520857 (void);
-// 0x0000011F System.Boolean System.IO.Compression.ZipCentralDirectoryFileHeader::TryReadBlock(System.IO.BinaryReader,System.Boolean,System.IO.Compression.ZipCentralDirectoryFileHeader&)
+// 0x00000121 System.Boolean System.IO.Compression.ZipCentralDirectoryFileHeader::TryReadBlock(System.IO.BinaryReader,System.Boolean,System.IO.Compression.ZipCentralDirectoryFileHeader&)
 extern void ZipCentralDirectoryFileHeader_TryReadBlock_m0219629BC1830E7E3A7A6D07AFEE10C085EF1959 (void);
-// 0x00000120 System.Void System.IO.Compression.ZipEndOfCentralDirectoryBlock::WriteBlock(System.IO.Stream,System.Int64,System.Int64,System.Int64,System.Byte[])
+// 0x00000122 System.Void System.IO.Compression.ZipEndOfCentralDirectoryBlock::WriteBlock(System.IO.Stream,System.Int64,System.Int64,System.Int64,System.Byte[])
 extern void ZipEndOfCentralDirectoryBlock_WriteBlock_m76B0E87C7DE5D02E9FBF18E9EEEDE6BCCC709CBA (void);
-// 0x00000121 System.Boolean System.IO.Compression.ZipEndOfCentralDirectoryBlock::TryReadBlock(System.IO.BinaryReader,System.IO.Compression.ZipEndOfCentralDirectoryBlock&)
+// 0x00000123 System.Boolean System.IO.Compression.ZipEndOfCentralDirectoryBlock::TryReadBlock(System.IO.BinaryReader,System.IO.Compression.ZipEndOfCentralDirectoryBlock&)
 extern void ZipEndOfCentralDirectoryBlock_TryReadBlock_mE3AFF400C4B089D015F08FEE41F94E0E4ED5A0A8 (void);
-// 0x00000122 System.Void System.IO.Compression.WrappedStream::.ctor(System.IO.Stream,System.Boolean)
+// 0x00000124 System.Void System.IO.Compression.WrappedStream::.ctor(System.IO.Stream,System.Boolean)
 extern void WrappedStream__ctor_m4D51C6BFBA87CD548CB42215983AD84431003492 (void);
-// 0x00000123 System.Void System.IO.Compression.WrappedStream::.ctor(System.IO.Stream,System.Boolean,System.IO.Compression.ZipArchiveEntry,System.Action`1<System.IO.Compression.ZipArchiveEntry>)
+// 0x00000125 System.Void System.IO.Compression.WrappedStream::.ctor(System.IO.Stream,System.Boolean,System.IO.Compression.ZipArchiveEntry,System.Action`1<System.IO.Compression.ZipArchiveEntry>)
 extern void WrappedStream__ctor_mC8BD1305AFDD2D15C91ADF75F5CAE7B7941E4F21 (void);
-// 0x00000124 System.Void System.IO.Compression.WrappedStream::.ctor(System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.Action`1<System.IO.Compression.ZipArchiveEntry>)
+// 0x00000126 System.Void System.IO.Compression.WrappedStream::.ctor(System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.Action`1<System.IO.Compression.ZipArchiveEntry>)
 extern void WrappedStream__ctor_mD3D7474E36FAD601491CBBE3543194ADF7515B18 (void);
-// 0x00000125 System.Int64 System.IO.Compression.WrappedStream::get_Length()
+// 0x00000127 System.Int64 System.IO.Compression.WrappedStream::get_Length()
 extern void WrappedStream_get_Length_m1FF3C05459A8AC470BE41B3C45E753ADF15357D2 (void);
-// 0x00000126 System.Int64 System.IO.Compression.WrappedStream::get_Position()
+// 0x00000128 System.Int64 System.IO.Compression.WrappedStream::get_Position()
 extern void WrappedStream_get_Position_mC0524B3A167CC88674D7E6493CE14F166AF5C5F0 (void);
-// 0x00000127 System.Void System.IO.Compression.WrappedStream::set_Position(System.Int64)
+// 0x00000129 System.Void System.IO.Compression.WrappedStream::set_Position(System.Int64)
 extern void WrappedStream_set_Position_m99365FB8C31F773403C5FC897F0AFECDF697599F (void);
-// 0x00000128 System.Boolean System.IO.Compression.WrappedStream::get_CanRead()
+// 0x0000012A System.Boolean System.IO.Compression.WrappedStream::get_CanRead()
 extern void WrappedStream_get_CanRead_m4DBECAF9240D03FE7F8C69F46B95C6AAA0DDE6AF (void);
-// 0x00000129 System.Boolean System.IO.Compression.WrappedStream::get_CanSeek()
+// 0x0000012B System.Boolean System.IO.Compression.WrappedStream::get_CanSeek()
 extern void WrappedStream_get_CanSeek_mFA12ED0EE8DC2981FEBC01E8D9230FE5131B79B0 (void);
-// 0x0000012A System.Boolean System.IO.Compression.WrappedStream::get_CanWrite()
+// 0x0000012C System.Boolean System.IO.Compression.WrappedStream::get_CanWrite()
 extern void WrappedStream_get_CanWrite_m9C69F40EE7814642D252DCE85F2D11B67F340097 (void);
-// 0x0000012B System.Void System.IO.Compression.WrappedStream::ThrowIfDisposed()
+// 0x0000012D System.Void System.IO.Compression.WrappedStream::ThrowIfDisposed()
 extern void WrappedStream_ThrowIfDisposed_m6F97FEE952531B602DD2473A6D2A9280EA3C51AE (void);
-// 0x0000012C System.Void System.IO.Compression.WrappedStream::ThrowIfCantRead()
+// 0x0000012E System.Void System.IO.Compression.WrappedStream::ThrowIfCantRead()
 extern void WrappedStream_ThrowIfCantRead_m0608D2EA986671D34036320B871BD3A43B674C60 (void);
-// 0x0000012D System.Void System.IO.Compression.WrappedStream::ThrowIfCantWrite()
+// 0x0000012F System.Void System.IO.Compression.WrappedStream::ThrowIfCantWrite()
 extern void WrappedStream_ThrowIfCantWrite_mC3B779C8710FC06FEA7F04491833B6EDEBE8BE42 (void);
-// 0x0000012E System.Void System.IO.Compression.WrappedStream::ThrowIfCantSeek()
+// 0x00000130 System.Void System.IO.Compression.WrappedStream::ThrowIfCantSeek()
 extern void WrappedStream_ThrowIfCantSeek_m814A70E7E3AF564BAB22B38CBAF0C832383DF701 (void);
-// 0x0000012F System.Int32 System.IO.Compression.WrappedStream::Read(System.Byte[],System.Int32,System.Int32)
+// 0x00000131 System.Int32 System.IO.Compression.WrappedStream::Read(System.Byte[],System.Int32,System.Int32)
 extern void WrappedStream_Read_m7F6F6A0BCDC09F5D1354E93F0A467F7F2D78E36A (void);
-// 0x00000130 System.Int64 System.IO.Compression.WrappedStream::Seek(System.Int64,System.IO.SeekOrigin)
+// 0x00000132 System.Int64 System.IO.Compression.WrappedStream::Seek(System.Int64,System.IO.SeekOrigin)
 extern void WrappedStream_Seek_m5C780B51146D25924E806AD0374FB6736C907C67 (void);
-// 0x00000131 System.Void System.IO.Compression.WrappedStream::SetLength(System.Int64)
+// 0x00000133 System.Void System.IO.Compression.WrappedStream::SetLength(System.Int64)
 extern void WrappedStream_SetLength_m223F37AAF861152C8A164FFB4767FCBD88335A83 (void);
-// 0x00000132 System.Void System.IO.Compression.WrappedStream::Write(System.Byte[],System.Int32,System.Int32)
+// 0x00000134 System.Void System.IO.Compression.WrappedStream::Write(System.Byte[],System.Int32,System.Int32)
 extern void WrappedStream_Write_m62608F64ED13AB0EE9BAFAA1F4DE7A22A112579F (void);
-// 0x00000133 System.Void System.IO.Compression.WrappedStream::Flush()
+// 0x00000135 System.Void System.IO.Compression.WrappedStream::Flush()
 extern void WrappedStream_Flush_m813F097959D4408B2F4AC60B2A10A4C23CF85074 (void);
-// 0x00000134 System.Void System.IO.Compression.WrappedStream::Dispose(System.Boolean)
+// 0x00000136 System.Void System.IO.Compression.WrappedStream::Dispose(System.Boolean)
 extern void WrappedStream_Dispose_m7F263687FE95A97B45209E3844B6F6FB49A6C742 (void);
-// 0x00000135 System.Void System.IO.Compression.SubReadStream::.ctor(System.IO.Stream,System.Int64,System.Int64)
+// 0x00000137 System.Void System.IO.Compression.SubReadStream::.ctor(System.IO.Stream,System.Int64,System.Int64)
 extern void SubReadStream__ctor_mDF6E15EBFC55CE628AEA9A2C1BA826DCB02BC1CE (void);
-// 0x00000136 System.Int64 System.IO.Compression.SubReadStream::get_Length()
+// 0x00000138 System.Int64 System.IO.Compression.SubReadStream::get_Length()
 extern void SubReadStream_get_Length_m17819C86755A8D9BF9C1CC6C03FBF01117331D69 (void);
-// 0x00000137 System.Int64 System.IO.Compression.SubReadStream::get_Position()
+// 0x00000139 System.Int64 System.IO.Compression.SubReadStream::get_Position()
 extern void SubReadStream_get_Position_mBEB84B95C38E34ADFC5A966EF0E3AD590FB3466B (void);
-// 0x00000138 System.Void System.IO.Compression.SubReadStream::set_Position(System.Int64)
+// 0x0000013A System.Void System.IO.Compression.SubReadStream::set_Position(System.Int64)
 extern void SubReadStream_set_Position_m166930DF3AA08004146A8700B4639D8E430B14C1 (void);
-// 0x00000139 System.Boolean System.IO.Compression.SubReadStream::get_CanRead()
+// 0x0000013B System.Boolean System.IO.Compression.SubReadStream::get_CanRead()
 extern void SubReadStream_get_CanRead_m7899AD4451799D898EE65265C678998B20C5A53B (void);
-// 0x0000013A System.Boolean System.IO.Compression.SubReadStream::get_CanSeek()
+// 0x0000013C System.Boolean System.IO.Compression.SubReadStream::get_CanSeek()
 extern void SubReadStream_get_CanSeek_mEFB04CC4A2E61870948F0D090CFB57F6EB113989 (void);
-// 0x0000013B System.Boolean System.IO.Compression.SubReadStream::get_CanWrite()
+// 0x0000013D System.Boolean System.IO.Compression.SubReadStream::get_CanWrite()
 extern void SubReadStream_get_CanWrite_m6B42D805DEFA1FD2D15BA7074EA96C001CC46218 (void);
-// 0x0000013C System.Void System.IO.Compression.SubReadStream::ThrowIfDisposed()
+// 0x0000013E System.Void System.IO.Compression.SubReadStream::ThrowIfDisposed()
 extern void SubReadStream_ThrowIfDisposed_m38B84D3C7FBAB29B7E5476079AC5B503BCAB7977 (void);
-// 0x0000013D System.Void System.IO.Compression.SubReadStream::ThrowIfCantRead()
+// 0x0000013F System.Void System.IO.Compression.SubReadStream::ThrowIfCantRead()
 extern void SubReadStream_ThrowIfCantRead_m2391223D24E2A47BA7C18D69C100215ACD187962 (void);
-// 0x0000013E System.Int32 System.IO.Compression.SubReadStream::Read(System.Byte[],System.Int32,System.Int32)
+// 0x00000140 System.Int32 System.IO.Compression.SubReadStream::Read(System.Byte[],System.Int32,System.Int32)
 extern void SubReadStream_Read_mE3226B1632953FC4EBC803F24576EFA8B3B8709C (void);
-// 0x0000013F System.Int64 System.IO.Compression.SubReadStream::Seek(System.Int64,System.IO.SeekOrigin)
+// 0x00000141 System.Int64 System.IO.Compression.SubReadStream::Seek(System.Int64,System.IO.SeekOrigin)
 extern void SubReadStream_Seek_m7FDBDB65C23695FA8FCFC46CFEB25526B1DA9B1F (void);
-// 0x00000140 System.Void System.IO.Compression.SubReadStream::SetLength(System.Int64)
+// 0x00000142 System.Void System.IO.Compression.SubReadStream::SetLength(System.Int64)
 extern void SubReadStream_SetLength_m5B806107C12B906C60D6137AFB61985FDFE0F4CA (void);
-// 0x00000141 System.Void System.IO.Compression.SubReadStream::Write(System.Byte[],System.Int32,System.Int32)
+// 0x00000143 System.Void System.IO.Compression.SubReadStream::Write(System.Byte[],System.Int32,System.Int32)
 extern void SubReadStream_Write_mF8F6F42C345DFB9031E50A6D5203D396C98DE2D7 (void);
-// 0x00000142 System.Void System.IO.Compression.SubReadStream::Flush()
+// 0x00000144 System.Void System.IO.Compression.SubReadStream::Flush()
 extern void SubReadStream_Flush_mE3D2282322BD1F8BED97CA87F4572D727C91312A (void);
-// 0x00000143 System.Void System.IO.Compression.SubReadStream::Dispose(System.Boolean)
+// 0x00000145 System.Void System.IO.Compression.SubReadStream::Dispose(System.Boolean)
 extern void SubReadStream_Dispose_mAE9F70EAD8EE00496169A33298F78AD4F8B5B682 (void);
-// 0x00000144 System.Void System.IO.Compression.CheckSumAndSizeWriteStream::.ctor(System.IO.Stream,System.IO.Stream,System.Boolean,System.IO.Compression.ZipArchiveEntry,System.EventHandler,System.Action`6<System.Int64,System.Int64,System.UInt32,System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.EventHandler>)
+// 0x00000146 System.Void System.IO.Compression.CheckSumAndSizeWriteStream::.ctor(System.IO.Stream,System.IO.Stream,System.Boolean,System.IO.Compression.ZipArchiveEntry,System.EventHandler,System.Action`6<System.Int64,System.Int64,System.UInt32,System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.EventHandler>)
 extern void CheckSumAndSizeWriteStream__ctor_mDA745180CB90F7D84511B2E58A3405B26526D519 (void);
-// 0x00000145 System.Int64 System.IO.Compression.CheckSumAndSizeWriteStream::get_Length()
+// 0x00000147 System.Int64 System.IO.Compression.CheckSumAndSizeWriteStream::get_Length()
 extern void CheckSumAndSizeWriteStream_get_Length_mDD65CD500CDEBD560D6A2E80C1E70275F564A3FB (void);
-// 0x00000146 System.Int64 System.IO.Compression.CheckSumAndSizeWriteStream::get_Position()
+// 0x00000148 System.Int64 System.IO.Compression.CheckSumAndSizeWriteStream::get_Position()
 extern void CheckSumAndSizeWriteStream_get_Position_mDFD440A3DE83D1E9E4D2507FAAFEBB6A67F4F12C (void);
-// 0x00000147 System.Void System.IO.Compression.CheckSumAndSizeWriteStream::set_Position(System.Int64)
+// 0x00000149 System.Void System.IO.Compression.CheckSumAndSizeWriteStream::set_Position(System.Int64)
 extern void CheckSumAndSizeWriteStream_set_Position_m6FC4D1CC2EC0F5D820C43CE0483870B93EE060C7 (void);
-// 0x00000148 System.Boolean System.IO.Compression.CheckSumAndSizeWriteStream::get_CanRead()
+// 0x0000014A System.Boolean System.IO.Compression.CheckSumAndSizeWriteStream::get_CanRead()
 extern void CheckSumAndSizeWriteStream_get_CanRead_mD62AD319EA9BF34D363BB3B6DD47F532F763457B (void);
-// 0x00000149 System.Boolean System.IO.Compression.CheckSumAndSizeWriteStream::get_CanSeek()
+// 0x0000014B System.Boolean System.IO.Compression.CheckSumAndSizeWriteStream::get_CanSeek()
 extern void CheckSumAndSizeWriteStream_get_CanSeek_m4D0F3FCC720F8D5622C18F5D2A1E86E735DE7081 (void);
-// 0x0000014A System.Boolean System.IO.Compression.CheckSumAndSizeWriteStream::get_CanWrite()
+// 0x0000014C System.Boolean System.IO.Compression.CheckSumAndSizeWriteStream::get_CanWrite()
 extern void CheckSumAndSizeWriteStream_get_CanWrite_mC7589A01587E6ABD19A2CE0A640C1F38B4C60444 (void);
-// 0x0000014B System.Void System.IO.Compression.CheckSumAndSizeWriteStream::ThrowIfDisposed()
+// 0x0000014D System.Void System.IO.Compression.CheckSumAndSizeWriteStream::ThrowIfDisposed()
 extern void CheckSumAndSizeWriteStream_ThrowIfDisposed_mA56180EE9F6215C96AAABF889BA5EC98FB43E743 (void);
-// 0x0000014C System.Int32 System.IO.Compression.CheckSumAndSizeWriteStream::Read(System.Byte[],System.Int32,System.Int32)
+// 0x0000014E System.Int32 System.IO.Compression.CheckSumAndSizeWriteStream::Read(System.Byte[],System.Int32,System.Int32)
 extern void CheckSumAndSizeWriteStream_Read_mF7738F0D099E594B8AF2E3AB17C7BE488A7E69EB (void);
-// 0x0000014D System.Int64 System.IO.Compression.CheckSumAndSizeWriteStream::Seek(System.Int64,System.IO.SeekOrigin)
+// 0x0000014F System.Int64 System.IO.Compression.CheckSumAndSizeWriteStream::Seek(System.Int64,System.IO.SeekOrigin)
 extern void CheckSumAndSizeWriteStream_Seek_m9D27C09E6E2EB1DBD3BD19A846390542C5494666 (void);
-// 0x0000014E System.Void System.IO.Compression.CheckSumAndSizeWriteStream::SetLength(System.Int64)
+// 0x00000150 System.Void System.IO.Compression.CheckSumAndSizeWriteStream::SetLength(System.Int64)
 extern void CheckSumAndSizeWriteStream_SetLength_m6BDAD865FCF71177DFB9B7443B189AB3DF7D63C2 (void);
-// 0x0000014F System.Void System.IO.Compression.CheckSumAndSizeWriteStream::Write(System.Byte[],System.Int32,System.Int32)
+// 0x00000151 System.Void System.IO.Compression.CheckSumAndSizeWriteStream::Write(System.Byte[],System.Int32,System.Int32)
 extern void CheckSumAndSizeWriteStream_Write_m35FB95A4E872DC33759EC783A222D6FF662CDDA8 (void);
-// 0x00000150 System.Void System.IO.Compression.CheckSumAndSizeWriteStream::Flush()
+// 0x00000152 System.Void System.IO.Compression.CheckSumAndSizeWriteStream::Flush()
 extern void CheckSumAndSizeWriteStream_Flush_m313A79204F685DBBAF26A7B4C19A65B3D0130BA6 (void);
-// 0x00000151 System.Void System.IO.Compression.CheckSumAndSizeWriteStream::Dispose(System.Boolean)
+// 0x00000153 System.Void System.IO.Compression.CheckSumAndSizeWriteStream::Dispose(System.Boolean)
 extern void CheckSumAndSizeWriteStream_Dispose_mD45EA211D7605970AF18DE83E56E79C65135B946 (void);
-// 0x00000152 System.Boolean System.IO.Compression.ZipHelper::RequiresUnicode(System.String)
+// 0x00000154 System.Boolean System.IO.Compression.ZipHelper::RequiresUnicode(System.String)
 extern void ZipHelper_RequiresUnicode_m137FB792E69A2AF38E0E1A9813CD6809FA1C1A77 (void);
-// 0x00000153 System.Void System.IO.Compression.ZipHelper::ReadBytes(System.IO.Stream,System.Byte[],System.Int32)
+// 0x00000155 System.Void System.IO.Compression.ZipHelper::ReadBytes(System.IO.Stream,System.Byte[],System.Int32)
 extern void ZipHelper_ReadBytes_mD1CCD355A83F163ACDF72E9DA912AB3803F20DA5 (void);
-// 0x00000154 System.DateTime System.IO.Compression.ZipHelper::DosTimeToDateTime(System.UInt32)
+// 0x00000156 System.DateTime System.IO.Compression.ZipHelper::DosTimeToDateTime(System.UInt32)
 extern void ZipHelper_DosTimeToDateTime_mE9ABE82504934D3AAB4E6F8BF51115DFB6D001CC (void);
-// 0x00000155 System.UInt32 System.IO.Compression.ZipHelper::DateTimeToDosTime(System.DateTime)
+// 0x00000157 System.UInt32 System.IO.Compression.ZipHelper::DateTimeToDosTime(System.DateTime)
 extern void ZipHelper_DateTimeToDosTime_m1DC94723FC4D2EAAB46AAD0E3D41E29362B7ADD9 (void);
-// 0x00000156 System.Boolean System.IO.Compression.ZipHelper::SeekBackwardsToSignature(System.IO.Stream,System.UInt32)
+// 0x00000158 System.Boolean System.IO.Compression.ZipHelper::SeekBackwardsToSignature(System.IO.Stream,System.UInt32)
 extern void ZipHelper_SeekBackwardsToSignature_m15C2EF41AB330F6107A2BCEA184A3E6D79528C66 (void);
-// 0x00000157 System.Void System.IO.Compression.ZipHelper::AdvanceToPosition(System.IO.Stream,System.Int64)
+// 0x00000159 System.Void System.IO.Compression.ZipHelper::AdvanceToPosition(System.IO.Stream,System.Int64)
 extern void ZipHelper_AdvanceToPosition_m4DB941D537F6ACDCEEE1B5950C7A3E2BD501ED0A (void);
-// 0x00000158 System.Boolean System.IO.Compression.ZipHelper::SeekBackwardsAndRead(System.IO.Stream,System.Byte[],System.Int32&)
+// 0x0000015A System.Boolean System.IO.Compression.ZipHelper::SeekBackwardsAndRead(System.IO.Stream,System.Byte[],System.Int32&)
 extern void ZipHelper_SeekBackwardsAndRead_m50C71AC5705EA12220CFCC38DB27704780C4DD79 (void);
-// 0x00000159 System.Void System.IO.Compression.ZipHelper::.cctor()
+// 0x0000015B System.Void System.IO.Compression.ZipHelper::.cctor()
 extern void ZipHelper__cctor_m21B728D44A86D57F092AD563E8AB75DA32A86D3F (void);
-// 0x0000015A System.UInt32 System.IO.Compression.Crc32Helper::UpdateCrc32(System.UInt32,System.Byte[],System.Int32,System.Int32)
+// 0x0000015C System.UInt32 System.IO.Compression.Crc32Helper::UpdateCrc32(System.UInt32,System.Byte[],System.Int32,System.Int32)
 extern void Crc32Helper_UpdateCrc32_mE53E4360553EA5590A5F2B0DCFF28107491488C8 (void);
-// 0x0000015B System.UInt32 System.IO.Compression.Crc32Helper::ManagedCrc32(System.UInt32,System.Byte[],System.Int32,System.Int32)
+// 0x0000015D System.UInt32 System.IO.Compression.Crc32Helper::ManagedCrc32(System.UInt32,System.Byte[],System.Int32,System.Int32)
 extern void Crc32Helper_ManagedCrc32_mB5AF2A9B988B0B247AE51F29CECAB23474E3E43A (void);
-// 0x0000015C System.Void System.IO.Compression.Crc32Helper::.cctor()
+// 0x0000015E System.Void System.IO.Compression.Crc32Helper::.cctor()
 extern void Crc32Helper__cctor_mDB1001CA95BA9CEE4FE2474694EBAB667DCCB764 (void);
-// 0x0000015D System.IAsyncResult System.Threading.Tasks.TaskToApm::Begin(System.Threading.Tasks.Task,System.AsyncCallback,System.Object)
+// 0x0000015F System.IAsyncResult System.Threading.Tasks.TaskToApm::Begin(System.Threading.Tasks.Task,System.AsyncCallback,System.Object)
 extern void TaskToApm_Begin_m44CB517BFE57EC35DA62E6F521D1A8EE87C0186B (void);
-// 0x0000015E System.Void System.Threading.Tasks.TaskToApm::End(System.IAsyncResult)
+// 0x00000160 System.Void System.Threading.Tasks.TaskToApm::End(System.IAsyncResult)
 extern void TaskToApm_End_m0EC7E36D7D89A816E49D0943AEBC7672821A8A65 (void);
-// 0x0000015F TResult System.Threading.Tasks.TaskToApm::End(System.IAsyncResult)
-// 0x00000160 System.Void System.Threading.Tasks.TaskToApm::InvokeCallbackWhenTaskCompletes(System.Threading.Tasks.Task,System.AsyncCallback,System.IAsyncResult)
+// 0x00000161 TResult System.Threading.Tasks.TaskToApm::End(System.IAsyncResult)
+// 0x00000162 System.Void System.Threading.Tasks.TaskToApm::InvokeCallbackWhenTaskCompletes(System.Threading.Tasks.Task,System.AsyncCallback,System.IAsyncResult)
 extern void TaskToApm_InvokeCallbackWhenTaskCompletes_m3EB1EE5866ED727CA98195887A4DC374F68D0EC8 (void);
-// 0x00000161 System.Void System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult::.ctor(System.Threading.Tasks.Task,System.Object,System.Boolean)
+// 0x00000163 System.Void System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult::.ctor(System.Threading.Tasks.Task,System.Object,System.Boolean)
 extern void TaskWrapperAsyncResult__ctor_mB499BBFCDBF9B7C0EAEAB0967183463652BB582B (void);
-// 0x00000162 System.Object System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult::System.IAsyncResult.get_AsyncState()
+// 0x00000164 System.Object System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult::System.IAsyncResult.get_AsyncState()
 extern void TaskWrapperAsyncResult_System_IAsyncResult_get_AsyncState_m0CD1C8CA19F807F944E9DEEDD4C5BDEB82AC22BC (void);
-// 0x00000163 System.Boolean System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult::System.IAsyncResult.get_CompletedSynchronously()
+// 0x00000165 System.Boolean System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult::System.IAsyncResult.get_CompletedSynchronously()
 extern void TaskWrapperAsyncResult_System_IAsyncResult_get_CompletedSynchronously_m255617B4A27EA28380EDEF9E871E588A87966FB0 (void);
-// 0x00000164 System.Boolean System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult::System.IAsyncResult.get_IsCompleted()
+// 0x00000166 System.Boolean System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult::System.IAsyncResult.get_IsCompleted()
 extern void TaskWrapperAsyncResult_System_IAsyncResult_get_IsCompleted_mC4312D0059A42D95B1EA4C04CF371C4C98FD2C98 (void);
-// 0x00000165 System.Threading.WaitHandle System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult::System.IAsyncResult.get_AsyncWaitHandle()
+// 0x00000167 System.Threading.WaitHandle System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult::System.IAsyncResult.get_AsyncWaitHandle()
 extern void TaskWrapperAsyncResult_System_IAsyncResult_get_AsyncWaitHandle_m869A51EAA9D96BC7348E859CC0EF6C48AF49E96B (void);
-// 0x00000166 System.Void System.Threading.Tasks.TaskToApm/<>c__DisplayClass3_0::.ctor()
+// 0x00000168 System.Void System.Threading.Tasks.TaskToApm/<>c__DisplayClass3_0::.ctor()
 extern void U3CU3Ec__DisplayClass3_0__ctor_m8F7103C412BA895BAE75A300E7BB4FD861DB4E0A (void);
-// 0x00000167 System.Void System.Threading.Tasks.TaskToApm/<>c__DisplayClass3_0::<InvokeCallbackWhenTaskCompletes>b__0()
+// 0x00000169 System.Void System.Threading.Tasks.TaskToApm/<>c__DisplayClass3_0::<InvokeCallbackWhenTaskCompletes>b__0()
 extern void U3CU3Ec__DisplayClass3_0_U3CInvokeCallbackWhenTaskCompletesU3Eb__0_m1A9B97A6F1E1083FD709F8F220F3CC05249A7272 (void);
-static Il2CppMethodPointer s_methodPointers[359] = 
+static Il2CppMethodPointer s_methodPointers[361] = 
 {
 	SR_Format_mBF1CDB7DFAFA0FEF6F9F1F0EA557551E0D071BE6,
 	CopyEncoder_GetBlock_m97589A5D7D3B7991F151E8E6DB89F207C4F67444,
@@ -894,9 +898,11 @@ static Il2CppMethodPointer s_methodPointers[359] =
 	PositionPreservingWriteOnlyStreamWrapper_EndWrite_mBAD19D16B50AB9ED6347108A299BD66D6ACC3694,
 	PositionPreservingWriteOnlyStreamWrapper_WriteByte_mF8FCC9223648935B953A0B84AD6DD3A214E26292,
 	PositionPreservingWriteOnlyStreamWrapper_WriteAsync_mB7B0274C46A47F3000080E567640197F672717C6,
+	PositionPreservingWriteOnlyStreamWrapper_get_CanTimeout_m625664A931BF398C18B1D1F53D05A759972E1232,
 	PositionPreservingWriteOnlyStreamWrapper_get_ReadTimeout_m15B7C71F9F868F918B9B4382BF6A8E4F700F4675,
 	PositionPreservingWriteOnlyStreamWrapper_set_ReadTimeout_mE86EE340A7E546485B0FA539B88F2F204C7600D0,
 	PositionPreservingWriteOnlyStreamWrapper_get_WriteTimeout_m8F1E10F7895DC9B7C96D3A6D41C0A96D13FB4FA5,
+	PositionPreservingWriteOnlyStreamWrapper_set_WriteTimeout_m2F313E07E36B85B21F4E659F8D4D6E17726DC1DD,
 	PositionPreservingWriteOnlyStreamWrapper_Flush_m54622E8CA03AA6175CB9503DB8E741CA7AB8D0C6,
 	PositionPreservingWriteOnlyStreamWrapper_FlushAsync_mD8C88422890680C66DB7932D5B3FDB8FB3AD3A07,
 	PositionPreservingWriteOnlyStreamWrapper_Close_m3C35AF518BC6F6653D6EF2A4C9B6370037B4CBC1,
@@ -1112,399 +1118,401 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[20] =
 	{ 0x06000033, U3CWriteAsyncCoreU3Ed__47_MoveNext_m22C502C01304F96DDC1615FF5E2A215CC5FF07FB_AdjustorThunk },
 	{ 0x06000034, U3CWriteAsyncCoreU3Ed__47_SetStateMachine_mFD2CC1FC5BB7CB3160696D69E6BFBE659986D983_AdjustorThunk },
 	{ 0x06000098, BufferState__ctor_mFA120284BC41F51C9428C0F99A8AA72025FB112D_AdjustorThunk },
-	{ 0x06000103, ZipGenericExtraField_get_Tag_m33B77419AEC3D385ED47B3D9095AEB030BF63C9B_AdjustorThunk },
-	{ 0x06000104, ZipGenericExtraField_get_Size_mDAE1439A0DA80546998F82FF27EBAE8911265408_AdjustorThunk },
-	{ 0x06000105, ZipGenericExtraField_get_Data_m70A9CF97AC082F29B2C8571E886CF8EAD584FAE9_AdjustorThunk },
-	{ 0x06000106, ZipGenericExtraField_WriteBlock_m4DEC72E8C271770EEB6F687EAE8EC914F7B67068_AdjustorThunk },
-	{ 0x0600010B, Zip64ExtraField_get_TotalSize_m7E34B3707004B59F1A3BE4E4999390D16DFD601D_AdjustorThunk },
-	{ 0x0600010C, Zip64ExtraField_get_UncompressedSize_m9EC16826ABACAD9F62F30A0C2E2DD8C0E2C3EC1E_AdjustorThunk },
-	{ 0x0600010D, Zip64ExtraField_set_UncompressedSize_mE33ECED55094F13D155861CA7B419F3AC7B91463_AdjustorThunk },
-	{ 0x0600010E, Zip64ExtraField_get_CompressedSize_m15B657852DB4BD1B229D88C18ACA5712516F452E_AdjustorThunk },
-	{ 0x0600010F, Zip64ExtraField_set_CompressedSize_mDA3330A9680C3E74B2DD3E8F3146049590CA4D58_AdjustorThunk },
-	{ 0x06000110, Zip64ExtraField_get_LocalHeaderOffset_mAAC027C70AFA3364BA55EC64D20B41D241D8174A_AdjustorThunk },
-	{ 0x06000111, Zip64ExtraField_set_LocalHeaderOffset_m300FA20AC7100C9D9FA4B0473C8C3533A22AA899_AdjustorThunk },
-	{ 0x06000112, Zip64ExtraField_get_StartDiskNumber_m051AFDD1FCE029A55EEE18FD0FF8DDE94892C3C9_AdjustorThunk },
-	{ 0x06000113, Zip64ExtraField_UpdateSize_m7138EB68C1952596428CC0FA07353C9C52E053A1_AdjustorThunk },
-	{ 0x06000118, Zip64ExtraField_WriteBlock_m8D70E9CCCA10906D3CA89A7146FF8B396DF47B2C_AdjustorThunk },
+	{ 0x06000105, ZipGenericExtraField_get_Tag_m33B77419AEC3D385ED47B3D9095AEB030BF63C9B_AdjustorThunk },
+	{ 0x06000106, ZipGenericExtraField_get_Size_mDAE1439A0DA80546998F82FF27EBAE8911265408_AdjustorThunk },
+	{ 0x06000107, ZipGenericExtraField_get_Data_m70A9CF97AC082F29B2C8571E886CF8EAD584FAE9_AdjustorThunk },
+	{ 0x06000108, ZipGenericExtraField_WriteBlock_m4DEC72E8C271770EEB6F687EAE8EC914F7B67068_AdjustorThunk },
+	{ 0x0600010D, Zip64ExtraField_get_TotalSize_m7E34B3707004B59F1A3BE4E4999390D16DFD601D_AdjustorThunk },
+	{ 0x0600010E, Zip64ExtraField_get_UncompressedSize_m9EC16826ABACAD9F62F30A0C2E2DD8C0E2C3EC1E_AdjustorThunk },
+	{ 0x0600010F, Zip64ExtraField_set_UncompressedSize_mE33ECED55094F13D155861CA7B419F3AC7B91463_AdjustorThunk },
+	{ 0x06000110, Zip64ExtraField_get_CompressedSize_m15B657852DB4BD1B229D88C18ACA5712516F452E_AdjustorThunk },
+	{ 0x06000111, Zip64ExtraField_set_CompressedSize_mDA3330A9680C3E74B2DD3E8F3146049590CA4D58_AdjustorThunk },
+	{ 0x06000112, Zip64ExtraField_get_LocalHeaderOffset_mAAC027C70AFA3364BA55EC64D20B41D241D8174A_AdjustorThunk },
+	{ 0x06000113, Zip64ExtraField_set_LocalHeaderOffset_m300FA20AC7100C9D9FA4B0473C8C3533A22AA899_AdjustorThunk },
+	{ 0x06000114, Zip64ExtraField_get_StartDiskNumber_m051AFDD1FCE029A55EEE18FD0FF8DDE94892C3C9_AdjustorThunk },
+	{ 0x06000115, Zip64ExtraField_UpdateSize_m7138EB68C1952596428CC0FA07353C9C52E053A1_AdjustorThunk },
+	{ 0x0600011A, Zip64ExtraField_WriteBlock_m8D70E9CCCA10906D3CA89A7146FF8B396DF47B2C_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[359] = 
+static const int32_t s_InvokerIndices[361] = 
 {
-	9168,
-	1806,
-	3255,
-	6891,
-	5690,
-	6851,
-	5652,
-	6851,
-	5652,
-	5652,
-	7051,
-	5848,
-	6996,
-	2928,
-	3204,
-	1193,
-	6770,
-	6770,
-	6770,
-	6852,
-	6852,
-	5653,
-	6996,
-	4990,
-	2498,
-	5653,
-	1437,
-	1789,
-	6996,
-	10317,
-	6996,
-	10317,
-	6996,
-	10317,
-	358,
-	4687,
-	982,
-	370,
-	1789,
-	6996,
-	1789,
-	5570,
-	5570,
-	982,
-	982,
-	358,
-	5690,
-	982,
-	6996,
-	5690,
-	6996,
-	5690,
-	6770,
-	1789,
-	4687,
-	2095,
-	3977,
-	6996,
-	6996,
-	6996,
-	6851,
-	6891,
-	6996,
-	6791,
-	1808,
-	3194,
-	5690,
-	5690,
-	1808,
-	5690,
-	4064,
-	4064,
-	5690,
-	8712,
-	9362,
-	10146,
-	10280,
-	9774,
-	9269,
-	10317,
-	6851,
-	6891,
-	6996,
-	6996,
-	6851,
-	1789,
-	6996,
-	2610,
-	5202,
-	2670,
-	4064,
-	561,
-	6891,
-	1789,
-	6891,
-	4064,
-	4064,
-	1789,
-	6996,
-	10280,
-	10280,
-	5690,
-	10280,
-	10280,
-	6891,
-	6996,
-	4687,
-	10317,
-	3175,
-	6996,
-	1789,
-	6770,
-	1437,
-	6770,
-	3913,
-	3913,
-	6770,
-	6996,
-	10317,
-	6851,
-	6851,
-	4027,
-	6979,
-	5211,
-	4654,
-	1437,
-	6770,
-	1789,
-	5652,
-	6996,
-	6996,
-	6851,
-	5652,
-	6851,
-	5652,
-	6851,
-	5652,
-	6770,
-	5570,
-	5690,
-	6851,
-	6851,
-	5773,
-	3014,
-	6996,
-	1789,
-	1789,
-	5570,
-	6851,
-	7108,
-	5895,
-	1741,
-	5570,
-	2928,
-	2383,
-	6851,
-	6851,
-	1437,
-	6996,
-	5690,
-	6770,
-	6770,
-	6770,
-	6852,
-	5653,
-	1789,
-	358,
-	5690,
-	5570,
-	982,
-	6851,
-	5652,
-	6851,
-	6996,
-	4990,
-	6996,
-	5570,
-	6852,
-	2498,
-	5653,
-	1437,
-	1201,
-	6891,
-	6851,
-	5570,
-	6996,
-	6891,
-	6891,
-	6979,
-	6891,
-	5690,
-	5690,
-	5690,
-	5690,
-	6996,
-	6996,
-	6996,
-	1787,
-	6996,
-	6996,
-	6996,
-	3150,
-	3221,
-	6891,
-	5690,
-	6786,
-	6852,
-	6996,
-	6891,
-	6891,
-	6852,
-	6891,
-	6978,
-	5773,
-	5008,
-	2548,
-	6996,
-	6996,
-	6770,
-	2681,
-	1548,
-	5008,
-	4989,
-	6891,
-	6891,
-	1291,
-	6770,
-	3956,
-	6996,
-	5570,
-	6996,
-	6996,
-	6996,
-	5773,
-	6996,
-	9923,
-	9923,
-	9159,
-	10317,
-	3194,
-	6852,
-	6852,
-	5653,
-	6770,
-	6770,
-	6770,
-	6996,
-	1437,
-	2498,
-	5653,
-	1789,
-	6996,
-	5570,
-	10317,
-	6996,
-	230,
-	3194,
-	5690,
-	6978,
-	6978,
-	6891,
-	5690,
-	8317,
-	9923,
-	9778,
-	9436,
-	6978,
-	6670,
-	5476,
-	6670,
-	5476,
-	6670,
-	5476,
-	6669,
-	6996,
-	7824,
-	7304,
-	7824,
-	10146,
-	5690,
-	8914,
-	9432,
-	8914,
-	8224,
-	9923,
-	9657,
-	8308,
-	7797,
-	8914,
-	3175,
-	1192,
-	1811,
-	6852,
-	6852,
-	5653,
-	6770,
-	6770,
-	6770,
-	6996,
-	6996,
-	6996,
-	6996,
-	1437,
-	2498,
-	5653,
-	1789,
-	6996,
-	5570,
-	1797,
-	6852,
-	6852,
-	5653,
-	6770,
-	6770,
-	6770,
-	6996,
-	6996,
-	1437,
-	2498,
-	5653,
-	1789,
-	6996,
-	5570,
-	251,
-	6852,
-	6852,
-	5653,
-	6770,
-	6770,
-	6770,
-	6996,
-	1437,
-	2498,
-	5653,
-	1789,
-	6996,
-	5570,
-	9657,
-	8757,
-	9688,
-	10068,
-	8924,
-	9432,
-	8319,
-	10317,
-	8163,
-	8163,
-	10317,
-	8498,
-	10146,
+	10022,
+	2110,
+	3696,
+	7557,
+	6276,
+	7514,
+	6235,
+	7514,
+	6235,
+	6235,
+	7721,
+	6438,
+	7666,
+	3352,
+	3644,
+	1441,
+	7431,
+	7431,
+	7431,
+	7515,
+	7515,
+	6236,
+	7666,
+	5538,
+	2866,
+	6236,
+	1697,
+	2093,
+	7666,
+	11226,
+	7666,
+	11226,
+	7666,
+	11226,
+	513,
+	5206,
+	1206,
+	531,
+	2093,
+	7666,
+	2093,
+	6151,
+	6151,
+	1206,
+	1206,
+	513,
+	6276,
+	1206,
+	7666,
+	6276,
+	7666,
+	6276,
+	7431,
+	2093,
+	5206,
+	2418,
+	4471,
+	7666,
+	7666,
+	7666,
+	7514,
+	7557,
+	7666,
+	7453,
+	2112,
+	3634,
+	6276,
+	6276,
+	2112,
+	6276,
+	4561,
+	4561,
+	6276,
+	9539,
+	10220,
+	11045,
+	11189,
+	10659,
+	10127,
+	11226,
+	7514,
+	7557,
+	7666,
+	7666,
+	7514,
+	2093,
+	7666,
+	3021,
+	5758,
+	3082,
+	4561,
+	739,
+	7557,
+	2093,
+	7557,
+	4561,
+	4561,
+	2093,
+	7666,
+	11189,
+	11189,
+	6276,
+	11189,
+	11189,
+	7557,
+	7666,
+	5206,
+	11226,
+	3614,
+	7666,
+	2093,
+	7431,
+	1697,
+	7431,
+	4405,
+	4405,
+	7431,
+	7666,
+	11226,
+	7514,
+	7514,
+	4521,
+	7649,
+	5767,
+	5171,
+	1697,
+	7431,
+	2093,
+	6235,
+	7666,
+	7666,
+	7514,
+	6235,
+	7514,
+	6235,
+	7514,
+	6235,
+	7431,
+	6151,
+	6276,
+	7514,
+	7514,
+	6363,
+	3443,
+	7666,
+	2093,
+	2093,
+	6151,
+	7514,
+	7778,
+	6485,
+	2039,
+	6151,
+	3352,
+	2743,
+	7514,
+	7514,
+	1697,
+	7666,
+	6276,
+	7431,
+	7431,
+	7431,
+	7515,
+	6236,
+	2093,
+	513,
+	6276,
+	6151,
+	1206,
+	7431,
+	7514,
+	6235,
+	7514,
+	6235,
+	7666,
+	5538,
+	7666,
+	6151,
+	7515,
+	2866,
+	6236,
+	1697,
+	1449,
+	7557,
+	7514,
+	6151,
+	7666,
+	7557,
+	7557,
+	7649,
+	7557,
+	6276,
+	6276,
+	6276,
+	6276,
+	7666,
+	7666,
+	7666,
+	2091,
+	7666,
+	7666,
+	7666,
+	3585,
+	3661,
+	7557,
+	6276,
+	7448,
+	7515,
+	7666,
+	7557,
+	7557,
+	7515,
+	7557,
+	7648,
+	6363,
+	5557,
+	2950,
+	7666,
+	7666,
+	7431,
+	3093,
+	1828,
+	5557,
+	5537,
+	7557,
+	7557,
+	1547,
+	7431,
+	4449,
+	7666,
+	6151,
+	7666,
+	7666,
+	7666,
+	6363,
+	7666,
+	10815,
+	10815,
+	10013,
+	11226,
+	3634,
+	7515,
+	7515,
+	6236,
+	7431,
+	7431,
+	7431,
+	7666,
+	1697,
+	2866,
+	6236,
+	2093,
+	7666,
+	6151,
+	11226,
+	7666,
+	352,
+	3634,
+	6276,
+	7648,
+	7648,
+	7557,
+	6276,
+	9133,
+	10815,
+	10663,
+	10297,
+	7648,
+	7312,
+	6047,
+	7312,
+	6047,
+	7312,
+	6047,
+	7311,
+	7666,
+	8601,
+	8044,
+	8601,
+	11045,
+	6276,
+	9756,
+	10293,
+	9756,
+	9030,
+	10815,
+	10529,
+	9124,
+	8573,
+	9756,
+	3614,
+	1440,
+	2115,
+	7515,
+	7515,
+	6236,
+	7431,
+	7431,
+	7431,
+	7666,
+	7666,
+	7666,
+	7666,
+	1697,
+	2866,
+	6236,
+	2093,
+	7666,
+	6151,
+	2101,
+	7515,
+	7515,
+	6236,
+	7431,
+	7431,
+	7431,
+	7666,
+	7666,
+	1697,
+	2866,
+	6236,
+	2093,
+	7666,
+	6151,
+	375,
+	7515,
+	7515,
+	6236,
+	7431,
+	7431,
+	7431,
+	7666,
+	1697,
+	2866,
+	6236,
+	2093,
+	7666,
+	6151,
+	10529,
+	9588,
+	10569,
+	10966,
+	9766,
+	10293,
+	9135,
+	11226,
+	8962,
+	8962,
+	11226,
+	9322,
+	11045,
 	-1,
-	8760,
-	1806,
-	6891,
-	6770,
-	6770,
-	6891,
-	6996,
-	6996,
+	9591,
+	2110,
+	7557,
+	7431,
+	7431,
+	7557,
+	7666,
+	7666,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
-	{ 0x0600015F, { 0, 3 } },
+	{ 0x06000161, { 0, 3 } },
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[3] = 
 {
-	{ (Il2CppRGCTXDataType)2, 15712 },
-	{ (Il2CppRGCTXDataType)3, 61854 },
-	{ (Il2CppRGCTXDataType)3, 61021 },
+	{ (Il2CppRGCTXDataType)2, 20159 },
+	{ (Il2CppRGCTXDataType)3, 69096 },
+	{ (Il2CppRGCTXDataType)3, 68091 },
 };
 extern const CustomAttributesCacheGenerator g_System_IO_Compression_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_IO_Compression_CodeGenModule;
 const Il2CppCodeGenModule g_System_IO_Compression_CodeGenModule = 
 {
 	"System.IO.Compression.dll",
-	359,
+	361,
 	s_methodPointers,
 	20,
 	s_adjustorThunks,

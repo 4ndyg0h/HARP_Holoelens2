@@ -13817,15 +13817,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAnimationSerializationUtils_WriteHe
 		// writer.Write(Magic);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_0 = ___writer0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int64_t >::Invoke(20 /* System.Void System.IO.BinaryWriter::Write(System.Int64) */, L_0, ((int64_t)7678548776933278406LL));
+		VirtActionInvoker1< int64_t >::Invoke(21 /* System.Void System.IO.BinaryWriter::Write(System.Int64) */, L_0, ((int64_t)7678548776933278406LL));
 		// writer.Write(VersionMajor);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_1 = ___writer0;
 		NullCheck(L_1);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_1, 1);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_1, 1);
 		// writer.Write(VersionMinor);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_2 = ___writer0;
 		NullCheck(L_2);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_2, 1);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_2, 1);
 		// }
 		return;
 	}
@@ -13893,7 +13893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAnimationSerializationUtils_WriteFl
 		int32_t L_2;
 		L_2 = AnimationCurve_get_preWrapMode_m58B16E24ED209A84A3B2B7D9348F43E3E6776F58(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_0, L_2);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_0, L_2);
 		// writer.Write((int)curve.postWrapMode);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_3 = ___writer0;
 		AnimationCurve_t2D452A14820CEDB83BFF2C911682A4E59001AD03 * L_4 = ___curve1;
@@ -13901,7 +13901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAnimationSerializationUtils_WriteFl
 		int32_t L_5;
 		L_5 = AnimationCurve_get_postWrapMode_m5A9698F30F71D1A4D400F1FD67D78FAF3D14B318(L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_3, L_5);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_3, L_5);
 		// writer.Write(curve.length);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_6 = ___writer0;
 		AnimationCurve_t2D452A14820CEDB83BFF2C911682A4E59001AD03 * L_7 = ___curve1;
@@ -13909,7 +13909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAnimationSerializationUtils_WriteFl
 		int32_t L_8;
 		L_8 = AnimationCurve_get_length_mB3D0734222EE55DB1389BCB98CCB1324AF8AA4E0(L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_6, L_8);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_6, L_8);
 		// for (int i = 0; i < curve.length; ++i)
 		V_0 = 0;
 		goto IL_00a3;
@@ -13933,43 +13933,43 @@ IL_002c:
 		L_15 = Keyframe_get_time_m75EBFDECA329315F6D41A60C0B1291F5BA4039E8((Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F *)(&V_1), /*hidden argument*/NULL);
 		float L_16 = ___startTime2;
 		NullCheck(L_14);
-		VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_14, ((float)il2cpp_codegen_subtract((float)L_15, (float)L_16)));
+		VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_14, ((float)il2cpp_codegen_subtract((float)L_15, (float)L_16)));
 		// writer.Write(keyframe.value);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_17 = ___writer0;
 		float L_18;
 		L_18 = Keyframe_get_value_m9D584EA4DFB7D0BE71646F479DFB615EE005C968((Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F *)(&V_1), /*hidden argument*/NULL);
 		NullCheck(L_17);
-		VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_17, L_18);
+		VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_17, L_18);
 		// writer.Write(keyframe.inTangent);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_19 = ___writer0;
 		float L_20;
 		L_20 = Keyframe_get_inTangent_m90DFA97754632F48D2414D28EB194710DE08626B((Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F *)(&V_1), /*hidden argument*/NULL);
 		NullCheck(L_19);
-		VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_19, L_20);
+		VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_19, L_20);
 		// writer.Write(keyframe.outTangent);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_21 = ___writer0;
 		float L_22;
 		L_22 = Keyframe_get_outTangent_m449E8B125AC282B53E0935606572EBDCB44B5020((Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F *)(&V_1), /*hidden argument*/NULL);
 		NullCheck(L_21);
-		VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_21, L_22);
+		VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_21, L_22);
 		// writer.Write(keyframe.inWeight);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_23 = ___writer0;
 		float L_24;
 		L_24 = Keyframe_get_inWeight_mD91FDE21FBBA5D3CA6FDD89CF4D313958A5B2021((Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F *)(&V_1), /*hidden argument*/NULL);
 		NullCheck(L_23);
-		VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_23, L_24);
+		VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_23, L_24);
 		// writer.Write(keyframe.outWeight);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_25 = ___writer0;
 		float L_26;
 		L_26 = Keyframe_get_outWeight_mD0069E01A70E73CD5A1CABC9C59F5EC3047BADD3((Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F *)(&V_1), /*hidden argument*/NULL);
 		NullCheck(L_25);
-		VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_25, L_26);
+		VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_25, L_26);
 		// writer.Write((int)keyframe.weightedMode);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_27 = ___writer0;
 		int32_t L_28;
 		L_28 = Keyframe_get_weightedMode_mBEEC8DB2BD2C21B2335EA3D68AB100F85D2E4E07((Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F *)(&V_1), /*hidden argument*/NULL);
 		NullCheck(L_27);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_27, L_28);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_27, L_28);
 		// for (int i = 0; i < curve.length; ++i)
 		int32_t L_29 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_29, (int32_t)1));
@@ -14147,7 +14147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAnimationSerializationUtils_WriteBo
 		int32_t L_2;
 		L_2 = AnimationCurve_get_preWrapMode_m58B16E24ED209A84A3B2B7D9348F43E3E6776F58(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_0, L_2);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_0, L_2);
 		// writer.Write((int)curve.postWrapMode);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_3 = ___writer0;
 		AnimationCurve_t2D452A14820CEDB83BFF2C911682A4E59001AD03 * L_4 = ___curve1;
@@ -14155,7 +14155,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAnimationSerializationUtils_WriteBo
 		int32_t L_5;
 		L_5 = AnimationCurve_get_postWrapMode_m5A9698F30F71D1A4D400F1FD67D78FAF3D14B318(L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_3, L_5);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_3, L_5);
 		// writer.Write(curve.length);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_6 = ___writer0;
 		AnimationCurve_t2D452A14820CEDB83BFF2C911682A4E59001AD03 * L_7 = ___curve1;
@@ -14163,7 +14163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAnimationSerializationUtils_WriteBo
 		int32_t L_8;
 		L_8 = AnimationCurve_get_length_mB3D0734222EE55DB1389BCB98CCB1324AF8AA4E0(L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_6, L_8);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_6, L_8);
 		// for (int i = 0; i < curve.length; ++i)
 		V_0 = 0;
 		goto IL_005d;
@@ -14187,13 +14187,13 @@ IL_002c:
 		L_15 = Keyframe_get_time_m75EBFDECA329315F6D41A60C0B1291F5BA4039E8((Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F *)(&V_1), /*hidden argument*/NULL);
 		float L_16 = ___startTime2;
 		NullCheck(L_14);
-		VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_14, ((float)il2cpp_codegen_subtract((float)L_15, (float)L_16)));
+		VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_14, ((float)il2cpp_codegen_subtract((float)L_15, (float)L_16)));
 		// writer.Write(keyframe.value);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_17 = ___writer0;
 		float L_18;
 		L_18 = Keyframe_get_value_m9D584EA4DFB7D0BE71646F479DFB615EE005C968((Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F *)(&V_1), /*hidden argument*/NULL);
 		NullCheck(L_17);
-		VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_17, L_18);
+		VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_17, L_18);
 		// for (int i = 0; i < curve.length; ++i)
 		int32_t L_19 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_19, (int32_t)1));
@@ -14336,7 +14336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAnimationSerializationUtils_WriteFl
 		int32_t L_2;
 		L_2 = AnimationCurve_get_preWrapMode_m58B16E24ED209A84A3B2B7D9348F43E3E6776F58(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_0, L_2);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_0, L_2);
 		// writer.Write((int)curve.postWrapMode);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_3 = ___writer0;
 		AnimationCurve_t2D452A14820CEDB83BFF2C911682A4E59001AD03 * L_4 = ___curve1;
@@ -14344,7 +14344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAnimationSerializationUtils_WriteFl
 		int32_t L_5;
 		L_5 = AnimationCurve_get_postWrapMode_m5A9698F30F71D1A4D400F1FD67D78FAF3D14B318(L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_3, L_5);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_3, L_5);
 		// writer.Write(curve.length);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_6 = ___writer0;
 		AnimationCurve_t2D452A14820CEDB83BFF2C911682A4E59001AD03 * L_7 = ___curve1;
@@ -14352,7 +14352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAnimationSerializationUtils_WriteFl
 		int32_t L_8;
 		L_8 = AnimationCurve_get_length_mB3D0734222EE55DB1389BCB98CCB1324AF8AA4E0(L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_6, L_8);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_6, L_8);
 		// for (int i = 0; i < curve.length; ++i)
 		V_0 = 0;
 		goto IL_005d;
@@ -14376,13 +14376,13 @@ IL_002c:
 		L_15 = Keyframe_get_time_m75EBFDECA329315F6D41A60C0B1291F5BA4039E8((Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F *)(&V_1), /*hidden argument*/NULL);
 		float L_16 = ___startTime2;
 		NullCheck(L_14);
-		VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_14, ((float)il2cpp_codegen_subtract((float)L_15, (float)L_16)));
+		VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_14, ((float)il2cpp_codegen_subtract((float)L_15, (float)L_16)));
 		// writer.Write(keyframe.value);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_17 = ___writer0;
 		float L_18;
 		L_18 = Keyframe_get_value_m9D584EA4DFB7D0BE71646F479DFB615EE005C968((Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F *)(&V_1), /*hidden argument*/NULL);
 		NullCheck(L_17);
-		VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_17, L_18);
+		VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_17, L_18);
 		// for (int i = 0; i < curve.length; ++i)
 		int32_t L_19 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_19, (int32_t)1));
@@ -14721,7 +14721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAnimationSerializationUtils_WriteMa
 		int32_t L_2;
 		L_2 = List_1_get_Count_m3B378E2545B65D35AADB76C0F03A27EAD1DB82B5_inline(L_1, /*hidden argument*/List_1_get_Count_m3B378E2545B65D35AADB76C0F03A27EAD1DB82B5_RuntimeMethod_var);
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_0, L_2);
+		VirtActionInvoker1< int32_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_0, L_2);
 		// foreach (var marker in markers)
 		List_1_tB61611FDA771CAB4A0D2A684B6894CDD68094C2A * L_3 = ___markers1;
 		NullCheck(L_3);
@@ -14750,14 +14750,14 @@ IL_0018:
 			float L_8 = L_7->get_time_0();
 			float L_9 = ___startTime2;
 			NullCheck(L_6);
-			VirtActionInvoker1< float >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_6, ((float)il2cpp_codegen_subtract((float)L_8, (float)L_9)));
+			VirtActionInvoker1< float >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_6, ((float)il2cpp_codegen_subtract((float)L_8, (float)L_9)));
 			// writer.Write(marker.name);
 			BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_10 = ___writer0;
 			InputAnimationMarker_t0B567CCDA8E3A8C96FAF86AA777131152B9B93FC * L_11 = V_1;
 			NullCheck(L_11);
 			String_t* L_12 = L_11->get_name_1();
 			NullCheck(L_10);
-			VirtActionInvoker1< String_t* >::Invoke(23 /* System.Void System.IO.BinaryWriter::Write(System.String) */, L_10, L_12);
+			VirtActionInvoker1< String_t* >::Invoke(24 /* System.Void System.IO.BinaryWriter::Write(System.String) */, L_10, L_12);
 		}
 
 IL_003e:

@@ -401,8 +401,11 @@
     <Reference Include="Google.JarResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.JarResolver.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="System.Reflection.TypeExtensions">
+      <HintPath>Assets\Azure Storage\Plugins\System.Reflection.TypeExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage">
+      <HintPath>Assets\Azure Storage\Plugins\Microsoft.WindowsAzure.Storage.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Tasks">
       <HintPath>Assets\Parse\Plugins\dotNet45\Unity.Tasks.dll</HintPath>
@@ -412,6 +415,9 @@
     </Reference>
     <Reference Include="Unity.Compat">
       <HintPath>Assets\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Azure Storage\Plugins\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

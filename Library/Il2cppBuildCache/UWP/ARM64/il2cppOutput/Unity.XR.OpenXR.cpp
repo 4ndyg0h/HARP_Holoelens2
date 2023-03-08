@@ -16254,7 +16254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KHRSimpleControllerProfile_UnregisterDev
 		L_1 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_1);
+		L_2 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_1);
 		IL2CPP_RUNTIME_CLASS_INIT(InputSystem_t6F1EF32494CBBFE3270F03F3BF728BCADA04940D_il2cpp_TypeInfo_var);
 		InputSystem_RemoveLayout_m8BAD13FC1136FEF656CB5E2B52F7186CEC4920B9(L_2, /*hidden argument*/NULL);
 		// }
@@ -30161,7 +30161,7 @@ IL_000d:
 		OpenXRFeature_tBDE19E44A01E5E54925EAF67574691F11E88CDAA * L_6 = V_2;
 		NullCheck(L_5);
 		bool L_7;
-		L_7 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(119 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_6);
+		L_7 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(124 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_6);
 		V_3 = L_7;
 		bool L_8 = V_3;
 		if (!L_8)
@@ -30250,7 +30250,7 @@ IL_0013:
 		OpenXRFeature_tBDE19E44A01E5E54925EAF67574691F11E88CDAA * L_7 = V_3;
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(119 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
+		L_8 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(124 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
 		V_4 = L_8;
 		bool L_9 = V_4;
 		if (!L_9)
@@ -30342,7 +30342,7 @@ IL_0014:
 		OpenXRFeature_tBDE19E44A01E5E54925EAF67574691F11E88CDAA * L_7 = V_2;
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(119 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
+		L_8 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(124 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
 		V_3 = L_8;
 		bool L_9 = V_3;
 		if (!L_9)

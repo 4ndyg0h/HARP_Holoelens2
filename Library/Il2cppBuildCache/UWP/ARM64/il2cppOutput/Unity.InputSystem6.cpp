@@ -33616,7 +33616,7 @@ IL_0214:
 		L_71 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_70, /*hidden argument*/NULL);
 		NullCheck(L_71);
 		Type_t * L_72;
-		L_72 = VirtFuncInvoker0< Type_t * >::Invoke(114 /* System.Type System.Type::GetEnumUnderlyingType() */, L_71);
+		L_72 = VirtFuncInvoker0< Type_t * >::Invoke(119 /* System.Type System.Type::GetEnumUnderlyingType() */, L_71);
 		V_30 = L_72;
 		// var underlyingTypeCode = Type.GetTypeCode(underlyingType);
 		Type_t * L_73 = V_30;

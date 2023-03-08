@@ -18622,7 +18622,7 @@ IL_0151:
 		L_59 = PhotonPeer_get_SocketImplementation_m1D425EDAA1A9BC1D4DA44C291C097FC607A8BCA6_inline(L_58, /*hidden argument*/NULL);
 		NullCheck(L_59);
 		String_t* L_60;
-		L_60 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_59);
+		L_60 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_59);
 		NullCheck(L_56);
 		StringBuilder_t * L_61;
 		L_61 = StringBuilder_AppendFormat_mA3A12EF6C7AC4C5EBC41FCA633F4FC036205669E(L_56, _stringLiteral2BA731B2704F57E0D64A0B832502A59C9A647418, L_60, /*hidden argument*/NULL);

@@ -5203,7 +5203,7 @@ IL_004f:
 		L_21 = VirtFuncInvoker0< Assembly_t * >::Invoke(25 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_20);
 		NullCheck(L_21);
 		AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * L_22;
-		L_22 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(23 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_21);
+		L_22 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(21 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_21);
 		NullCheck(L_22);
 		Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * L_23;
 		L_23 = AssemblyName_get_Version_m1E5978822709B7B59BEB504A8BC567823766497D_inline(L_22, /*hidden argument*/NULL);

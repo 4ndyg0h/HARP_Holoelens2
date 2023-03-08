@@ -18998,7 +18998,7 @@ IL_0085:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_29 = V_0;
 		NullCheck(((PropertyInfo_t *)CastclassClass((RuntimeObject*)L_28, PropertyInfo_t_il2cpp_TypeInfo_var)));
 		RuntimeObject * L_30;
-		L_30 = VirtFuncInvoker2< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(27 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, ((PropertyInfo_t *)CastclassClass((RuntimeObject*)L_28, PropertyInfo_t_il2cpp_TypeInfo_var)), NULL, L_29);
+		L_30 = VirtFuncInvoker2< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* >::Invoke(29 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, ((PropertyInfo_t *)CastclassClass((RuntimeObject*)L_28, PropertyInfo_t_il2cpp_TypeInfo_var)), NULL, L_29);
 		return L_30;
 	}
 
@@ -19570,7 +19570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidEnumArgumentException__ctor_mAE50
 		Type_t * L_7 = ___enumClass2;
 		NullCheck(L_7);
 		String_t* L_8;
-		L_8 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_7);
+		L_8 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_7);
 		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, L_8);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject *)L_8);
@@ -22417,7 +22417,7 @@ IL_002e:
 		L_21 = VirtFuncInvoker0< Assembly_t * >::Invoke(25 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_20);
 		NullCheck(L_21);
 		AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * L_22;
-		L_22 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(23 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_21);
+		L_22 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(21 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_21);
 		NullCheck(L_19);
 		String_t* L_23;
 		L_23 = InterfaceFuncInvoker1< String_t*, AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(1 /* System.String System.ComponentModel.Design.ITypeResolutionService::GetPathOfAssembly(System.Reflection.AssemblyName) */, ITypeResolutionService_t6A46AE5E8B7E7DC2731ED2C8C4C6E62C0DD4112B_il2cpp_TypeInfo_var, L_19, L_22);
@@ -22439,7 +22439,7 @@ IL_0067:
 		L_26 = VirtFuncInvoker0< Module_tAAF0DBC4FB20AB46035441C66C41A8DB813C8CD7 * >::Invoke(16 /* System.Reflection.Module System.Reflection.MemberInfo::get_Module() */, L_25);
 		NullCheck(L_26);
 		String_t* L_27;
-		L_27 = VirtFuncInvoker0< String_t* >::Invoke(13 /* System.String System.Reflection.Module::get_FullyQualifiedName() */, L_26);
+		L_27 = VirtFuncInvoker0< String_t* >::Invoke(12 /* System.String System.Reflection.Module::get_FullyQualifiedName() */, L_26);
 		V_2 = L_27;
 	}
 
@@ -24218,7 +24218,7 @@ IL_0027:
 		L_10 = LicenseProviderAttribute_get_LicenseProvider_m458ACC093F592CD53B7D78A12CCCD3ECA0818143(__this, /*hidden argument*/NULL);
 		NullCheck(L_9);
 		bool L_11;
-		L_11 = VirtFuncInvoker1< bool, Type_t * >::Invoke(123 /* System.Boolean System.Type::Equals(System.Type) */, L_9, L_10);
+		L_11 = VirtFuncInvoker1< bool, Type_t * >::Invoke(128 /* System.Boolean System.Type::Equals(System.Type) */, L_9, L_10);
 		if (!L_11)
 		{
 			goto IL_0040;
@@ -29008,7 +29008,7 @@ IL_0004:
 				L_7 = CancellationToken_get_None_m13F4B9DCF5D7BE8E9E3F60026C98E50A946FE9DF(/*hidden argument*/NULL);
 				NullCheck(L_4);
 				Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_8;
-				L_8 = VirtFuncInvoker4< Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 *, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t, CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  >::Invoke(26 /* System.Threading.Tasks.Task System.IO.Stream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken) */, L_4, L_5, 0, L_6, L_7);
+				L_8 = VirtFuncInvoker4< Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 *, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t, CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  >::Invoke(28 /* System.Threading.Tasks.Task System.IO.Stream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken) */, L_4, L_5, 0, L_6, L_7);
 				V_0 = L_8;
 				Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_9 = V_0;
 				NullCheck(L_9);
@@ -40530,11 +40530,11 @@ IL_001e:
 		MethodInfo_t * L_11 = V_0;
 		NullCheck(L_11);
 		Type_t * L_12;
-		L_12 = VirtFuncInvoker0< Type_t * >::Invoke(40 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_11);
+		L_12 = VirtFuncInvoker0< Type_t * >::Invoke(45 /* System.Type System.Reflection.MethodInfo::get_ReturnType() */, L_11);
 		Type_t * L_13 = ___returnType3;
 		NullCheck(L_12);
 		bool L_14;
-		L_14 = VirtFuncInvoker1< bool, Type_t * >::Invoke(121 /* System.Boolean System.Type::IsEquivalentTo(System.Type) */, L_12, L_13);
+		L_14 = VirtFuncInvoker1< bool, Type_t * >::Invoke(126 /* System.Boolean System.Type::IsEquivalentTo(System.Type) */, L_12, L_13);
 		if (L_14)
 		{
 			goto IL_0037;
@@ -40968,7 +40968,7 @@ IL_0013:
 	}
 	{
 		bool L_3;
-		L_3 = VirtFuncInvoker0< bool >::Invoke(33 /* System.Boolean System.Net.Security.AuthenticatedStream::get_IsAuthenticated() */, __this);
+		L_3 = VirtFuncInvoker0< bool >::Invoke(35 /* System.Boolean System.Net.Security.AuthenticatedStream::get_IsAuthenticated() */, __this);
 		if (L_3)
 		{
 			goto IL_0029;
@@ -42482,7 +42482,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileAuthenticatedStream_Flush_m199FE31
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_0;
 		L_0 = AuthenticatedStream_get_InnerStream_m11C037DEE34B2DD870301D499BEE69ECED787D7A_inline(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Flush() */, L_0);
+		VirtActionInvoker0::Invoke(21 /* System.Void System.IO.Stream::Flush() */, L_0);
 		return;
 	}
 }
@@ -42614,7 +42614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileAuthenticatedStream_SetLength_m50E
 		L_0 = AuthenticatedStream_get_InnerStream_m11C037DEE34B2DD870301D499BEE69ECED787D7A_inline(__this, /*hidden argument*/NULL);
 		int64_t L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int64_t >::Invoke(28 /* System.Void System.IO.Stream::SetLength(System.Int64) */, L_0, L_1);
+		VirtActionInvoker1< int64_t >::Invoke(30 /* System.Void System.IO.Stream::SetLength(System.Int64) */, L_0, L_1);
 		return;
 	}
 }
@@ -42623,7 +42623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MobileAuthenticatedStream_get_CanRead_mD
 {
 	{
 		bool L_0;
-		L_0 = VirtFuncInvoker0< bool >::Invoke(33 /* System.Boolean System.Net.Security.AuthenticatedStream::get_IsAuthenticated() */, __this);
+		L_0 = VirtFuncInvoker0< bool >::Invoke(35 /* System.Boolean System.Net.Security.AuthenticatedStream::get_IsAuthenticated() */, __this);
 		if (!L_0)
 		{
 			goto IL_0014;
@@ -42643,17 +42643,29 @@ IL_0014:
 		return (bool)0;
 	}
 }
+// System.Boolean Mono.Net.Security.MobileAuthenticatedStream::get_CanTimeout()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MobileAuthenticatedStream_get_CanTimeout_mCDF827860F797DA83F627978C26B46F010455638 (MobileAuthenticatedStream_t11500B56FD9F208CE6894F0F62EE3ADEAE347A7E * __this, const RuntimeMethod* method)
+{
+	{
+		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_0;
+		L_0 = AuthenticatedStream_get_InnerStream_m11C037DEE34B2DD870301D499BEE69ECED787D7A_inline(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.Stream::get_CanTimeout() */, L_0);
+		return L_1;
+	}
+}
 // System.Boolean Mono.Net.Security.MobileAuthenticatedStream::get_CanWrite()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MobileAuthenticatedStream_get_CanWrite_m6892AB7DA9B4EC279CFC64BABA5BC2F81E26E37F (MobileAuthenticatedStream_t11500B56FD9F208CE6894F0F62EE3ADEAE347A7E * __this, const RuntimeMethod* method)
 {
 	{
 		bool L_0;
-		L_0 = VirtFuncInvoker0< bool >::Invoke(33 /* System.Boolean System.Net.Security.AuthenticatedStream::get_IsAuthenticated() */, __this);
+		L_0 = VirtFuncInvoker0< bool >::Invoke(35 /* System.Boolean System.Net.Security.AuthenticatedStream::get_IsAuthenticated() */, __this);
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_1;
 		L_1 = AuthenticatedStream_get_InnerStream_m11C037DEE34B2DD870301D499BEE69ECED787D7A_inline(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		bool L_2;
-		L_2 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.Stream::get_CanWrite() */, L_1);
+		L_2 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean System.IO.Stream::get_CanWrite() */, L_1);
 		if (!((int32_t)((int32_t)L_0&(int32_t)L_2)))
 		{
 			goto IL_001e;
@@ -42684,7 +42696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t MobileAuthenticatedStream_get_Length_
 		L_0 = AuthenticatedStream_get_InnerStream_m11C037DEE34B2DD870301D499BEE69ECED787D7A_inline(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		int64_t L_1;
-		L_1 = VirtFuncInvoker0< int64_t >::Invoke(10 /* System.Int64 System.IO.Stream::get_Length() */, L_0);
+		L_1 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Length() */, L_0);
 		return L_1;
 	}
 }
@@ -42696,7 +42708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t MobileAuthenticatedStream_get_Positio
 		L_0 = AuthenticatedStream_get_InnerStream_m11C037DEE34B2DD870301D499BEE69ECED787D7A_inline(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		int64_t L_1;
-		L_1 = VirtFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Position() */, L_0);
+		L_1 = VirtFuncInvoker0< int64_t >::Invoke(12 /* System.Int64 System.IO.Stream::get_Position() */, L_0);
 		return L_1;
 	}
 }
@@ -42717,7 +42729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MobileAuthenticatedStream_get_ReadTim
 		L_0 = AuthenticatedStream_get_InnerStream_m11C037DEE34B2DD870301D499BEE69ECED787D7A_inline(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(13 /* System.Int32 System.IO.Stream::get_ReadTimeout() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(14 /* System.Int32 System.IO.Stream::get_ReadTimeout() */, L_0);
 		return L_1;
 	}
 }
@@ -42729,7 +42741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileAuthenticatedStream_set_ReadTimeou
 		L_0 = AuthenticatedStream_get_InnerStream_m11C037DEE34B2DD870301D499BEE69ECED787D7A_inline(__this, /*hidden argument*/NULL);
 		int32_t L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(14 /* System.Void System.IO.Stream::set_ReadTimeout(System.Int32) */, L_0, L_1);
+		VirtActionInvoker1< int32_t >::Invoke(15 /* System.Void System.IO.Stream::set_ReadTimeout(System.Int32) */, L_0, L_1);
 		return;
 	}
 }
@@ -42741,8 +42753,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MobileAuthenticatedStream_get_WriteTi
 		L_0 = AuthenticatedStream_get_InnerStream_m11C037DEE34B2DD870301D499BEE69ECED787D7A_inline(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(15 /* System.Int32 System.IO.Stream::get_WriteTimeout() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(16 /* System.Int32 System.IO.Stream::get_WriteTimeout() */, L_0);
 		return L_1;
+	}
+}
+// System.Void Mono.Net.Security.MobileAuthenticatedStream::set_WriteTimeout(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileAuthenticatedStream_set_WriteTimeout_mA38106781DA92AF4A812854CE6D9A5ECC0C5C9ED (MobileAuthenticatedStream_t11500B56FD9F208CE6894F0F62EE3ADEAE347A7E * __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	{
+		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_0;
+		L_0 = AuthenticatedStream_get_InnerStream_m11C037DEE34B2DD870301D499BEE69ECED787D7A_inline(__this, /*hidden argument*/NULL);
+		int32_t L_1 = ___value0;
+		NullCheck(L_0);
+		VirtActionInvoker1< int32_t >::Invoke(17 /* System.Void System.IO.Stream::set_WriteTimeout(System.Int32) */, L_0, L_1);
+		return;
 	}
 }
 // System.Void Mono.Net.Security.MobileAuthenticatedStream::.cctor()
@@ -42775,7 +42799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileAuthenticatedStream_U3CInnerWriteU
 		NullCheck(L_5);
 		int32_t L_6 = ((BufferOffsetSize_t5A78BBF6B31705B87172553D19C90FB08FC93ACD *)L_5)->get_Size_2();
 		NullCheck(L_0);
-		VirtActionInvoker3< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(31 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_0, L_2, L_4, L_6);
+		VirtActionInvoker3< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(33 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_0, L_2, L_4, L_6);
 		return;
 	}
 }

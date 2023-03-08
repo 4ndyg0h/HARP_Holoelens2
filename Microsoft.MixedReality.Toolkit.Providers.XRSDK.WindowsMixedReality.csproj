@@ -297,14 +297,20 @@
     <Reference Include="Microsoft.MixedReality.QR.DotNet">
       <HintPath>Assets\Packages\Microsoft.MixedReality.QR.0.5.3019\lib\unity\netstandard2.0\Microsoft.MixedReality.QR.DotNet.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="System.Reflection.TypeExtensions">
+      <HintPath>Assets\Azure Storage\Plugins\System.Reflection.TypeExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage">
+      <HintPath>Assets\Azure Storage\Plugins\Microsoft.WindowsAzure.Storage.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Tasks">
       <HintPath>Assets\Parse\Plugins\dotNet45\Unity.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Compat">
       <HintPath>Assets\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Azure Storage\Plugins\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -689,13 +695,13 @@
       <Project>{EFE74E02-FBCD-8293-E6B4-FC9063D623A9}</Project>
       <Name>Unity.XR.WindowsMixedReality</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

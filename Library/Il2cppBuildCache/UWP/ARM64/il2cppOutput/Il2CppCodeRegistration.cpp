@@ -28,6 +28,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_I18N_Other_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_I18N_Rare_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_I18N_West_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_LTAU2DHARP_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_CSharp_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_GraphicsTools_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_GraphicsTools_Samples_Acrylic_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_GraphicsTools_Samples_MaterialGallery_CodeGenModule;
@@ -39,7 +40,6 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_SceneUndersta
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Async_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_UX_Interactables_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Examples_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Extensions_HandPhysics_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Extensions_SceneTransitionService_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Extensions_Tracking_CodeGenModule;
@@ -61,6 +61,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Servi
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_TeleportSystem_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_ObjectAnchors_Runtime_Api_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_ObjectAnchors_Runtime_Core_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_WindowsAzure_Storage_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Newtonsoft_Json_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Photon3Unity3D_CodeGenModule;
@@ -75,30 +76,56 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonVoice_PUN_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Siccity_GLTFUtility_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Collections_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_ComponentModel_TypeConverter_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Configuration_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Core_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Diagnostics_Debug_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Diagnostics_StackTrace_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Diagnostics_Tracing_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Dynamic_Runtime_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Globalization_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Globalization_Extensions_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_IO_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_IO_Compression_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_IO_Compression_FileSystem_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_IO_FileSystem_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_IO_FileSystem_Primitives_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Linq_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Linq_Expressions_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Net_Http_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Net_Primitives_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Numerics_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Numerics_Vectors_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_ObjectModel_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Reflection_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Reflection_Extensions_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Reflection_Primitives_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_Extensions_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_Handles_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_InteropServices_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_InteropServices_WindowsRuntime_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_Numerics_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_Serialization_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_Serialization_Formatters_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_Serialization_Primitives_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_Serialization_Xml_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_UI_Xaml_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Security_Cryptography_Algorithms_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Security_Cryptography_Primitives_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Text_Encoding_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Text_Encoding_Extensions_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Text_RegularExpressions_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Threading_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Threading_Tasks_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Threading_Timer_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Xml_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Xml_Linq_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Xml_ReaderWriter_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Xml_XDocument_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Xml_XPath_XDocument_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Xml_XmlDocument_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AIModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AndroidJNIModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AnimationModule_CodeGenModule;
@@ -152,7 +179,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_WindowsRuntimeMetadata_CodeGenModule
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_netstandard_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[133] = 
+const Il2CppCodeGenModule* g_CodeGenModules[160] = 
 {
 	(&g_AzureSpatialAnchors_SDK_Core_Runtime_CodeGenModule),
 	(&g_AzureSpatialAnchors_SDK_Windows_Runtime_CodeGenModule),
@@ -164,6 +191,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[133] =
 	(&g_I18N_Rare_CodeGenModule),
 	(&g_I18N_West_CodeGenModule),
 	(&g_LTAU2DHARP_CodeGenModule),
+	(&g_Microsoft_CSharp_CodeGenModule),
 	(&g_Microsoft_MixedReality_GraphicsTools_CodeGenModule),
 	(&g_Microsoft_MixedReality_GraphicsTools_Samples_Acrylic_CodeGenModule),
 	(&g_Microsoft_MixedReality_GraphicsTools_Samples_MaterialGallery_CodeGenModule),
@@ -175,7 +203,6 @@ const Il2CppCodeGenModule* g_CodeGenModules[133] =
 	(&g_Microsoft_MixedReality_Toolkit_Async_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Demos_UX_Interactables_CodeGenModule),
-	(&g_Microsoft_MixedReality_Toolkit_Examples_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Extensions_HandPhysics_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Extensions_SceneTransitionService_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Extensions_Tracking_CodeGenModule),
@@ -197,6 +224,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[133] =
 	(&g_Microsoft_MixedReality_Toolkit_Services_TeleportSystem_CodeGenModule),
 	(&g_Microsoft_ObjectAnchors_Runtime_Api_CodeGenModule),
 	(&g_Microsoft_ObjectAnchors_Runtime_Core_CodeGenModule),
+	(&g_Microsoft_WindowsAzure_Storage_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
 	(&g_Newtonsoft_Json_CodeGenModule),
 	(&g_Photon3Unity3D_CodeGenModule),
@@ -211,30 +239,56 @@ const Il2CppCodeGenModule* g_CodeGenModules[133] =
 	(&g_Siccity_GLTFUtility_CodeGenModule),
 	(&g_System_CodeGenModule),
 	(&g_System_Collections_CodeGenModule),
+	(&g_System_ComponentModel_TypeConverter_CodeGenModule),
 	(&g_System_Configuration_CodeGenModule),
 	(&g_System_Core_CodeGenModule),
+	(&g_System_Diagnostics_Debug_CodeGenModule),
 	(&g_System_Diagnostics_StackTrace_CodeGenModule),
+	(&g_System_Diagnostics_Tracing_CodeGenModule),
+	(&g_System_Dynamic_Runtime_CodeGenModule),
+	(&g_System_Globalization_CodeGenModule),
 	(&g_System_Globalization_Extensions_CodeGenModule),
+	(&g_System_IO_CodeGenModule),
 	(&g_System_IO_Compression_CodeGenModule),
 	(&g_System_IO_Compression_FileSystem_CodeGenModule),
+	(&g_System_IO_FileSystem_CodeGenModule),
+	(&g_System_IO_FileSystem_Primitives_CodeGenModule),
+	(&g_System_Linq_CodeGenModule),
+	(&g_System_Linq_Expressions_CodeGenModule),
 	(&g_System_Net_Http_CodeGenModule),
+	(&g_System_Net_Primitives_CodeGenModule),
 	(&g_System_Numerics_CodeGenModule),
 	(&g_System_Numerics_Vectors_CodeGenModule),
 	(&g_System_ObjectModel_CodeGenModule),
 	(&g_System_Reflection_CodeGenModule),
+	(&g_System_Reflection_Extensions_CodeGenModule),
+	(&g_System_Reflection_Primitives_CodeGenModule),
 	(&g_System_Runtime_CodeGenModule),
+	(&g_System_Runtime_Extensions_CodeGenModule),
 	(&g_System_Runtime_Handles_CodeGenModule),
 	(&g_System_Runtime_InteropServices_CodeGenModule),
 	(&g_System_Runtime_InteropServices_WindowsRuntime_CodeGenModule),
+	(&g_System_Runtime_Numerics_CodeGenModule),
 	(&g_System_Runtime_Serialization_CodeGenModule),
+	(&g_System_Runtime_Serialization_Formatters_CodeGenModule),
+	(&g_System_Runtime_Serialization_Primitives_CodeGenModule),
 	(&g_System_Runtime_Serialization_Xml_CodeGenModule),
 	(&g_System_Runtime_WindowsRuntime_CodeGenModule),
 	(&g_System_Runtime_WindowsRuntime_UI_Xaml_CodeGenModule),
+	(&g_System_Security_Cryptography_Algorithms_CodeGenModule),
+	(&g_System_Security_Cryptography_Primitives_CodeGenModule),
+	(&g_System_Text_Encoding_CodeGenModule),
+	(&g_System_Text_Encoding_Extensions_CodeGenModule),
+	(&g_System_Text_RegularExpressions_CodeGenModule),
 	(&g_System_Threading_CodeGenModule),
 	(&g_System_Threading_Tasks_CodeGenModule),
+	(&g_System_Threading_Timer_CodeGenModule),
 	(&g_System_Xml_CodeGenModule),
 	(&g_System_Xml_Linq_CodeGenModule),
+	(&g_System_Xml_ReaderWriter_CodeGenModule),
+	(&g_System_Xml_XDocument_CodeGenModule),
 	(&g_System_Xml_XPath_XDocument_CodeGenModule),
+	(&g_System_Xml_XmlDocument_CodeGenModule),
 	(&g_UnityEngine_AIModule_CodeGenModule),
 	(&g_UnityEngine_AndroidJNIModule_CodeGenModule),
 	(&g_UnityEngine_AnimationModule_CodeGenModule),
@@ -293,18 +347,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	32,
 	g_ReversePInvokeWrapperPointers,
-	65389,
+	71884,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	10342,
+	11252,
 	g_Il2CppInvokerPointers,
-	2419,
+	2671,
 	g_UnresolvedVirtualMethodPointers,
-	11461,
+	13600,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	133,
+	160,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

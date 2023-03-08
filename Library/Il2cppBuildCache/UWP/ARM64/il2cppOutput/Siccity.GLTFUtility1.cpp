@@ -9179,7 +9179,7 @@ IL_011f:
 		int32_t L_46 = L_45->get_byteOffset_1();
 		NullCheck(L_44);
 		int64_t L_47;
-		L_47 = VirtFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(27 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_44, ((int64_t)((int64_t)L_46)), 0);
+		L_47 = VirtFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(29 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_44, ((int64_t)((int64_t)L_46)), 0);
 		// bufferView.stream.Read(buffer, 0, bufferView.byteLength);
 		ImportResult_t744D15C38D472EF0A0896B1690856A93AA6A4A74 * L_48 = V_9;
 		NullCheck(L_48);
@@ -9190,7 +9190,7 @@ IL_011f:
 		int32_t L_52 = L_51->get_byteLength_2();
 		NullCheck(L_49);
 		int32_t L_53;
-		L_53 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(29 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_49, L_50, 0, L_52);
+		L_53 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(31 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_49, L_50, 0, L_52);
 		// GLTFUtilityDracoLoader.MeshAttributes attribs = new GLTFUtilityDracoLoader.MeshAttributes(
 		//     primitive.extensions.KHR_draco_mesh_compression.attributes.POSITION ?? -1,
 		//     primitive.extensions.KHR_draco_mesh_compression.attributes.NORMAL ?? -1,
