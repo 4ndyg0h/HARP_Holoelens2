@@ -452,7 +452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 561357687078293256, guid: 9ef654312d26a6743af904631a9c1b8e, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: Navigation, Assembly-CSharp
+      value: Navigation, LTA-HARP
       objectReference: {fileID: 0}
     - target: {fileID: 561357687078293256, guid: 9ef654312d26a6743af904631a9c1b8e, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
@@ -13553,6 +13553,7 @@ MonoBehaviour:
   endDropdown: {fileID: 1751325312}
   linePrefab: {fileID: 6042259362584683402, guid: ab1eebaf2aed171419d770847ce118df, type: 3}
   cam: {fileID: 0}
+  allCameras: []
 --- !u!4 &1382685618
 Transform:
   m_ObjectHideFlags: 0
