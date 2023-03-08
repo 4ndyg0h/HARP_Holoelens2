@@ -34,12 +34,22 @@ public class Navigation : MonoBehaviour
     private Vector3 desti;
 
     public Camera cam;
+    public Camera[] allCameras;
 
     private GameObject EmptyObj;
 
-    private void Update()
+    //private void Start()
+    //{
+    //    cam = Camera.main;
+    //    cam.enabled = true;
+    //}
+    private void Start()
     {
-        Debug.Log(cam.transform.position);
+        allCameras = FindObjectsOfType<Camera>();
+        //foreach (var i in allCameras){
+        //    Debug.Log(i.transform.position);
+        //}
+        //Debug.Log(cam.transform.position);
     }
     public void UpdateLoc()
     {
@@ -47,8 +57,8 @@ public class Navigation : MonoBehaviour
         {
 
             var closeToDest = 1;
-            Debug.Log(Vector3.Distance(desti, cam.transform.position));
-            if (Vector3.Distance(desti, cam.transform.position) < closeToDest)
+            Debug.Log(Vector3.Distance(desti, allCameras[0].transform.position));
+            if (Vector3.Distance(desti, allCameras[0].transform.position) < closeToDest)
             {
                 Debug.Log("TotalNoOfLine: "+lineList.Count);
                 foreach(var u in lineList)
@@ -76,7 +86,14 @@ public class Navigation : MonoBehaviour
     {
         var s = FindObjectOfType<SpawnAnchor>();
         var zz = s.connectedActiveAnchors;
-        zz.ToList().ForEach(m => connectedActiveAnchors.Add(m.Key, m.Value));
+        //zz.ToList().ForEach(m => connectedActiveAnchors.Add(m.Key, m.Value));
+        foreach (var c in zz.ToList())
+        {
+            if (!connectedActiveAnchors.ContainsKey(c.Key))
+            {
+                connectedActiveAnchors.Add(c.Key, c.Value);
+            }
+        }
         //connectedActiveAnchors = zz;
         Debug.Log(connectedActiveAnchors.Count);
         foreach (KeyValuePair<string, GameObject> i in connectedActiveAnchors)
@@ -280,6 +297,7 @@ public class Navigation : MonoBehaviour
             { 
                 if(!connectedActiveAnchors.ContainsKey(z.Name))
                 {
+                    Debug.Log(connectedActiveAnchors[z.Name]);
                     connectedActiveAnchors[z.Name] = EmptyObj;
                 }
             }

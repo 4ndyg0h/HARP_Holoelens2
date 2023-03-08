@@ -343,9 +343,9 @@
     <Compile Include="Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f\Core\Interfaces\InputSystem\IMixedRealityInputSource.cs" />
     <Compile Include="Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f\Core\Definitions\Utilities\ProfileMenuItemIndices.cs" />
     <Compile Include="Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f\Core\EventDatum\Input\FocusEventData.cs" />
+    <Compile Include="Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f\Core\Providers\Hands\HandRay\HandRay.cs" />
     <Compile Include="Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f\Core\Extensions\RayExtensions.cs" />
     <Compile Include="Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f\Core\Definitions\Utilities\ManipulationHandFlags.cs" />
-    <Compile Include="Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f\Core\Providers\Hands\HandRay\HandRay.cs" />
     <Compile Include="Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f\Core\Utilities\Lines\DataProviders\BezierDataProvider.cs" />
     <Compile Include="Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f\Core\Definitions\Devices\MixedRealityControllerVisualizationSetting.cs" />
     <Compile Include="Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@251fc689f36f\Core\Providers\UnityInput\UnityJoystickManager.cs" />
