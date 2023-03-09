@@ -707,13 +707,13 @@
       <Project>{B659D69E-12AC-E823-660A-F237D16E3648}</Project>
       <Name>Microsoft.SpatialAudio.Spatializer</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
       <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
+      <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{4F4F55A0-A9EC-68E1-D3A9-1DCC779EF04B}</Project>
