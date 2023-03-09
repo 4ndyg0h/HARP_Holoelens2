@@ -56,20 +56,31 @@ namespace Microsoft.MixedReality.OpenXR.BasicSample
         /// </summary>
         void Start()
         {
+
             //var client = new System.Net.WebClient();
             //string filePath = Application.persistentDataPath + "/checklists.zip";
             //client.DownloadFile("https://drive.google.com/u/0/uc?id=1E6bOw9s_4Ga2_dYQm1K3wsak-qCvY3Og&export=download", filePath);
             //System.IO.Compression.ZipFile.ExtractToDirectory(filePath, Application.persistentDataPath + "/checklists");
             //Debug.Log("File path extracted");
-            var path = $"{Application.persistentDataPath}/checklists/checklists/";
+            var path = "";
+            Debug.Log($"{Application.persistentDataPath}/checklists/checklists/");
+            try
+            {
+                path = $"{Application.persistentDataPath}/checklists/checklists/";
+                string[] files = System.IO.Directory.GetFiles(path);
+                foreach (string file in files)
+                {
+                    allFiles.Add(System.IO.Path.GetFileName(file)); //get all the file name
+                }
+            }
+            catch
+            {
+                Debug.Log("Catched");
+                DownloadFile();
+                
+            }
             //DirectoryInfo fileee = new DirectoryInfo(path);
             //Debug.Log(fileee);
-            string[] files = System.IO.Directory.GetFiles(path);
-            Debug.Log(files.Length);
-            foreach (string file in files)
-            {
-                allFiles.Add(System.IO.Path.GetFileName(file)); //get all the file name
-            }
 
             CreateMenu();
         }

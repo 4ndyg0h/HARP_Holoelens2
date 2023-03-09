@@ -359,15 +359,15 @@ struct NOVTABLE IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8 : Il
 struct NOVTABLE IBuffer_t33ECA22EB7DDA1EF333215FF8109DC736AF11FBC : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IBuffer_get_Capacity_m970326E6407CE3EC1CF64E69994517B316028691(uint32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IBuffer_get_Length_mF5A8C72B170E0798C7D1709BFD0E501FDF566349(uint32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IBuffer_put_Length_m257651767765E9EB93F950F3ADA01F4ACF8A2D59(uint32_t ___value0) = 0;
+	virtual il2cpp_hresult_t STDCALL IBuffer_get_Capacity_m4FBAA7520F46F3CC6D15DCA72AE6DE7682A9A470(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IBuffer_get_Length_m5433B1C2AADBE9CE086F6DAE6E300C687A17DB19(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IBuffer_put_Length_mF6D33616BBEEBF636AA7AF9EFA8525C3F721FE01(uint32_t ___value0) = 0;
 };
 // Windows.Foundation.IClosable
 struct NOVTABLE IClosable_t30CA7D2BE598B3BD6AA57CE9DF977DB51540B953 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() = 0;
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() = 0;
 };
 
 // System.Object
@@ -3201,11 +3201,11 @@ public:
 struct NOVTABLE IAsyncInfo_tF2AAFC1727C480C2FB5E3E8FA00BF9CB3646F2E4 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Id_m66B4DB488CAE8CD259581D1CCAB94FBFA05BC733(uint32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Status_m9393658D0FD28BE7960FBB531A31A1E1CB106F80(int32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_ErrorCode_m0C4F0079B788C88A5A572A827AAACA0B3BB233C5(int32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Cancel_m55A00D21BF943DA94D606044A66295FEF77139EE() = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Close_m186908B02D6E9850DB3376510E0C3FB99B891FBB() = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Id_m3863CB02C1CDBA1050DAAE7311DF9F3E8BCD9D74(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Status_m7E8AA78C1877123B35EAFA58FEF0FA86D8A97583(int32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_ErrorCode_m37ACAD97746ABA13006C88EDF582C3B73B68D806(int32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Cancel_m53FE58D39AE61799A01EE7ECB9429CB3EE01EEFE() = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Close_mD8F3D2C7103B340A9FF16F58333E33643F552635() = 0;
 };
 
 // System.MulticastDelegate
@@ -3747,7 +3747,7 @@ il2cpp_hresult_t IIterable_1_First_mDDCB90F64D3007CB280F2A112BFB11FEDF4CF937_Com
 il2cpp_hresult_t IIterable_1_First_m5AA74545514CBE1B8F27A3AD8AB35879FA66F2BB_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_t76B4F2A2B99659B935148C20E12CDDF5018A3267** comReturnValue);
 il2cpp_hresult_t IIterable_1_First_m512126C71D7E9D1C31B56F64455F33E9FEEC89F8_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_t6A46A7244E5AAD0AE4F2A07AF43DA5052D55F4A4** comReturnValue);
 il2cpp_hresult_t IIterable_1_First_mC1E90957AD904E68CE3F84D1EF22D5EFACE8C2D5_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_tFF647CAD19D34FD0606CDD3425C431F82B94589C** comReturnValue);
-il2cpp_hresult_t IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(RuntimeObject* __this);
+il2cpp_hresult_t IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(RuntimeObject* __this);
 IL2CPP_EXTERN_C  void AsyncOperationCompletedHandler_1_Invoke_mFB615A68AAD78CA2C31C3A6A57E9850C82DD8FF5_NativeInvoker (Il2CppComObject * __this, RuntimeObject* ___asyncInfo0, int32_t ___asyncStatus1, const RuntimeMethod* method);;
 IL2CPP_EXTERN_C  void AsyncOperationProgressHandler_2_Invoke_m660CF6C4E9759B3DA04ED33048691F8054A4275E_NativeInvoker (Il2CppComObject * __this, RuntimeObject* ___asyncInfo0, uint32_t ___progressInfo1, const RuntimeMethod* method);;
 IL2CPP_EXTERN_C  void AsyncOperationWithProgressCompletedHandler_2_Invoke_mEFFDDDBC86C0B7BC52D2F76F3E4C1D6C728D96EF_NativeInvoker (Il2CppComObject * __this, RuntimeObject* ___asyncInfo0, int32_t ___asyncStatus1, const RuntimeMethod* method);;
@@ -7011,9 +7011,9 @@ struct StructWrapper_1_t7486F3EB45E9022A500E6F90B06FC9E84F670975_ComCallableWrap
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -7106,9 +7106,9 @@ struct StructWrapper_1_t2E178130F58A3671FEF0E71FC1605E4822AFCFE7_ComCallableWrap
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -7201,9 +7201,9 @@ struct StructWrapper_1_t910A92A06E829EC7E2E0EABD9401817046833D91_ComCallableWrap
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -7296,9 +7296,9 @@ struct StructWrapper_1_t49FC0FD95A557B93C028631E2A65BB1D6234FA7B_ComCallableWrap
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -7391,9 +7391,9 @@ struct StructWrapper_1_t66C666975147192EEB8996E78E7314E30D87A4B8_ComCallableWrap
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -7486,9 +7486,9 @@ struct StructWrapper_1_tF8781ECB093D88EC4EBF45C0EBBF6B179FFDB9FA_ComCallableWrap
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -7581,9 +7581,9 @@ struct StructWrapper_1_t091A45E2DB0131BFF3B66E657A74900DA48BF8A5_ComCallableWrap
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -7684,7 +7684,7 @@ struct TaskToAsyncOperationAdapter_1_tE079EC13EC3FB202D49A22A4B458DAE3DCBAD6C3_C
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Id_m66B4DB488CAE8CD259581D1CCAB94FBFA05BC733(uint32_t* comReturnValue) IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Id_m3863CB02C1CDBA1050DAAE7311DF9F3E8BCD9D74(uint32_t* comReturnValue) IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -7722,7 +7722,7 @@ struct TaskToAsyncOperationAdapter_1_tE079EC13EC3FB202D49A22A4B458DAE3DCBAD6C3_C
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Status_m9393658D0FD28BE7960FBB531A31A1E1CB106F80(int32_t* comReturnValue) IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Status_m7E8AA78C1877123B35EAFA58FEF0FA86D8A97583(int32_t* comReturnValue) IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -7760,7 +7760,7 @@ struct TaskToAsyncOperationAdapter_1_tE079EC13EC3FB202D49A22A4B458DAE3DCBAD6C3_C
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_ErrorCode_m0C4F0079B788C88A5A572A827AAACA0B3BB233C5(int32_t* comReturnValue) IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_ErrorCode_m37ACAD97746ABA13006C88EDF582C3B73B68D806(int32_t* comReturnValue) IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -7798,7 +7798,7 @@ struct TaskToAsyncOperationAdapter_1_tE079EC13EC3FB202D49A22A4B458DAE3DCBAD6C3_C
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Cancel_m55A00D21BF943DA94D606044A66295FEF77139EE() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Cancel_m53FE58D39AE61799A01EE7ECB9429CB3EE01EEFE() IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -7833,7 +7833,7 @@ struct TaskToAsyncOperationAdapter_1_tE079EC13EC3FB202D49A22A4B458DAE3DCBAD6C3_C
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Close_m186908B02D6E9850DB3376510E0C3FB99B891FBB() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Close_mD8F3D2C7103B340A9FF16F58333E33643F552635() IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -8129,7 +8129,7 @@ struct TaskToAsyncOperationWithProgressAdapter_2_t1ED7E4DC66890F30AC72B6F1482559
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Id_m66B4DB488CAE8CD259581D1CCAB94FBFA05BC733(uint32_t* comReturnValue) IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Id_m3863CB02C1CDBA1050DAAE7311DF9F3E8BCD9D74(uint32_t* comReturnValue) IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -8167,7 +8167,7 @@ struct TaskToAsyncOperationWithProgressAdapter_2_t1ED7E4DC66890F30AC72B6F1482559
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Status_m9393658D0FD28BE7960FBB531A31A1E1CB106F80(int32_t* comReturnValue) IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Status_m7E8AA78C1877123B35EAFA58FEF0FA86D8A97583(int32_t* comReturnValue) IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -8205,7 +8205,7 @@ struct TaskToAsyncOperationWithProgressAdapter_2_t1ED7E4DC66890F30AC72B6F1482559
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_ErrorCode_m0C4F0079B788C88A5A572A827AAACA0B3BB233C5(int32_t* comReturnValue) IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_ErrorCode_m37ACAD97746ABA13006C88EDF582C3B73B68D806(int32_t* comReturnValue) IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -8243,7 +8243,7 @@ struct TaskToAsyncOperationWithProgressAdapter_2_t1ED7E4DC66890F30AC72B6F1482559
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Cancel_m55A00D21BF943DA94D606044A66295FEF77139EE() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Cancel_m53FE58D39AE61799A01EE7ECB9429CB3EE01EEFE() IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -8278,7 +8278,7 @@ struct TaskToAsyncOperationWithProgressAdapter_2_t1ED7E4DC66890F30AC72B6F1482559
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Close_m186908B02D6E9850DB3376510E0C3FB99B891FBB() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Close_mD8F3D2C7103B340A9FF16F58333E33643F552635() IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -8718,7 +8718,7 @@ struct TaskToAsyncOperationWithProgressAdapter_2_tBE03854F722BD988D75754D476A5F7
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Id_m66B4DB488CAE8CD259581D1CCAB94FBFA05BC733(uint32_t* comReturnValue) IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Id_m3863CB02C1CDBA1050DAAE7311DF9F3E8BCD9D74(uint32_t* comReturnValue) IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -8756,7 +8756,7 @@ struct TaskToAsyncOperationWithProgressAdapter_2_tBE03854F722BD988D75754D476A5F7
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Status_m9393658D0FD28BE7960FBB531A31A1E1CB106F80(int32_t* comReturnValue) IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Status_m7E8AA78C1877123B35EAFA58FEF0FA86D8A97583(int32_t* comReturnValue) IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -8794,7 +8794,7 @@ struct TaskToAsyncOperationWithProgressAdapter_2_tBE03854F722BD988D75754D476A5F7
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_ErrorCode_m0C4F0079B788C88A5A572A827AAACA0B3BB233C5(int32_t* comReturnValue) IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_ErrorCode_m37ACAD97746ABA13006C88EDF582C3B73B68D806(int32_t* comReturnValue) IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -8832,7 +8832,7 @@ struct TaskToAsyncOperationWithProgressAdapter_2_tBE03854F722BD988D75754D476A5F7
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Cancel_m55A00D21BF943DA94D606044A66295FEF77139EE() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Cancel_m53FE58D39AE61799A01EE7ECB9429CB3EE01EEFE() IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -8867,7 +8867,7 @@ struct TaskToAsyncOperationWithProgressAdapter_2_tBE03854F722BD988D75754D476A5F7
 		return IL2CPP_S_OK;
 	}
 
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Close_m186908B02D6E9850DB3376510E0C3FB99B891FBB() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Close_mD8F3D2C7103B340A9FF16F58333E33643F552635() IL2CPP_OVERRIDE
 	{
 		static bool s_Il2CppMethodInitialized;
 		if (!s_Il2CppMethodInitialized)
@@ -9280,9 +9280,9 @@ struct Task_1_t02793AA28ACE8BDD3864E7A50E3165072DAF1E40_ComCallableWrapper IL2CP
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -9375,9 +9375,9 @@ struct Task_1_tFA0E403A7A0A4BB11EFDF5FCEE5F0C2FFD7A2A8A_ComCallableWrapper IL2CP
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -9470,9 +9470,9 @@ struct Task_1_tCBFFB75F74BC8893B96F22749A261E65E9C8A745_ComCallableWrapper IL2CP
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -9565,9 +9565,9 @@ struct Task_1_t118880C5C896B508E6D2A1C71522654323815E2C_ComCallableWrapper IL2CP
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -9660,9 +9660,9 @@ struct Task_1_tD510636E354779BC348B56B79EFD426514EE3556_ComCallableWrapper IL2CP
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 
@@ -9755,9 +9755,9 @@ struct Task_1_t2D63918D6BDB9F049FC084AF2C9F886172A3AEC4_ComCallableWrapper IL2CP
 		return ComObjectBase::GetTrustLevel(trustLevel);
 	}
 
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() IL2CPP_OVERRIDE
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
 	{
-		return IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
 	}
 };
 

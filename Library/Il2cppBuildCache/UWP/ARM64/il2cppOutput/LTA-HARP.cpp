@@ -1609,6 +1609,7 @@ IL2CPP_EXTERN_C RuntimeClass* Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31
 IL2CPP_EXTERN_C RuntimeClass* Queue_1_t1CEAFBBE28DBFFBB495734A06904F4783D889BD4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RaiseEventOptions_t92DE5FA55450412988E3D6096C662FA03C257738_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RemoveLocalAnchorDelegate_t53165D257444CBE98AD24889EB57F6AFD14B3766_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SendOptions_t9CDBFAF7B8FE7ADE905371A6D5F1B3398EEA4C47_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SessionUpdatedDelegate_tD67BE8F2854C1D0B6FEF4EF4D5B63BA82F61BDE0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var;
@@ -1870,6 +1871,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD8F6DA3704F37D447A7EBA24397E7C72E9D8AFC3
 IL2CPP_EXTERN_C String_t* _stringLiteralD92A75ED7F3B984B7F585C37753F6E2F80EFD295;
 IL2CPP_EXTERN_C String_t* _stringLiteralD947A8AD31DC90E1FBADBA5EF9FF84500ECA32F1;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA5B3B88F8F53C08DB3AEA2532AFCC6C0EEB46A5;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA666908BB15F4E1D2649752EC5DCBD0D5C64699;
 IL2CPP_EXTERN_C String_t* _stringLiteralDD621E9BE1EED1CD5F098AAEC94022DC91BAC366;
 IL2CPP_EXTERN_C String_t* _stringLiteralDDFA1696A645714A12279CCA63C2C0AFAC1F627A;
@@ -43069,6 +43071,8 @@ inline void Dictionary_2__ctor_mFA279D9C0CAD15D5D692FC50335B78DE2A1871F3 (Dictio
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* Directory_GetFiles_m832F37C2ABC12EEAB3B1736C5196C50C0B65C1DC (String_t* ___path0, const RuntimeMethod* method);
 // System.String System.IO.Path::GetFileName(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetFileName_m4CCFEEE8CA42DE16FCAF05D765EFB88E7086744A (String_t* ___path0, const RuntimeMethod* method);
+// System.Void Microsoft.MixedReality.OpenXR.BasicSample.Checklist::DownloadFile()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Checklist_DownloadFile_m92561BF99984BED176DC83C5CB5B5B7F49E9F5B1 (Checklist_tFEAA622FA2C787F8CEB7D43034CE0248E835AE95 * __this, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.OpenXR.BasicSample.Checklist::CreateMenu()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Checklist_CreateMenu_m338F58BC797440E35F73BEC3484BCEE4EF9676D7 (Checklist_tFEAA622FA2C787F8CEB7D43034CE0248E835AE95 * __this, const RuntimeMethod* method);
 // System.Void System.Net.WebClient::.ctor()
@@ -60151,10 +60155,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Checklist_Start_m5C2B83104A5A0F351F087AE
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5F345CDD05DE4C42CB0A79D24905886CE6CD69B1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
@@ -60162,64 +60166,103 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Checklist_Start_m5C2B83104A5A0F351F087AE
 	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* V_2 = NULL;
 	int32_t V_3 = 0;
 	String_t* V_4 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
-		// var path = $"{Application.persistentDataPath}/checklists/checklists/";
+		// var path = "";
+		V_0 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		// Debug.Log($"{Application.persistentDataPath}/checklists/checklists/");
 		String_t* L_0;
 		L_0 = Application_get_persistentDataPath_mBD9C84D06693A9DEF2D9D2206B59D4BCF8A03463(/*hidden argument*/NULL);
 		String_t* L_1;
 		L_1 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_0, _stringLiteral5F345CDD05DE4C42CB0A79D24905886CE6CD69B1, /*hidden argument*/NULL);
-		V_0 = L_1;
-		// string[] files = System.IO.Directory.GetFiles(path);
-		String_t* L_2 = V_0;
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_3;
-		L_3 = Directory_GetFiles_m832F37C2ABC12EEAB3B1736C5196C50C0B65C1DC(L_2, /*hidden argument*/NULL);
-		V_1 = L_3;
-		// Debug.Log(files.Length);
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_4 = V_1;
-		NullCheck(L_4);
-		int32_t L_5 = ((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)));
-		RuntimeObject * L_6 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_5);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_6, /*hidden argument*/NULL);
-		// foreach (string file in files)
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_7 = V_1;
-		V_2 = L_7;
-		V_3 = 0;
-		goto IL_004b;
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_1, /*hidden argument*/NULL);
 	}
 
-IL_002d:
-	{
-		// foreach (string file in files)
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_8 = V_2;
-		int32_t L_9 = V_3;
-		NullCheck(L_8);
-		int32_t L_10 = L_9;
-		String_t* L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
-		V_4 = L_11;
-		// allFiles.Add(System.IO.Path.GetFileName(file)); //get all the file name
-		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * L_12 = __this->get_allFiles_7();
-		String_t* L_13 = V_4;
-		IL2CPP_RUNTIME_CLASS_INIT(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
-		String_t* L_14;
-		L_14 = Path_GetFileName_m4CCFEEE8CA42DE16FCAF05D765EFB88E7086744A(L_13, /*hidden argument*/NULL);
-		NullCheck(L_12);
-		List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE(L_12, L_14, /*hidden argument*/List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE_RuntimeMethod_var);
-		int32_t L_15 = V_3;
-		V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_15, (int32_t)1));
-	}
-
-IL_004b:
-	{
-		// foreach (string file in files)
-		int32_t L_16 = V_3;
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_17 = V_2;
-		NullCheck(L_17);
-		if ((((int32_t)L_16) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_17)->max_length))))))
+IL_001c:
+	try
+	{ // begin try (depth: 1)
 		{
-			goto IL_002d;
+			// path = $"{Application.persistentDataPath}/checklists/checklists/";
+			String_t* L_2;
+			L_2 = Application_get_persistentDataPath_mBD9C84D06693A9DEF2D9D2206B59D4BCF8A03463(/*hidden argument*/NULL);
+			String_t* L_3;
+			L_3 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_2, _stringLiteral5F345CDD05DE4C42CB0A79D24905886CE6CD69B1, /*hidden argument*/NULL);
+			V_0 = L_3;
+			// string[] files = System.IO.Directory.GetFiles(path);
+			String_t* L_4 = V_0;
+			StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_5;
+			L_5 = Directory_GetFiles_m832F37C2ABC12EEAB3B1736C5196C50C0B65C1DC(L_4, /*hidden argument*/NULL);
+			V_1 = L_5;
+			// foreach (string file in files)
+			StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_6 = V_1;
+			V_2 = L_6;
+			V_3 = 0;
+			goto IL_0059;
 		}
+
+IL_003b:
+		{
+			// foreach (string file in files)
+			StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_7 = V_2;
+			int32_t L_8 = V_3;
+			NullCheck(L_7);
+			int32_t L_9 = L_8;
+			String_t* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+			V_4 = L_10;
+			// allFiles.Add(System.IO.Path.GetFileName(file)); //get all the file name
+			List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * L_11 = __this->get_allFiles_7();
+			String_t* L_12 = V_4;
+			IL2CPP_RUNTIME_CLASS_INIT(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
+			String_t* L_13;
+			L_13 = Path_GetFileName_m4CCFEEE8CA42DE16FCAF05D765EFB88E7086744A(L_12, /*hidden argument*/NULL);
+			NullCheck(L_11);
+			List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE(L_11, L_13, /*hidden argument*/List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE_RuntimeMethod_var);
+			int32_t L_14 = V_3;
+			V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_14, (int32_t)1));
+		}
+
+IL_0059:
+		{
+			// foreach (string file in files)
+			int32_t L_15 = V_3;
+			StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_16 = V_2;
+			NullCheck(L_16);
+			if ((((int32_t)L_15) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_16)->max_length))))))
+			{
+				goto IL_003b;
+			}
+		}
+
+IL_005f:
+		{
+			goto IL_0079;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0062;
+		}
+		throw e;
 	}
+
+CATCH_0062:
+	{ // begin catch(System.Object)
+		// catch
+		// Debug.Log("Catched");
+		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var)));
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDA5B3B88F8F53C08DB3AEA2532AFCC6C0EEB46A5)), /*hidden argument*/NULL);
+		// DownloadFile();
+		Checklist_DownloadFile_m92561BF99984BED176DC83C5CB5B5B7F49E9F5B1(__this, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0079;
+	} // end catch (depth: 1)
+
+IL_0079:
 	{
 		// CreateMenu();
 		Checklist_CreateMenu_m338F58BC797440E35F73BEC3484BCEE4EF9676D7(__this, /*hidden argument*/NULL);
