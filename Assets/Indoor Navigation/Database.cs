@@ -80,39 +80,7 @@ public class Database : MonoBehaviour
         onDataManagerReady?.Invoke();
     }
 
-    /// <summary>
-    /// Get a project or create one if it does not exist.
-    /// </summary>
-    /// <returns>Project instance from database.</returns>
-    //public async Task<Project> GetOrCreateProject()
-    //{
-    //    var query = new TableQuery<Project>().Where(
-    //        TableQuery.CombineFilters(
-    //            TableQuery.GenerateFilterCondition("PartitionKey", QueryComparisons.Equal, partitionKey),
-    //            TableOperators.And,
-    //            TableQuery.GenerateFilterCondition("RowKey", QueryComparisons.Equal, projectName)));
-    //    var segment = await projectsTable.ExecuteQuerySegmentedAsync(query, null);
-
-    //    var project = segment.Results.FirstOrDefault();
-    //    if (project != null)
-    //    {
-    //        return project;
-    //    }
-
-    //    project = new Project()
-    //    {
-    //        Name = projectName,
-    //        RowKey = projectName,
-    //        PartitionKey = partitionKey,
-    //        //CustomVisionIterationId = "",
-    //        //CustomVisionPublishedModelName = ""
-    //    };
-
-    //    var insertOrMergeOperation = TableOperation.InsertOrMerge(project);
-    //    await projectsTable.ExecuteAsync(insertOrMergeOperation);
-
-    //    return project;
-    //}
+    
 
     /// <summary>
     /// Update the project changes back to the table store;

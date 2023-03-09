@@ -46,7 +46,9 @@ public class CreateAnchors : MonoBehaviour
 
     public GameObject prefab;
 
-
+    /// <summary>
+    /// Set up the dropdown for creating anchor
+    /// </summary>
     public async void Awake()
     {
         Debug.Log("Awak");
@@ -60,17 +62,11 @@ public class CreateAnchors : MonoBehaviour
 
         await GetMaxInt();
 
-        
-        //connectAnchorDropdown.OnPointerClick()
-        //connectAnchorDropdown.OnPointerClick() ;
-        //Debug.Log(mycam.transform.rotation);
-        //var s = FindObjectOfType<AnchorManager>();
-        //foreach(var a in s.activeAnchors)
-        //{
-        //    Debug.Log(a);
-        //}
 
     }
+    /// <summary>
+    /// Update dropdown after one is created
+    /// </summary>
     public async void updateDD()
     {
         List<string> anchorNames = new List<string>();
@@ -83,18 +79,11 @@ public class CreateAnchors : MonoBehaviour
         var z = m_DropOptions.Except(anchorNames);
         connectAnchorDropdown.AddOptions(z.ToList());
         
-        //Debug.Log(anchorNames.Contains(text));
-
-        //if (m_DropOptions.Count != ddSize)
-        //{
-        //    await GetMainAchInfo();
-        //    connectAnchorDropdown.options.Clear();
-        //    connectAnchorDropdown.AddOptions(m_DropOptions);
-        //}
-        
     }
 
-
+    /// <summary>
+    /// Get the position of the spatial anchor
+    /// </summary>
     public async Task GetMainPos(string mainName)
     {
         TrackedObject SpactialID = await sceneController.FindTrackedObjectByName(mainName);
@@ -106,15 +95,10 @@ public class CreateAnchors : MonoBehaviour
         GetMainCoord = s.activeAnchors[SpactialID.SpatialAnchorId].transform;
         Debug.Log(GetMainCoord);
         
-        //GetMainCoordR = s.activeAnchors[SpactialID.SpatialAnchorId].transform;
-        //GetRefCoord = s.activeAnchors[SpactialIDRef.SpatialAnchorId].transform.position;
-        //Debug.Log(GetMainCoord);
-        //foreach (var a in s.activeAnchors)
-        //{
-        //    Debug.Log(a.Value);
-        //    Debug.Log(a.Value.transform.position);
-        //}
     }
+    /// <summary>
+    /// Ge the spatial anchor info
+    /// </summary>
     public async Task GetMainAchInfo()
     {
         var z = await sceneController.GetAllTrackedObjects();
@@ -143,31 +127,11 @@ public class CreateAnchors : MonoBehaviour
 
         //Debug.Log(m_DropOptions.Count);
     }
+    /// <summary>
+    /// Determine creating spatial anchor or connected anchor
+    /// </summary>
     public async void anchorPlacment()
     {
-        //if (string.IsNullOrWhiteSpace(inputField.text))
-        //{
-        //var abc = anchorTypeRadialSet.CurrentIndex;
-        //var zzz = anchorTypeRadialSet.ToggleList[abc].name;
-        //Debug.Log(zzz);
-        //trackedObject = await sceneController.FindTrackedObjectBySpId("c739c666-77c7-4cd0-9802-efbb8f14555b");
-        //Debug.Log(trackedObject.Name);
-        //Debug.Log(trackedObject.SpatialAnchorId);
-        //float testDisx = anchorSphere.transform.position.x - testing.transform.position.x;
-        //Debug.Log(testDisx);
-        //float testDisy = anchorSphere.transform.position.y - testing.transform.position.y;
-        //float testDisz = anchorSphere.transform.position.z - testing.transform.position.z;
-        //double tryx = anchorSphere.transform.position.x - testDisx;
-        //double tryy = anchorSphere.transform.position.y - testDisy;
-        //double tryz = anchorSphere.transform.position.z - testDisz;
-        //Vector3 new1 = new Vector3((float)tryx, (float)tryy, (float)tryz);
-        //anchorSphere.transform.position = new1;
-        //Debug.Log(anchorSphere.transform.position);
-        //Debug.Log("WTLM: " + anchorSphere.transform.worldToLocalMatrix);
-        //hintLabel.SetText("Please type in a name.");
-        //hintLabel.gameObject.SetActive(true);
-        //return;
-        //}
         selectedType = anchorTypeRadialSet.CurrentIndex;
         if (selectedType == 0)
         {
@@ -184,9 +148,6 @@ public class CreateAnchors : MonoBehaviour
                 {
                     OpenSpatialAnchorsFlow(project, "main");
                 }
-                //searchObjectPanel.SetActive(false);
-                //objectEditPanel.gameObject.SetActive(true);
-                //objectEditPanel.Init(project);
             }
         }
         else
@@ -196,15 +157,7 @@ public class CreateAnchors : MonoBehaviour
             if (project != null)
             {
                 Debug.Log("Next Step Connected");
-                //Debug.Log(project.SpatialAnchorId);
-                
-                
-                //Debug.Log("PLSSS: " + GetMainCoord.x+ GetMainCoord.y+ GetMainCoord.z);
                 Getxyz(project);
-                //OpenSpatialAnchorsFlow(project);
-                //searchObjectPanel.SetActive(false);
-                //objectEditPanel.gameObject.SetActive(true);
-                //objectEditPanel.Init(project);
             }
         }
 
@@ -217,13 +170,7 @@ public class CreateAnchors : MonoBehaviour
         if (trackedObject == null)
         {
             trackedObject = new TrackedObject(searchName);
-            //var success = await sceneController.UploadOrUpdate(trackedObject);
-            //if (!success)
-            //{
-            //    return null;
-            //}
 
-            //await sceneController.UploadOrUpdate(trackedObject);
         }
 
         //hintLabel.gameObject.SetActive(false);
@@ -235,19 +182,6 @@ public class CreateAnchors : MonoBehaviour
         //hintLabel.gameObject.SetActive(true);
         //var trackedNBObject = await sceneController.FindTrackedObjectByName(searchName);
         var trackedNBObject = new NearbyObject(searchName);
-        //if (trackedNBObject == null)
-        //{
-        //    trackedNBObject = new TrackedObject(searchName);
-        //var success = await sceneController.UpdateAdjacentTable(trackedNBObject);
-        //if (!success)
-        //{
-        //    return null;
-        //}
-
-        //await sceneController.UpdateAdjacentTable(trackedNBObject);
-        //}
-
-        //hintLabel.gameObject.SetActive(false);
         return trackedNBObject;
     }
     public void OpenSpatialAnchorsFlow(TrackedObject source, string key)
@@ -261,7 +195,9 @@ public class CreateAnchors : MonoBehaviour
         trackedObject.PartitionKey = key;
         sceneController1.CreateAnchor(a);
     }
-
+    /// <summary>
+    /// Creating of the anchor
+    /// </summary>
     public async void Getxyz(NearbyObject source)
     {
         Transform connectedCoord;
@@ -298,13 +234,9 @@ public class CreateAnchors : MonoBehaviour
         trackedNBObject.Yvalue = connectedCoord.position.y - a.transform.position.y;
         trackedNBObject.Zvalue = connectedCoord.position.z - a.transform.position.z;
 
-        //trackedNBObject.Xvalue = a.transform.position.x;
-        //trackedNBObject.Yvalue = a.transform.position.y;
-        //trackedNBObject.Zvalue = a.transform.position.z;
 
         trackedNBObject.ConnectSpatialAnchor = connectAnchorDropdown.options[connectAnchorDropdown.value].text;
         trackedNBObject.Distance = Vector3.Distance(a.transform.position, connectedCoord.position);
-        //trackedNBObject.Direction = (a.transform.position - connectedCoord.position).ToString();
 
         var directionSA = dirCoord.position - connectedCoord.position;
         var objDir = a.transform.position - connectedCoord.position;
@@ -324,11 +256,6 @@ public class CreateAnchors : MonoBehaviour
 
         float testDD = Vector3.Distance(a.transform.position, connectedCoord.position);
         Debug.Log("C Dist: " + testDD);
-
-        //trackedNBObject.XvalueB = refCoord.x - a.transform.position.x;
-        ////a.transform.localRotation.
-        //trackedNBObject.YvalueB = refCoord.y - a.transform.position.y;
-        //trackedNBObject.ZvalueB = refCoord.z - a.transform.position.z;
         Debug.Log(trackedNBObject.Name);
 
         var x = Instantiate(prefab);
@@ -337,13 +264,6 @@ public class CreateAnchors : MonoBehaviour
         s.connectedActiveAnchors[trackedNBObject.Name] = x;
 
         await sceneController.UpdateAdjacentTable(trackedNBObject);
-        //Transform a = anchorSphere.transform;
-        //trackedObject = source;
-        //Debug.Log(trackedObject.SpatialAnchorId);
-        ////sceneController1.CreateAnchor(a);
-        //sceneController1.StartPlacingAnchor2(trackedObject);
-        //sceneController1.OnCreateAnchorSucceeded += HandleOnCreateAnchorSucceeded;
-        //sceneController1.CreateAnchor(a);
     }
 
     private async void HandleOnCreateAnchorSucceeded(object sender, string id)
