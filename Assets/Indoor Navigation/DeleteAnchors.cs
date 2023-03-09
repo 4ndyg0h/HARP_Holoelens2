@@ -37,22 +37,11 @@ public class DeleteAnchors : MonoBehaviour
     {
         Debug.Log("Awak");
         database.Awake();
-        //allAnchorDropdown.options.Clear();
-        //List<string> m_DropOptions = new List<string> { "Home", "Office" };
-        //await GetMainAchInfo();
-        //Debug.Log("gi:"+m_DropOptions.Count);
         allAnchorDropdown.AddOptions(m_DropOptions);
-        
-        //connectAnchorDropdown.OnPointerClick()
-        //connectAnchorDropdown.OnPointerClick() ;
-        //Debug.Log(mycam.transform.rotation);
-        //var s = FindObjectOfType<AnchorManager>();
-        //foreach(var a in s.activeAnchors)
-        //{
-        //    Debug.Log(a);
-        //}
-
     }
+    /// <summary>
+    /// Reset dropdown after deleting
+    /// </summary>
     public async void ResetDD()
     {
         database.Awake();
@@ -71,6 +60,9 @@ public class DeleteAnchors : MonoBehaviour
         comp.SetActive(false);
 
     }
+    /// <summary>
+    /// Get the spatial anchor details
+    /// </summary>
     public async Task GetMainAchInfo()
     {
         //Debug.Log(deletedAn[0]);
@@ -96,6 +88,9 @@ public class DeleteAnchors : MonoBehaviour
 
         //Debug.Log(m_DropOptions.Count);
     }
+    /// <summary>
+    /// Remove anchor that is already spawned
+    /// </summary>
     public void completedPage()
     {
         dd.SetActive(false);
@@ -103,6 +98,9 @@ public class DeleteAnchors : MonoBehaviour
         but2.SetActive(false);
         comp.SetActive(true);
     }
+    /// <summary>
+    /// Delete the selected anchor
+    /// </summary>
     public async void deleteSelected()
     {
         if (allAnchorDropdown.value != 0)
