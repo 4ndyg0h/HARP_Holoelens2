@@ -144,7 +144,6 @@
     <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\Scripts\UX\AnchorCreationController.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\MouseLookHelper.cs" />
     <Compile Include="Assets\MRTK.Tutorials.AzureSpatialAnchors\Scripts\DebugWindow.cs" />
-    <Compile Include="Assets\Indoor Navigation\NavMapping.cs" />
     <Compile Include="Assets\CheckList\Scripts\Graph.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.0\Demos - Input\Scenes\InputData\InputDataExampleGizmo.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.0\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemo.cs" />
