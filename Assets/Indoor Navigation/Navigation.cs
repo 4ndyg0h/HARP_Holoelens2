@@ -38,19 +38,16 @@ public class Navigation : MonoBehaviour
 
     private GameObject EmptyObj;
 
-    //private void Start()
-    //{
-    //    cam = Camera.main;
-    //    cam.enabled = true;
-    //}
+    /// <summary>
+    /// Get the camera obj
+    /// </summary>
     private void Start()
     {
         allCameras = FindObjectsOfType<Camera>();
-        //foreach (var i in allCameras){
-        //    Debug.Log(i.transform.position);
-        //}
-        //Debug.Log(cam.transform.position);
     }
+    /// <summary>
+    /// After line generated, remove line when user is 1m away from the destination
+    /// </summary>
     public void UpdateLoc()
     {
         if(desti != new Vector3(0,0,0))
@@ -71,6 +68,9 @@ public class Navigation : MonoBehaviour
 
         }
     }
+    /// <summary>
+    /// Set start and end point
+    /// </summary>
     public async void setStartEnd()
     {
         startDropdown.options.Clear();
@@ -82,6 +82,9 @@ public class Navigation : MonoBehaviour
         endDropdown.AddOptions(s.m_DropOptions);
 
     }
+    /// <summary>
+    /// Get all the active anchor
+    /// </summary>
     public async Task testActive()
     {
         var s = FindObjectOfType<SpawnAnchor>();
@@ -115,13 +118,10 @@ public class Navigation : MonoBehaviour
 
             }
         }
-        //foreach(KeyValuePair<string,double> abc in edgesDict)
-        //{
-        //    Debug.Log("1" + abc.Key);
-        //    Debug.Log("2" + abc.Value);
-        //}
     }
-
+    /// <summary>
+    /// Create edges for all the anchors use for fsp
+    /// </summary>
     public async Task CreateEdge()
     {
         await testActive();
@@ -167,6 +167,9 @@ public class Navigation : MonoBehaviour
         //    }
         //}
     }
+    /// <summary>
+    /// DSP calculation
+    /// </summary>
     public async void FSP()
     {
         await CreateEdge();
@@ -196,10 +199,6 @@ public class Navigation : MonoBehaviour
             vertexSet.Add(node.Key);
         }
         Debug.Log(vertexSet.Count);
-        //Debug.Log(string.Join(",", idList));
-        //Debug.Log(string.Join(",", vertexSet));
-        //Debug.Log(string.Join(",", dist));
-        //Debug.Log(string.Join(",", prev));
         while (vertexSet.Count > 0)
         {
             double minDis = double.PositiveInfinity;
@@ -224,11 +223,6 @@ public class Navigation : MonoBehaviour
             {
                 break;
             }
-            //Debug.Log(string.Join(",", idList));
-            //Debug.Log(string.Join(",", vertexSet));
-            //Debug.Log(string.Join(",", dist));
-            //Debug.Log(string.Join(",", prev));
-
             foreach (KeyValuePair<string, double> d in VerticeDetail[u])
             {
                 double alt = minDis + d.Value;
@@ -239,10 +233,6 @@ public class Navigation : MonoBehaviour
                     prev[id] = u;
                 }
             }
-            //Debug.Log(string.Join(",", idList));
-            //Debug.Log(string.Join(",", vertexSet));
-            //Debug.Log(string.Join(",", dist));
-            //Debug.Log(string.Join(",", prev));
         }
         int destId = idList.IndexOf(dest);
         var cand = dest;
