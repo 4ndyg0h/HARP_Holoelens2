@@ -1615,11 +1615,11 @@ static const Il2CppTokenRangePair s_rgctxIndices[3] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[5] = 
 {
-	{ (Il2CppRGCTXDataType)3, 82318 },
-	{ (Il2CppRGCTXDataType)3, 82323 },
-	{ (Il2CppRGCTXDataType)3, 83432 },
+	{ (Il2CppRGCTXDataType)3, 82316 },
+	{ (Il2CppRGCTXDataType)3, 82321 },
+	{ (Il2CppRGCTXDataType)3, 83430 },
 	{ (Il2CppRGCTXDataType)2, 231 },
-	{ (Il2CppRGCTXDataType)3, 83355 },
+	{ (Il2CppRGCTXDataType)3, 83353 },
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_GraphicsTools_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_GraphicsTools_CodeGenModule;

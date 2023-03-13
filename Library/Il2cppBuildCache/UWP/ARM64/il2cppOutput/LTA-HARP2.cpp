@@ -1706,7 +1706,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD52996CC1ADEAA72CD886FCF2CF9405C220B34F6
 IL2CPP_EXTERN_C String_t* _stringLiteralD5834ACEC33AD574D2A7A320AEAB1D2F09D962F8;
 IL2CPP_EXTERN_C String_t* _stringLiteralD66A73752062FAA344673695094B15C58050D86B;
 IL2CPP_EXTERN_C String_t* _stringLiteralD91BD6036A895E0CF978FED776DA72E14D1E3789;
-IL2CPP_EXTERN_C String_t* _stringLiteralD9EED52544710B53333F6485907E523AAA5C8252;
 IL2CPP_EXTERN_C String_t* _stringLiteralDEC78890BD36C0F32627F8BFFC6B3872579C6D48;
 IL2CPP_EXTERN_C String_t* _stringLiteralDF19425FF2B6A11DEDC2D151795512E67EFFCC2B;
 IL2CPP_EXTERN_C String_t* _stringLiteralDF94361AE62C8E8418A75AE9F66772AC8DE7EB3E;
@@ -52778,7 +52777,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpawnAnchor_StartFindLocation_m11EB29258
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mDE6A3A501D3F8DB053E3652463266AF65FD6D742_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mF6F303A61746D411F447A2431C78E6B9B9D85FDD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m0F0E091CA5D63ABBC5D0CB85C0F1C6850D64BD0C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD9EED52544710B53333F6485907E523AAA5C8252);
 		s_Il2CppMethodInitialized = true;
 	}
 	Enumerator_t0E7D5C808D73CAD259D9128D0499D3DEB195AF3B  V_0;
@@ -52786,116 +52784,77 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpawnAnchor_StartFindLocation_m11EB29258
 	TrackedObject_tB8F7B1D96F5A0BEF1C95A82C60A527EBA345224A * V_1 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
 	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
-	List_1_t72FF3A00590037989F943D87EB7E3256AE2912AD * G_B2_0 = NULL;
-	String_t* G_B2_1 = NULL;
-	List_1_t72FF3A00590037989F943D87EB7E3256AE2912AD * G_B1_0 = NULL;
-	String_t* G_B1_1 = NULL;
-	String_t* G_B3_0 = NULL;
-	String_t* G_B3_1 = NULL;
 	{
-		// Debug.Log("ABC: " + trackedObject);
-		List_1_t72FF3A00590037989F943D87EB7E3256AE2912AD * L_0 = ___trackedObject0;
-		List_1_t72FF3A00590037989F943D87EB7E3256AE2912AD * L_1 = L_0;
-		G_B1_0 = L_1;
-		G_B1_1 = _stringLiteralD9EED52544710B53333F6485907E523AAA5C8252;
-		if (L_1)
-		{
-			G_B2_0 = L_1;
-			G_B2_1 = _stringLiteralD9EED52544710B53333F6485907E523AAA5C8252;
-			goto IL_000e;
-		}
-	}
-	{
-		G_B3_0 = ((String_t*)(NULL));
-		G_B3_1 = G_B1_1;
-		goto IL_0013;
-	}
-
-IL_000e:
-	{
-		NullCheck(G_B2_0);
-		String_t* L_2;
-		L_2 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B2_0);
-		G_B3_0 = L_2;
-		G_B3_1 = G_B2_1;
-	}
-
-IL_0013:
-	{
-		String_t* L_3;
-		L_3 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(G_B3_1, G_B3_0, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_3, /*hidden argument*/NULL);
 		// foreach (var a in trackedObject)
-		List_1_t72FF3A00590037989F943D87EB7E3256AE2912AD * L_4 = ___trackedObject0;
-		NullCheck(L_4);
-		Enumerator_t0E7D5C808D73CAD259D9128D0499D3DEB195AF3B  L_5;
-		L_5 = List_1_GetEnumerator_m0F0E091CA5D63ABBC5D0CB85C0F1C6850D64BD0C(L_4, /*hidden argument*/List_1_GetEnumerator_m0F0E091CA5D63ABBC5D0CB85C0F1C6850D64BD0C_RuntimeMethod_var);
-		V_0 = L_5;
+		List_1_t72FF3A00590037989F943D87EB7E3256AE2912AD * L_0 = ___trackedObject0;
+		NullCheck(L_0);
+		Enumerator_t0E7D5C808D73CAD259D9128D0499D3DEB195AF3B  L_1;
+		L_1 = List_1_GetEnumerator_m0F0E091CA5D63ABBC5D0CB85C0F1C6850D64BD0C(L_0, /*hidden argument*/List_1_GetEnumerator_m0F0E091CA5D63ABBC5D0CB85C0F1C6850D64BD0C_RuntimeMethod_var);
+		V_0 = L_1;
 	}
 
-IL_0026:
+IL_0009:
 	try
 	{ // begin try (depth: 1)
 		{
-			goto IL_003e;
+			goto IL_0021;
 		}
 
-IL_0028:
+IL_000b:
 		{
 			// foreach (var a in trackedObject)
-			TrackedObject_tB8F7B1D96F5A0BEF1C95A82C60A527EBA345224A * L_6;
-			L_6 = Enumerator_get_Current_mF6F303A61746D411F447A2431C78E6B9B9D85FDD_inline((Enumerator_t0E7D5C808D73CAD259D9128D0499D3DEB195AF3B *)(&V_0), /*hidden argument*/Enumerator_get_Current_mF6F303A61746D411F447A2431C78E6B9B9D85FDD_RuntimeMethod_var);
-			V_1 = L_6;
+			TrackedObject_tB8F7B1D96F5A0BEF1C95A82C60A527EBA345224A * L_2;
+			L_2 = Enumerator_get_Current_mF6F303A61746D411F447A2431C78E6B9B9D85FDD_inline((Enumerator_t0E7D5C808D73CAD259D9128D0499D3DEB195AF3B *)(&V_0), /*hidden argument*/Enumerator_get_Current_mF6F303A61746D411F447A2431C78E6B9B9D85FDD_RuntimeMethod_var);
+			V_1 = L_2;
 			// Debug.Log(a.SpatialAnchorId);
-			TrackedObject_tB8F7B1D96F5A0BEF1C95A82C60A527EBA345224A * L_7 = V_1;
-			NullCheck(L_7);
-			String_t* L_8;
-			L_8 = TrackedObject_get_SpatialAnchorId_m8F84F69C5D0B6AF36FDD6C90B8B4BBC772AB49CB_inline(L_7, /*hidden argument*/NULL);
+			TrackedObject_tB8F7B1D96F5A0BEF1C95A82C60A527EBA345224A * L_3 = V_1;
+			NullCheck(L_3);
+			String_t* L_4;
+			L_4 = TrackedObject_get_SpatialAnchorId_m8F84F69C5D0B6AF36FDD6C90B8B4BBC772AB49CB_inline(L_3, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-			Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_8, /*hidden argument*/NULL);
+			Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_4, /*hidden argument*/NULL);
 		}
 
-IL_003e:
+IL_0021:
 		{
 			// foreach (var a in trackedObject)
-			bool L_9;
-			L_9 = Enumerator_MoveNext_mDE6A3A501D3F8DB053E3652463266AF65FD6D742((Enumerator_t0E7D5C808D73CAD259D9128D0499D3DEB195AF3B *)(&V_0), /*hidden argument*/Enumerator_MoveNext_mDE6A3A501D3F8DB053E3652463266AF65FD6D742_RuntimeMethod_var);
-			if (L_9)
+			bool L_5;
+			L_5 = Enumerator_MoveNext_mDE6A3A501D3F8DB053E3652463266AF65FD6D742((Enumerator_t0E7D5C808D73CAD259D9128D0499D3DEB195AF3B *)(&V_0), /*hidden argument*/Enumerator_MoveNext_mDE6A3A501D3F8DB053E3652463266AF65FD6D742_RuntimeMethod_var);
+			if (L_5)
 			{
-				goto IL_0028;
+				goto IL_000b;
 			}
 		}
 
-IL_0047:
+IL_002a:
 		{
-			IL2CPP_LEAVE(0x58, FINALLY_0049);
+			IL2CPP_LEAVE(0x3B, FINALLY_002c);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_0049;
+		goto FINALLY_002c;
 	}
 
-FINALLY_0049:
+FINALLY_002c:
 	{ // begin finally (depth: 1)
 		Enumerator_Dispose_m974E514E82D59D86AC052A23FA95B3CD1720BDB2((Enumerator_t0E7D5C808D73CAD259D9128D0499D3DEB195AF3B *)(&V_0), /*hidden argument*/Enumerator_Dispose_m974E514E82D59D86AC052A23FA95B3CD1720BDB2_RuntimeMethod_var);
-		IL2CPP_END_FINALLY(73)
+		IL2CPP_END_FINALLY(44)
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(73)
+	IL2CPP_CLEANUP(44)
 	{
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x58, IL_0058)
+		IL2CPP_JUMP_TBL(0x3B, IL_003b)
 	}
 
-IL_0058:
+IL_003b:
 	{
 		// sceneController1.FindAnchorNew(trackedObject);
-		AnchorManager_t5AC81C8885A743712B5494B3C228FCF5D3751E99 * L_10 = __this->get_sceneController1_5();
-		List_1_t72FF3A00590037989F943D87EB7E3256AE2912AD * L_11 = ___trackedObject0;
-		NullCheck(L_10);
-		AnchorManager_FindAnchorNew_m08777CA047ED0CF7B236C9979D761F888F31E172(L_10, L_11, /*hidden argument*/NULL);
+		AnchorManager_t5AC81C8885A743712B5494B3C228FCF5D3751E99 * L_6 = __this->get_sceneController1_5();
+		List_1_t72FF3A00590037989F943D87EB7E3256AE2912AD * L_7 = ___trackedObject0;
+		NullCheck(L_6);
+		AnchorManager_FindAnchorNew_m08777CA047ED0CF7B236C9979D761F888F31E172(L_6, L_7, /*hidden argument*/NULL);
 		// }
 		return;
 	}
