@@ -1,9 +1,9 @@
 sceneSetups:
-- path: Assets/Shared/Scenes/SharedSubscene.unity
+- path: Assets/MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/Indoor Navigation/SampleScene.unity
+- path: Assets/Shared/Scenes/SharedSubscene.unity
   isLoaded: 1
   isActive: 0
   isSubScene: 0
