@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{706F61A2-3E40-E43C-0A63-BDDF6CC5B32C}</ProjectGuid>
+    <ProjectGuid>{45B12E9F-C4AA-D0D8-FC9C-FCA96820AB5C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.SpatialTracking</AssemblyName>
@@ -56,9 +56,9 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9\Runtime\TrackedPoseDriver\TrackedPoseDriver.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9\Runtime\TrackedPoseDriver\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9\Runtime\TrackedPoseDriver\BasePoseProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9\Runtime\TrackedPoseDriver\TrackedPoseDriver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9\Runtime\TrackedPoseDriver\UnityEngine.SpatialTracking.asmdef" />
@@ -901,7 +901,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
+      <Project>{5AC1D4E2-4F5D-7760-0B50-29CBAB73BD69}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

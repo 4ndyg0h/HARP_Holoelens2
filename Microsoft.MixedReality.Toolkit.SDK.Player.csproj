@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5FF14309-7491-5997-4F46-5F0A6608361C}</ProjectGuid>
+    <ProjectGuid>{A59F2F9F-ED4B-9DFC-3143-49431768E33D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.SDK</AssemblyName>
@@ -1214,31 +1214,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Player.csproj">
-      <Project>{70E6255E-1B21-7D5D-6723-9E26FAF0041B}</Project>
+      <Project>{B063007E-7D4E-F59A-47B2-260B411E006A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.Player.csproj">
-      <Project>{E6BF2F95-8C07-E967-BC3A-28A36B80F6BF}</Project>
+      <Project>{72D40C1C-FCEE-238A-A234-6DB8BEE9382F}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation.Player.csproj">
-      <Project>{DBEF162A-68C9-29EE-090F-0E794531C977}</Project>
+      <Project>{A1615476-6C95-03EF-327F-E32E04B15DD3}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputAnimation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Player.csproj">
-      <Project>{93E6BB13-E6B9-1C01-8025-F3141BD8278A}</Project>
+      <Project>{839FAB4C-B189-0E3E-2C86-D9C68E7E693E}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Player.csproj">
-      <Project>{FC640F71-4DB0-DD30-6C13-23E8D6731473}</Project>
+      <Project>{215C4FB9-5137-421D-C7B1-EDD692DD7FCE}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{A37964A5-B0DD-23CA-9836-A06C76C6C37B}</Project>
+      <Project>{4804DE66-B273-B0C9-C65D-8DD0A54BD1FE}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
+      <Project>{5AC1D4E2-4F5D-7760-0B50-29CBAB73BD69}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

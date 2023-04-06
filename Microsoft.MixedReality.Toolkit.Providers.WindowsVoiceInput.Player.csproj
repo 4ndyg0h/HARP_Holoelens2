@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A566A24D-ED7E-382A-95A9-9B95BD919F12}</ProjectGuid>
+    <ProjectGuid>{F573E768-2C65-4A07-04BF-80E2F9EB59C4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput</AssemblyName>
@@ -904,15 +904,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Player.csproj">
-      <Project>{70E6255E-1B21-7D5D-6723-9E26FAF0041B}</Project>
+      <Project>{B063007E-7D4E-F59A-47B2-260B411E006A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.Player.csproj">
-      <Project>{E6BF2F95-8C07-E967-BC3A-28A36B80F6BF}</Project>
+      <Project>{72D40C1C-FCEE-238A-A234-6DB8BEE9382F}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
+      <Project>{5AC1D4E2-4F5D-7760-0B50-29CBAB73BD69}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

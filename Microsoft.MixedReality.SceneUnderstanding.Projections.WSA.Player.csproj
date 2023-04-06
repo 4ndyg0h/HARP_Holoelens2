@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1C02AD5F-3DF1-E0BA-BD3C-CF18B5D2101A}</ProjectGuid>
+    <ProjectGuid>{08E64595-0370-F000-B108-C4EC663C04F4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.SceneUnderstanding.Projections.WSA</AssemblyName>
@@ -908,7 +908,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
+      <Project>{5AC1D4E2-4F5D-7760-0B50-29CBAB73BD69}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C8995930-AEC8-76F7-A61C-BED6DF2F03B0}</ProjectGuid>
+    <ProjectGuid>{E355AA6A-4401-64BD-8325-DAB610707ADF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</AssemblyName>
@@ -706,35 +706,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{EF4376E9-E655-AC14-EC03-30CAC341C0B9}</Project>
+      <Project>{279AA3AE-DBFB-E1CC-6ABA-FF02DA4002D3}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{43EAEACF-94FB-8721-812F-81E88A5F9E65}</Project>
+      <Project>{3DDD7E92-F347-B21A-A35C-254CBFF33826}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{6DA1A6C8-0409-E661-EFE3-BA5B635CA5C3}</Project>
+      <Project>{8EA5D3A9-8956-C23D-4F19-7DC7DD80C038}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{095F778B-DEBB-572C-EB57-FBCD11EC0F3D}</Project>
+      <Project>{ABB4B3B4-66E2-58AF-83E6-589429CDAF59}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
+      <Project>{5730BF0B-C5A6-4C40-673B-9A8D3E5DAB0B}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
+      <Project>{87765FB0-FDA2-96CE-5E5E-C10F7AC3F109}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{4F4F55A0-A9EC-68E1-D3A9-1DCC779EF04B}</Project>
+      <Project>{890F07AE-7B14-0CD1-F20D-3EDFF6696452}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{3EC90C0A-82EE-42F6-8BB0-832C10021A9B}</Project>
+      <Project>{016D0E7B-1179-FB6A-7C7D-2B5F16FD5758}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

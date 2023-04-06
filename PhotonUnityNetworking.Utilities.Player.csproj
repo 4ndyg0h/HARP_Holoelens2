@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{58E178BB-5298-C263-2861-B447471D7404}</ProjectGuid>
+    <ProjectGuid>{4132631A-D236-7BCA-07FD-2A99502FFE22}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking.Utilities</AssemblyName>
@@ -926,15 +926,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.Player.csproj">
-      <Project>{355663DB-3BDA-3CB5-B408-109E0A7354D4}</Project>
+      <Project>{596D04F9-8A51-ABF1-2096-64B8B53A36E1}</Project>
       <Name>PhotonRealtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Player.csproj">
-      <Project>{2E522E60-C9B3-F53D-D001-7A93B82B6AAC}</Project>
+      <Project>{A6099A66-D5A5-D9D8-BE18-6E928C16D068}</Project>
       <Name>PhotonUnityNetworking.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
+      <Project>{5AC1D4E2-4F5D-7760-0B50-29CBAB73BD69}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

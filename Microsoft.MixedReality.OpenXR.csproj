@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Microsoft.MixedReality.OpenXR</RootNamespace>
-    <ProjectGuid>{4BF39CCD-F2B6-E053-2391-6AF07DC328B6}</ProjectGuid>
+    <ProjectGuid>{0A1A870B-F54C-CBFE-0A3F-8223827FDA8A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.OpenXR</AssemblyName>
@@ -749,51 +749,51 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{97767DC2-12C7-B937-1DD9-A054F6406F6B}</Project>
+      <Project>{A46A8053-4646-700D-D532-968CC6136D50}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
-      <Project>{558C95F4-055C-DCDA-B281-CE6130D71C32}</Project>
+      <Project>{AC82613F-CE5B-CAC1-B038-273ABD10089A}</Project>
       <Name>Unity.XR.OpenXR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{BB96BEED-2573-A257-FE30-1EC2EA624418}</Project>
+      <Project>{89BF375B-6FF0-E12F-185D-5791B6A4BDD4}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{0474065A-B05F-47E3-2E14-F17AF8DD09CD}</Project>
+      <Project>{248D1513-5B18-4293-34EB-5A2AE7B42CE8}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{36524DF3-C65A-212D-8B51-D699CD4B27AF}</Project>
+      <Project>{F6042B89-B38A-7627-63BB-9FBDDBB3B7EC}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.Editor.csproj">
-      <Project>{1C8FBAD2-07E7-B8AC-FEAE-5C291101E0FD}</Project>
+      <Project>{2F91D67B-B483-4627-4921-D0F79ADB7553}</Project>
       <Name>Unity.XR.ARSubsystems.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{0EBBAA61-1F2B-D8C2-50F7-351901A515AC}</Project>
+      <Project>{E3AF6006-18C5-D34C-AF6F-184A2D182E83}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{D69C9C0A-7321-6B1A-E756-236131BD5F9E}</Project>
+      <Project>{B36C7F09-D3E0-D182-4C62-DEC9C1597945}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{430EBFF0-ACE8-D02A-C86D-0DACEB8F2184}</Project>
+      <Project>{3E657115-4EBA-BC30-9E3B-E837DA076E7B}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{4DB44671-18DF-AD7C-7E2B-0B0FD315B48F}</Project>
+      <Project>{E0C97303-C988-39B7-78F4-8D2A98ACEAB1}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
+      <Project>{5730BF0B-C5A6-4C40-673B-9A8D3E5DAB0B}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
+      <Project>{87765FB0-FDA2-96CE-5E5E-C10F7AC3F109}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

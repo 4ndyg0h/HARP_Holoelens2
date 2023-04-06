@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E4D71B53-C474-E2B9-E340-3B8C7AD30F77}</ProjectGuid>
+    <ProjectGuid>{8964812B-93CF-6000-042D-301A9CA5BA88}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AzureSpatialAnchors.SDK.Windows.Runtime</AssemblyName>
@@ -695,11 +695,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
+      <Project>{5730BF0B-C5A6-4C40-673B-9A8D3E5DAB0B}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
+      <Project>{87765FB0-FDA2-96CE-5E5E-C10F7AC3F109}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

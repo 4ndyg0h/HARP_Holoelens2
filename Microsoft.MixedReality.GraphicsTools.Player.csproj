@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Microsoft.MixedReality.GraphicsTools</RootNamespace>
-    <ProjectGuid>{BA74A785-1F3C-F280-A182-90B9ED1DC196}</ProjectGuid>
+    <ProjectGuid>{1CBAAEDD-A0DD-8547-6B88-7441532AC0CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.GraphicsTools</AssemblyName>
@@ -974,11 +974,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{676060DB-E6E8-4BF1-ED27-3A22DEBF82D7}</Project>
+      <Project>{DAD090BB-773C-8D6F-F1F3-59665E566554}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
+      <Project>{5AC1D4E2-4F5D-7760-0B50-29CBAB73BD69}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

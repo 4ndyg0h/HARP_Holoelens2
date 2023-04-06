@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{024AEA58-83E1-F96C-C658-DF09A68421A0}</ProjectGuid>
+    <ProjectGuid>{74CA58AA-90AD-E00D-4CF6-CC42A8625EA7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Siccity.GLTFUtility</AssemblyName>
@@ -731,15 +731,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Dracodec.csproj">
-      <Project>{B0CC0EEB-CFFC-F2EA-3105-25991E91D5B3}</Project>
+      <Project>{8BE56A0E-0F7A-9701-F998-C454595344EC}</Project>
       <Name>Dracodec</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
+      <Project>{5730BF0B-C5A6-4C40-673B-9A8D3E5DAB0B}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
+      <Project>{87765FB0-FDA2-96CE-5E5E-C10F7AC3F109}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

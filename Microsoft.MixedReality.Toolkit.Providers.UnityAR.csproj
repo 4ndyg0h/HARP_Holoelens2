@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FEEB1E0E-E1EE-770D-07B6-7C1D0F9F91A1}</ProjectGuid>
+    <ProjectGuid>{390AE687-6C4E-AD1C-08F9-6933BCF9FC5E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.UnityAR</AssemblyName>
@@ -701,27 +701,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{BD821D56-D0FF-4D85-190D-44D09A43909E}</Project>
+      <Project>{76268077-7DF1-FD76-0644-C26ACCC8048F}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
-      <Project>{C53E32F8-0252-EFEC-B930-4062736FF08B}</Project>
+      <Project>{19483D64-E2DB-B935-9B9E-4C06D62BB452}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{4DB44671-18DF-AD7C-7E2B-0B0FD315B48F}</Project>
+      <Project>{E0C97303-C988-39B7-78F4-8D2A98ACEAB1}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{D69C9C0A-7321-6B1A-E756-236131BD5F9E}</Project>
+      <Project>{B36C7F09-D3E0-D182-4C62-DEC9C1597945}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
+      <Project>{5730BF0B-C5A6-4C40-673B-9A8D3E5DAB0B}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
+      <Project>{87765FB0-FDA2-96CE-5E5E-C10F7AC3F109}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

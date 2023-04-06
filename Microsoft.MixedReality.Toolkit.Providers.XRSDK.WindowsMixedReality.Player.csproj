@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{942F4E21-8E54-5C9F-C461-D42133870E8B}</ProjectGuid>
+    <ProjectGuid>{257BF4EF-6D56-19A6-9E74-2749B589DD65}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality</AssemblyName>
@@ -912,27 +912,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.Player.csproj">
-      <Project>{E6BF2F95-8C07-E967-BC3A-28A36B80F6BF}</Project>
+      <Project>{72D40C1C-FCEE-238A-A234-6DB8BEE9382F}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Player.csproj">
-      <Project>{70E6255E-1B21-7D5D-6723-9E26FAF0041B}</Project>
+      <Project>{B063007E-7D4E-F59A-47B2-260B411E006A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.Player.csproj">
-      <Project>{2620B792-E298-CF23-DF0B-957E9CFC6069}</Project>
+      <Project>{F56332C8-BD53-BD06-457A-BD4847C2D5F0}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Player.csproj">
-      <Project>{1A5ACEC9-FE16-C1AE-E9AB-8C1DC51AFF31}</Project>
+      <Project>{D640F82D-50D2-142D-8167-625F9C8B3CC2}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.WindowsMixedReality.Player.csproj">
-      <Project>{5A988725-62AD-1C50-676C-F0446ADAD493}</Project>
+      <Project>{8B81C938-B0CC-C628-F3B0-6371C9B782AF}</Project>
       <Name>Unity.XR.WindowsMixedReality.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
+      <Project>{5AC1D4E2-4F5D-7760-0B50-29CBAB73BD69}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

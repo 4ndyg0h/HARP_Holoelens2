@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4D9D58A8-F8CD-C907-1B84-95FB386D9375}</ProjectGuid>
+    <ProjectGuid>{D2210BC5-98B2-C357-0443-0DAD47720BE1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonVoice</AssemblyName>
@@ -729,19 +729,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{EF4376E9-E655-AC14-EC03-30CAC341C0B9}</Project>
+      <Project>{279AA3AE-DBFB-E1CC-6ABA-FF02DA4002D3}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.API.csproj">
-      <Project>{EE38BB2B-BC2F-15EA-1A73-6B778F59BB60}</Project>
+      <Project>{840C917F-5839-CFA5-4DC6-F7238C232492}</Project>
       <Name>PhotonVoice.API</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
+      <Project>{5730BF0B-C5A6-4C40-673B-9A8D3E5DAB0B}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
+      <Project>{87765FB0-FDA2-96CE-5E5E-C10F7AC3F109}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A80B6B5B-E38E-6EC6-167B-50F6C695FF09}</ProjectGuid>
+    <ProjectGuid>{1932905D-C057-9324-3C8F-704DB83D46A1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive</AssemblyName>
@@ -953,19 +953,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Player.csproj">
-      <Project>{5FF14309-7491-5997-4F46-5F0A6608361C}</Project>
+      <Project>{A59F2F9F-ED4B-9DFC-3143-49431768E33D}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Player.csproj">
-      <Project>{70E6255E-1B21-7D5D-6723-9E26FAF0041B}</Project>
+      <Project>{B063007E-7D4E-F59A-47B2-260B411E006A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Player.csproj">
-      <Project>{FC640F71-4DB0-DD30-6C13-23E8D6731473}</Project>
+      <Project>{215C4FB9-5137-421D-C7B1-EDD692DD7FCE}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
+      <Project>{5AC1D4E2-4F5D-7760-0B50-29CBAB73BD69}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

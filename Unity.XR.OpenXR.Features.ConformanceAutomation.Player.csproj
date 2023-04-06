@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E79D8C63-4E7C-D27B-C923-F373506710AE}</ProjectGuid>
+    <ProjectGuid>{BBB2D471-F6DB-1142-F278-C7B918781EF1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenXR.Features.ConformanceAutomation</AssemblyName>
@@ -903,11 +903,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.Player.csproj">
-      <Project>{F96A54DD-A200-91F2-E104-903B9A249611}</Project>
+      <Project>{901E5146-DDA0-7B34-029B-D4AE85DA9FA1}</Project>
       <Name>Unity.XR.OpenXR.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
+      <Project>{5AC1D4E2-4F5D-7760-0B50-29CBAB73BD69}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

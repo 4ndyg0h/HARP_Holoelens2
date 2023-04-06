@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{23ADB795-7BC1-98EE-5DFA-DED67B801A94}</ProjectGuid>
+    <ProjectGuid>{934A0D7D-32B1-181F-9B37-EB093E488FB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.OpenXR.Sample</AssemblyName>
@@ -697,31 +697,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.OpenXR.csproj">
-      <Project>{4BF39CCD-F2B6-E053-2391-6AF07DC328B6}</Project>
+      <Project>{0A1A870B-F54C-CBFE-0A3F-8223827FDA8A}</Project>
       <Name>Microsoft.MixedReality.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{97767DC2-12C7-B937-1DD9-A054F6406F6B}</Project>
+      <Project>{A46A8053-4646-700D-D532-968CC6136D50}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{9AA88FCC-2C3C-9868-1480-2931366C8638}</Project>
+      <Project>{FB814838-3465-E601-99A2-92D859BEB6E1}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{4DB44671-18DF-AD7C-7E2B-0B0FD315B48F}</Project>
+      <Project>{E0C97303-C988-39B7-78F4-8D2A98ACEAB1}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{BB96BEED-2573-A257-FE30-1EC2EA624418}</Project>
+      <Project>{89BF375B-6FF0-E12F-185D-5791B6A4BDD4}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
+      <Project>{5730BF0B-C5A6-4C40-673B-9A8D3E5DAB0B}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
+      <Project>{87765FB0-FDA2-96CE-5E5E-C10F7AC3F109}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

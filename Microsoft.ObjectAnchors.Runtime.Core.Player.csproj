@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{03F25BCC-8B54-949E-8F8C-68554427BE62}</ProjectGuid>
+    <ProjectGuid>{97DFA353-9CA0-D505-669F-E4542CEE5981}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.ObjectAnchors.Runtime.Core</AssemblyName>
@@ -909,27 +909,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.WindowsMixedReality.Player.csproj">
-      <Project>{5A988725-62AD-1C50-676C-F0446ADAD493}</Project>
+      <Project>{8B81C938-B0CC-C628-F3B0-6371C9B782AF}</Project>
       <Name>Unity.XR.WindowsMixedReality.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.Player.csproj">
-      <Project>{1B3E7AF5-D36A-1A6A-3D54-63A560FA4DA2}</Project>
+      <Project>{8CA4D13D-A96C-E725-A597-00334700EA29}</Project>
       <Name>Unity.XR.ARFoundation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{3A323A38-2824-612C-7405-7B268BDF494E}</Project>
+      <Project>{AEDF716D-C9E2-4E2E-9FB3-DFFBF61460BD}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.OpenXR.Player.csproj">
-      <Project>{1C22EDA5-76B8-D84F-F880-FFF226EAF469}</Project>
+      <Project>{8758E082-801A-44F0-2EF2-B1F3B5CA556A}</Project>
       <Name>Microsoft.MixedReality.OpenXR.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.ObjectAnchors.Runtime.Api.Player.csproj">
-      <Project>{4CF15B0E-F746-B12B-C31C-7201719C0853}</Project>
+      <Project>{7C6039FF-107A-7FD2-9640-FE84D2DE5CD8}</Project>
       <Name>Microsoft.ObjectAnchors.Runtime.Api.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
+      <Project>{5AC1D4E2-4F5D-7760-0B50-29CBAB73BD69}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

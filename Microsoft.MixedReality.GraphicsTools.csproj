@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Microsoft.MixedReality.GraphicsTools</RootNamespace>
-    <ProjectGuid>{9536FAAB-BA8C-E332-2874-6718D131DE0D}</ProjectGuid>
+    <ProjectGuid>{F64D6F3C-6E38-CCE9-6189-E04670CB7804}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.GraphicsTools</AssemblyName>
@@ -770,15 +770,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{430EBFF0-ACE8-D02A-C86D-0DACEB8F2184}</Project>
+      <Project>{3E657115-4EBA-BC30-9E3B-E837DA076E7B}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
+      <Project>{5730BF0B-C5A6-4C40-673B-9A8D3E5DAB0B}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
+      <Project>{87765FB0-FDA2-96CE-5E5E-C10F7AC3F109}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

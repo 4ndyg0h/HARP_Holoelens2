@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{63FFF920-61C1-6250-F3AA-40212CC364A0}</ProjectGuid>
+    <ProjectGuid>{A7F135B0-23ED-0DA2-F05B-29C88AD64158}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AzureSpatialAnchors.SDK.Core.Runtime</AssemblyName>
@@ -702,39 +702,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{36524DF3-C65A-212D-8B51-D699CD4B27AF}</Project>
+      <Project>{F6042B89-B38A-7627-63BB-9FBDDBB3B7EC}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{4DB44671-18DF-AD7C-7E2B-0B0FD315B48F}</Project>
+      <Project>{E0C97303-C988-39B7-78F4-8D2A98ACEAB1}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.WindowsMixedReality.csproj">
-      <Project>{EFE74E02-FBCD-8293-E6B4-FC9063D623A9}</Project>
+      <Project>{ADD90F6A-64E5-742A-8714-6C1E51A15ACD}</Project>
       <Name>Unity.XR.WindowsMixedReality</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.OpenXR.csproj">
-      <Project>{4BF39CCD-F2B6-E053-2391-6AF07DC328B6}</Project>
+      <Project>{0A1A870B-F54C-CBFE-0A3F-8223827FDA8A}</Project>
       <Name>Microsoft.MixedReality.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="AzureSpatialAnchors.SDK.iOS.Runtime.csproj">
-      <Project>{B2B119A6-5F78-12F8-D453-3C456944E031}</Project>
+      <Project>{B1C1AB5D-0C86-E6E1-68FD-14BDA972D087}</Project>
       <Name>AzureSpatialAnchors.SDK.iOS.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AzureSpatialAnchors.SDK.Windows.Runtime.csproj">
-      <Project>{E4D71B53-C474-E2B9-E340-3B8C7AD30F77}</Project>
+      <Project>{8964812B-93CF-6000-042D-301A9CA5BA88}</Project>
       <Name>AzureSpatialAnchors.SDK.Windows.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AzureSpatialAnchors.SDK.Android.Runtime.csproj">
-      <Project>{96CA0525-273E-5023-DFFA-B131FE220C2A}</Project>
+      <Project>{06FCC47E-D2D0-B7FB-1D4C-FBD2FC46B109}</Project>
       <Name>AzureSpatialAnchors.SDK.Android.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{699B9F11-C0C7-E435-79E4-67B0BF2515CA}</Project>
+      <Project>{5730BF0B-C5A6-4C40-673B-9A8D3E5DAB0B}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E2825D39-33CE-D172-4A9E-B8973A4E232E}</Project>
+      <Project>{87765FB0-FDA2-96CE-5E5E-C10F7AC3F109}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

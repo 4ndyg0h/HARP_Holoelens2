@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Microsoft.MixedReality.GraphicsTools.Samples.MaterialGallery</RootNamespace>
-    <ProjectGuid>{3E6A9537-3859-99E5-4AF9-E7A18AD0C5BC}</ProjectGuid>
+    <ProjectGuid>{BB75AB3D-8965-E41A-501C-69BC36E42BC6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.GraphicsTools.Samples.MaterialGallery</AssemblyName>
@@ -900,7 +900,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F0152F1D-76EA-5E62-9CC9-D1C3F86457DD}</Project>
+      <Project>{5AC1D4E2-4F5D-7760-0B50-29CBAB73BD69}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
