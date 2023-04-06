@@ -34,9 +34,17 @@ namespace LTA.Holoapp
         {
             line.SetPosition(0, firstPin.transform.position);
             line.SetPosition(1, secondPin.transform.position);
-            dist = Vector3.Distance(GameObject.Find("first").transform.position * 100, GameObject.Find("second").transform.position * 100);
-            textField.text = dist.ToString("0.0") + "cm";
-            textField.transform.position = (firstPin.transform.position + secondPin.transform.position) / 2;
+            try
+            {
+                dist = Vector3.Distance(GameObject.Find("first").transform.position * 100, GameObject.Find("second").transform.position * 100);
+                textField.text = dist.ToString("0.0") + "cm";
+                textField.transform.position = (firstPin.transform.position + secondPin.transform.position) / 2;
+            }
+            catch
+            {
+
+            }
+           
 
             //first.text = (GameObject.Find("first").transform.position*100).ToString("0.0");
             //second.text = (GameObject.Find("second").transform.position*100).ToString("0.0");

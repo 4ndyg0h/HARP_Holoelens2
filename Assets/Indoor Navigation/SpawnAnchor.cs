@@ -1,3 +1,4 @@
+using Microsoft.MixedReality.Toolkit.UI;
 using Microsoft.MixedReality.Toolkit.Utilities.Solvers;
 using MRTK.Tutorials.AzureCloudServices.Scripts.Domain;
 using MRTK.Tutorials.AzureCloudServices.Scripts.Managers;
@@ -44,6 +45,7 @@ public class SpawnAnchor : MonoBehaviour
     public string shiftedName;
     public List<string> mainachName;
     public Material mat;
+    public GameObject loaderObj;
 
     public Dictionary<int, int> offsets = new Dictionary<int, int>();
     public Dictionary<int, bool> corChecker = new Dictionary<int, bool>();
@@ -52,6 +54,8 @@ public class SpawnAnchor : MonoBehaviour
     /// <summary>
     /// Get the counter to determine when is created
     /// </summary>
+    /// 
+
     public async Task GetMaxInt()
     {
         var allConnect = await database.GetAllTrackedNBObjects();
@@ -112,6 +116,7 @@ public class SpawnAnchor : MonoBehaviour
     /// </summary>
     public async void findNextAnchor(string key)
     {
+        //loaderObj.SetActive(true);
         var queryData = await database.FindNextConnected(key);
         
         foreach (var i in queryData)
@@ -150,12 +155,14 @@ public class SpawnAnchor : MonoBehaviour
                 StartCoroutine(WrapperCor((float)i.Angle, x, mainAnchorPos, dddd, i.counter, i.Dir));
 
             }
-            
 
+            var nameTag = x.gameObject.transform.GetChild(1).GetComponent<ToolTip>();
+            x.transform.GetChild(0).GetComponent<Renderer>().material = mat;
+            nameTag.ToolTipText = i.Name;
             connectedActiveAnchors[i.Name] = x;
             urCounter[i.Name] = i.counter;
             angleDetail[i.Name] = new System.Tuple<double, double>(i.Angle, (double)Vector3.Angle(x.transform.position - mainAnchorPos, dddd));
-            
+            //loaderObj.SetActive(false);
 
             findNextAnchor(i.Name);
         }
@@ -229,29 +236,29 @@ public class SpawnAnchor : MonoBehaviour
             if (Mathf.RoundToInt(targetAngle) - 1 <= Vector3.Angle(x.transform.position - ori, dir) && Vector3.Angle(x.transform.position - ori, dir) <= Mathf.RoundToInt(targetAngle) + 1 )
             {
                 Debug.Log((x.transform.position-ori) + " : " + directionSA);
-                if(leftRight == "left")
-                {
-                    if ((x.transform.position - ori).x < directionSA.x)
-                    {
-                        Debug.Log("reached :" + offsets[offsetNo]);
-                        x.transform.GetChild(0).GetComponent<Renderer>().material = mat;
-                        corChecker[offsetNo] = true;
-                        yield break;
-                    }
-                }
-                else
-                {
-                    if ((x.transform.position - ori).x > directionSA.x)
-                    {
-                        Debug.Log("reached2 :" + offsets[offsetNo]);
-                        x.transform.GetChild(0).GetComponent<Renderer>().material = mat;
-                        corChecker[offsetNo] = true;
-                        yield break;
-                    }
-                }
+                //if(leftRight == "left")
+                //{
+                //if ((x.transform.position - ori).x > directionSA.x)
+                //{
+                Debug.Log("reached :" + offsets[offsetNo]);
+                x.transform.GetChild(0).GetComponent<Renderer>().material = mat;
+                corChecker[offsetNo] = true;
+                yield break;
+                //}
+                //}
+                //else
+                //{
+                //    if ((x.transform.position - ori).x > directionSA.x)
+                //    {
+                //        Debug.Log("reached2 :" + offsets[offsetNo]);
+                //        x.transform.GetChild(0).GetComponent<Renderer>().material = mat;
+                //        corChecker[offsetNo] = true;
+                //        yield break;
+                //    }
+                //}
                 
             }
-            yield return new WaitForSeconds(1 / 3);
+            yield return new WaitForSeconds(2/3);
         }
     }
     /// <summary>
@@ -281,6 +288,7 @@ public class SpawnAnchor : MonoBehaviour
             }
             spawned.Value.transform.GetChild(0).GetComponent<Renderer>().material = mat;
         }
+        loaderObj.SetActive(false);
     }
     
 

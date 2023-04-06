@@ -87,7 +87,7 @@
     <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\Scripts\Utilities\Utilities.cs" />
     <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\Scripts\Utilities\AppDispatcher.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\CharacterInstantiation.cs" />
-    <Compile Include="Assets\MRTK.Tutorials.AzureSpatialAnchors\Scripts\AnchorFeedbackScript.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\MRTK.Tutorials.AzureSpatialAnchors\Scripts\AnchorFeedbackScript.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\Scripts\UX\AnchorArrowGuide.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
@@ -109,7 +109,7 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\SidebarToggle.cs" />
     <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\Scripts\Dtos\ImagesCreatedResult.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\BackgroundMusicController.cs" />
-    <Compile Include="Assets\MRTK.Tutorials.AzureSpatialAnchors\Scripts\AnchorModuleScript.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\MRTK.Tutorials.AzureSpatialAnchors\Scripts\AnchorModuleScript.cs" />
     <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\Scripts\Domain\TrackedObject.cs" />
     <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\Scripts\BotDirectLine\MessageActivity.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
@@ -143,7 +143,7 @@
     <Compile Include="Assets\MRTK.Tutorials.MultiUserCapabilities\Scripts\PunExplodeViewController.cs" />
     <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\Scripts\UX\AnchorCreationController.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\MouseLookHelper.cs" />
-    <Compile Include="Assets\MRTK.Tutorials.AzureSpatialAnchors\Scripts\DebugWindow.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\MRTK.Tutorials.AzureSpatialAnchors\Scripts\DebugWindow.cs" />
     <Compile Include="Assets\CheckList\Scripts\Graph.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.0\Demos - Input\Scenes\InputData\InputDataExampleGizmo.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.0\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemo.cs" />
@@ -213,7 +213,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\Scripts\Managers\ObjectDetectionManager.cs" />
     <Compile Include="Assets\MRTK.Tutorials.MultiUserCapabilities\Scripts\SharingModuleScript.cs" />
-    <Compile Include="Assets\MRTK.Tutorials.AzureSpatialAnchors\Scripts\DisableDiagnosticsSystem.cs" />
+    <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\MRTK.Tutorials.AzureSpatialAnchors\Scripts\DisableDiagnosticsSystem.cs" />
     <Compile Include="Assets\MRTK.Tutorials.AzureCloudServices\Scripts\BotDirectLine\BotDirectLineManager.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
@@ -286,7 +286,7 @@
     <None Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Fonts\Orbitron Black.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Packages\Microsoft.VCRTForwarders.140.1.0.7\Unity\x64\msvcp140_1_app.dll" />
-    <None Include="Assets\MRTK.Tutorials.AzureSpatialAnchors\Version.txt" />
+    <None Include="Assets\MRTK.Tutorials.AzureCloudServices\MRTK.Tutorials.AzureSpatialAnchors\Version.txt" />
     <None Include="Assets\Packages\Microsoft.VCRTForwarders.140.1.0.7\Unity\x64\concrt140_app.dll" />
     <None Include="Assets\Packages\Microsoft.MixedReality.QR.0.5.3019\lib\unity\netstandard2.0\Microsoft.MixedReality.QR.DotNet.dll" />
     <None Include="Assets\ExternalDependencyManager\Editor\1.2.172\Google.PackageManagerResolver.dll" />

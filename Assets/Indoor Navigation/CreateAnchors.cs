@@ -260,6 +260,8 @@ public class CreateAnchors : MonoBehaviour
 
         var x = Instantiate(prefab);
         x.transform.position = a.position;
+        var nameTag = x.gameObject.transform.GetChild(1).GetComponent<ToolTip>();
+        nameTag.ToolTipText = source.Name;
         var s = FindObjectOfType<SpawnAnchor>();
         s.connectedActiveAnchors[trackedNBObject.Name] = x;
 
